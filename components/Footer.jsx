@@ -88,8 +88,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs md:text-sm text-gray-600">
               <li>
                 <a href="#" className="hover:text-blue-500">
-                  {" "}
-                  About Us{" "}
+                  About Us
                 </a>
               </li>
               <li>

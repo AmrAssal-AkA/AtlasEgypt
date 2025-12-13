@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 import Button from "./ui/Button";
 import UserIcon from "./ui/icons/Usericon";
@@ -17,6 +18,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 export default function Header() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -24,7 +26,7 @@ export default function Header() {
     { name: "Home", path: "/" },
     { name: "Discover", path: "/Discover" },
     { name: "Blog", path: "/Blog" },
-    { name: "Contact us", path: "/Blog" },
+    { name: "Contact us", path: "/Contactus" },
   ];
 
   return (
@@ -112,7 +114,7 @@ export default function Header() {
           ))}
           <li className="hidden md:block md:border-l md:border-gray-300 md:ml-8 md:pl-8 md:h-6"></li>
           <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2 mt-10">
-            <Button className="px-4 py-2">Book Now</Button>
+            <Button className="px-4 py-2" onClick={() => router.push("/Book")}>Book Now</Button>
           </li>
           <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2">
             <button onClick={() => setModalOpen(true)}>

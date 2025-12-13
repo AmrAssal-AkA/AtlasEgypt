@@ -11,7 +11,7 @@ export default function loginPage() {
 
   const handlelogin = (e) => {
     e.preventDefault();
-    if (email === "Amr@gmail.com" && password === "amr1234") {
+    if (email === "amr@gmail.com" && password === "amr1234") {
       toast.success("Login Successful!");
       router.push("/");
     } else {

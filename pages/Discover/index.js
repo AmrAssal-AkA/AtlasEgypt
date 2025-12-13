@@ -1,16 +1,18 @@
-import fs from "fs/promises";
-import path from "path";
 import Image from "next/image";
 import { Bookmark, Star, Clock } from "lucide-react";
 import { useRouter } from "next/router";
 
 import Button from "../../components/ui/Button";
+import { getDestinations, getTours } from "@/data/data";
 
-export default function DestinationPage({ Destinations, tours }) {
+export default function DestinationPage() {
+  const Destinations = getDestinations();
+  const tours = getTours();
   const router = useRouter();
-  const HandleClick = (id) => {
-      router.push(`/Discover/${id}`)
-  }
+
+
+
+
   return (
     <main className=" mt-50">
       <div className="max-w-7xl mx-auto mb-20">
@@ -30,15 +32,18 @@ export default function DestinationPage({ Destinations, tours }) {
           {Destinations.map((destination) => {
             return (
               <div
-                key={destination.id} // Ensure unique key
+                key={destination.id}
                 className=" rounded-lg shadow-xl overflow-hidden"
               >
                 {/* Destination Card */}
-                <img
-                  src={destination.image} 
-                  alt={destination.name}
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative w-full h-48">
+                  <Image
+                    src={destination.image}
+                    alt={destination.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
                 {/* Card Content */}
                 <div className="relative p-4">
                   <h3 className="text-2xl font-bold mb-2">
@@ -56,7 +61,11 @@ export default function DestinationPage({ Destinations, tours }) {
                   <p className="text-gray-700 mb-4">
                     {destination.description}
                   </p>
-                    <Button onClick={() => HandleClick(destination.id)}>Learn More</Button>
+                  <Button
+                    onClick={() => handleDestinationClick(destination.id)}
+                  >
+                    Learn More
+                  </Button>
                 </div>
               </div>
             );
@@ -78,7 +87,7 @@ export default function DestinationPage({ Destinations, tours }) {
                 <Image
                   src={tour.image}
                   alt={tour.title}
-                  fill // `fill` requires parent to be `relative`
+                  fill
                   className="object-center"
                 />
               </div>
@@ -93,8 +102,10 @@ export default function DestinationPage({ Destinations, tours }) {
                   <span className="text-amber-600 font-bold text-xl">
                     {tour.price} EGP
                   </span>
-                  <Button onClick={() => HandleClick(tour.tourId)}>
-                    Learn More
+                  <Button
+                    onClick={() => handleTourClick(tour.tourId)}
+                  >
+                    View Tour
                   </Button>
                 </div>
               </div>
@@ -104,22 +115,4 @@ export default function DestinationPage({ Destinations, tours }) {
       </div>
     </main>
   );
-}
-
-export async function getStaticProps() {
-  try {
-    const filePath = path.join(process.cwd(), "data", "trips.json");
-    const jsonData = await fs.readFile(filePath, "utf8"); // Specify encoding
-    const data = JSON.parse(jsonData);
-
-    return {
-      props: {
-        Destinations: data.Destinations || [], // Provide default empty array
-        tours: data.tours || [],
-      },
-    };
-  } catch (error) {
-    console.error("Error reading trips.json:", error);
-    return { props: { Destinations: [], tours: [] } }; // Return empty data on error
-  }
 }

@@ -1,12 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
-import fs from "fs/promises";
-import path from "path";
 
 import Button from "@/components/ui/Button";
+import { getBlogs } from "@/data/data";
 
-export default function BlogPage(props) {
-  const { blogs } = props;
+export default function BlogPage() {
+  const blogs = getBlogs();
   return (
     <main className="mt-20 md:mt-24">
       <section className="relative w-full h-[40vh] md:h-[60vh]">
@@ -58,21 +56,4 @@ export default function BlogPage(props) {
       </section>
     </main>
   );
-}
-
-export async function getStaticProps() {
-  try {
-    const filePath = path.join(process.cwd(), "data", "trips.json");
-    const jsonData = await fs.readFile(filePath);
-    const data = JSON.parse(jsonData);
-
-    return {
-      props: {
-        blogs: data.blogs || [],
-      },
-    };
-  } catch (error) {
-    console.error("Error reading trips.json:", error);
-    return { props: { blogs: [] } };
-  }
 }
