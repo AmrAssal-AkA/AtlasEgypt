@@ -1,19 +1,24 @@
-import { useRouter } from "next/router"; 
+import { useRouter } from "next/router";
 import Image from "next/image";
+import Head from "next/head";
 import { MapPin, User, Compass, Clock} from "lucide-react";
 
-import Button from "../components/ui/Button"; 
+import Button from "../components/ui/Button";
 import {  getTours } from "@/data/data";
 
 export default function Home() {
   const Tours = getTours();
   const router = useRouter();
 
-  const handleClick = (destinationId) => {
-    router.push(`/Discover/${destinationId}`);
+  const handleClick = (Id) => {
+    router.push(`/Discover/${Id}`);
   };
   return (
     <>
+    <Head>
+      <title>AtlasEgypt - Explore The Wonders of Egypt</title>
+      <meta name="description" content="Discover the hidden gems of Egypt with AtlasEgypt. Book your unforgettable tour today!" />
+    </Head>
       <main className="mt-10">
         {/* Hero Section */}
         <section className="relative w-full">
@@ -27,7 +32,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="relative z-10 flex flex-col items-center text-white px-4 py-32 md:py-40">
             <h1 className="text-3xl md:text-5xl font-bold text-center max-w-4xl mt-30 mb-20 ">
-              Explore The wonders of egypt and the hidden gems with KEMET
+              Explore The wonders of egypt and the hidden gems with AtlasEgypt
             </h1>
           </div>
           <div className="absolute bottom-0 left-0 right-0 z-10 px-4 pb-8 md:pb-12 ">
@@ -96,7 +101,7 @@ export default function Home() {
         </section>
         {/* Why Choose Us Section */}
         <section className="py-10 text-center">
-          <h1 className="text-3xl font-bold">Why Choose Kemet </h1>
+          <h1 className="text-3xl font-bold">Why Choose AtlasEgypt </h1>
           <hr className="w-24 mx-auto my-4 border-amber-500" />
           <div className="grid grid-cols-1 gap-4 items-center justify-center md:grid-cols-3 max-w-8xl mx-auto px-4">
             <div className="rounded-2xl p-5 m-4 shadow-lg shadow-amber-500">
@@ -197,7 +202,7 @@ export default function Home() {
                     {tour.price} EGP
                   </span>
                   <Button
-                    onClick={() => handleTourClick(tour.tourId)}
+                    onClick={() => handleClick(tour.tourId)}
                   >
                     View Tour
                   </Button>
@@ -209,7 +214,7 @@ export default function Home() {
         </section>
         {/* About Kemet Section */}
         <section className="py-10 text-center">
-          <h1 className="text-3xl font-bold">About Kemet</h1>
+          <h1 className="text-3xl font-bold">About AtlasEgypt</h1>
           <hr className="w-24 mx-auto my-4 border-amber-500" />
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">

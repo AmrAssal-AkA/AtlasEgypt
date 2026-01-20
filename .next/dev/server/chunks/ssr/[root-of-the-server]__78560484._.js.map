@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/AtlasEgypt/pages/Discover/%5BId%5D.js"],"sourcesContent":["import { useRouter } from 'next/router'\nimport React from 'react'\n\nfunction TripDetailPage() {\n    const router = useRouter();\n    const { Id , name , city , image , description, rating, category } = router.query;\n    \n  return (\n    <main className='mt-50 max-w-7xl mx-auto mb-20'>\n      <h1 className='text-4xl font-bold px-5 mb-5'>Trip Detail Page - {Id}</h1>\n      <p className='text-xl font-medium'>\n        This is the detail page for trip with ID: {name}\n      </p>\n    </main>\n  )\n}\n\nexport default TripDetailPage"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEA,SAAS;IACL,MAAM,SAAS,IAAA,oIAAS;IACxB,MAAM,EAAE,EAAE,EAAG,IAAI,EAAG,IAAI,EAAG,KAAK,EAAG,WAAW,EAAE,MAAM,EAAE,QAAQ,EAAE,GAAG,OAAO,KAAK;IAEnF,qBACE,qKAAC;QAAK,WAAU;;0BACd,qKAAC;gBAAG,WAAU;;oBAA+B;oBAAoB;;;;;;;0BACjE,qKAAC;gBAAE,WAAU;;oBAAsB;oBACU;;;;;;;;;;;;;AAInD;uCAEe"}}]
+}

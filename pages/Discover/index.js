@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import { Bookmark, Star, Clock } from "lucide-react";
 import { useRouter } from "next/router";
@@ -10,10 +11,18 @@ export default function DestinationPage() {
   const tours = getTours();
   const router = useRouter();
 
+  const handleClick = (id) => {
+    router.push(`/Discover/${id}`);
 
+  }
 
 
   return (
+    <>
+    <Head>
+      <title>AtlasEgypt - Discover Egypt</title>
+      <meta name="description" content="Explore the wonders of Egypt with AtlasEgypt. Discover top destinations and ready tours." />
+    </Head>
     <main className=" mt-50">
       <div className="max-w-7xl mx-auto mb-20">
         <h1 className="text-4xl font-bold px-5 mb-5">Explore Egypt wonder's</h1>
@@ -62,7 +71,7 @@ export default function DestinationPage() {
                     {destination.description}
                   </p>
                   <Button
-                    onClick={() => handleDestinationClick(destination.id)}
+                    onClick={() => handleClick(destination.id)}
                   >
                     Learn More
                   </Button>
@@ -103,7 +112,7 @@ export default function DestinationPage() {
                     {tour.price} EGP
                   </span>
                   <Button
-                    onClick={() => handleTourClick(tour.tourId)}
+                    onClick={() => handleClick(tour.tourId)}
                   >
                     View Tour
                   </Button>
@@ -114,5 +123,6 @@ export default function DestinationPage() {
         </div>
       </div>
     </main>
+    </>
   );
 }

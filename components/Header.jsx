@@ -78,7 +78,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between  px-4 sm:px-6 lg:px-8">
         <div>
           <Link href="/">
-            <Image src="/logo.png" alt="Kemet Logo" width={100} height={50} />
+            <Image src="/AtlasEgypt.png" alt="AtlasEgypt Logo" width={100} height={50} />
           </Link>
         </div>
 

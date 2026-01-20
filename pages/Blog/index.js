@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 
 import Button from "@/components/ui/Button";
 import { getBlogs } from "@/data/data";
@@ -6,6 +7,11 @@ import { getBlogs } from "@/data/data";
 export default function BlogPage() {
   const blogs = getBlogs();
   return (
+    <>
+    <Head>
+      <title>AtlasEgypt - Blog</title>
+      <meta name="description" content="Stay updated with the latest news, tips, and insights from AtlasEgypt. Explore our blog for expert articles and travel guides." />
+    </Head>
     <main className="mt-20 md:mt-24">
       <section className="relative w-full h-[40vh] md:h-[60vh]">
         <Image
@@ -55,5 +61,6 @@ export default function BlogPage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

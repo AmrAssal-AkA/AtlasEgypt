@@ -1,12 +1,13 @@
 {
   "/": "pages/index.js",
+  "/404": "pages/404.js",
   "/Blog": "pages/Blog.js",
   "/Book": "pages/Book.js",
   "/Contactus": "pages/Contactus.js",
   "/Discover": "pages/Discover.js",
+  "/Discover/[Id]": "pages/Discover/[Id].js",
   "/Register": "pages/Register.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/login": "pages/login.js"
 }

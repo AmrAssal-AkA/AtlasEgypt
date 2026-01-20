@@ -784,6 +784,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/Button.jsx [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$data$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/data/data.js [client] (ecmascript)");
 ;
@@ -791,111 +792,139 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$data$2e$js__$5b$clie
 ;
 ;
 ;
+;
 function BlogPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "c69cc3e978546386d904fa1febb4c7b5446b7a282beb531bb7e808bece99ccd3") {
+    if ($[0] !== "68d3ef9703ced112e434b7a06cb578b9f33b49101e33f91091332500815c3393") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c69cc3e978546386d904fa1febb4c7b5446b7a282beb531bb7e808bece99ccd3";
+        $[0] = "68d3ef9703ced112e434b7a06cb578b9f33b49101e33f91091332500815c3393";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         const blogs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$data$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getBlogs"])();
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: "mt-20 md:mt-24",
+        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                    className: "relative w-full h-[40vh] md:h-[60vh]",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/BlogPageBanner.jpg",
-                            alt: "Blog Page Banner",
-                            fill: true,
-                            className: "object-cover object-center z-0",
-                            priority: true
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                            children: "AtlasEgypt - Blog"
                         }, void 0, false, {
                             fileName: "[project]/pages/Blog/index.js",
-                            lineNumber: 16,
-                            columnNumber: 101
+                            lineNumber: 17,
+                            columnNumber: 18
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-0 bg-black/40"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                            name: "description",
+                            content: "Stay updated with the latest news, tips, and insights from AtlasEgypt. Explore our blog for expert articles and travel guides."
                         }, void 0, false, {
                             fileName: "[project]/pages/Blog/index.js",
-                            lineNumber: 16,
-                            columnNumber: 230
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative z-10 flex flex-col items-center justify-center h-full text-white px-4 text-center ",
+                            lineNumber: 17,
+                            columnNumber: 50
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/Blog/index.js",
+                    lineNumber: 17,
+                    columnNumber: 12
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                    className: "mt-20 md:mt-24",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "relative w-full h-[40vh] md:h-[60vh]",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-4xl md:text-6xl font-bold mb-6",
-                                    children: "Welcome to Our Blog"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/BlogPageBanner.jpg",
+                                    alt: "Blog Page Banner",
+                                    fill: true,
+                                    className: "object-cover object-center z-0",
+                                    priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/pages/Blog/index.js",
-                                    lineNumber: 16,
-                                    columnNumber: 387
+                                    lineNumber: 17,
+                                    columnNumber: 312
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-lg md:text-xl max-w-4xl mb-5",
-                                    children: "Discover the latest news, tips, and insights about our services and the travel industry. Stay updated with our expert articles and guides to make the most of your travel experiences."
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute inset-0 bg-black/40"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/Blog/index.js",
-                                    lineNumber: 16,
-                                    columnNumber: 463
+                                    lineNumber: 17,
+                                    columnNumber: 441
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    className: "hover:text-white",
-                                    children: "Add Post"
-                                }, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative z-10 flex flex-col items-center justify-center h-full text-white px-4 text-center ",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                            className: "text-4xl md:text-6xl font-bold mb-6",
+                                            children: "Welcome to Our Blog"
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/Blog/index.js",
+                                            lineNumber: 17,
+                                            columnNumber: 598
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-lg md:text-xl max-w-4xl mb-5",
+                                            children: "Discover the latest news, tips, and insights about our services and the travel industry. Stay updated with our expert articles and guides to make the most of your travel experiences."
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/Blog/index.js",
+                                            lineNumber: 17,
+                                            columnNumber: 674
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                            className: "hover:text-white",
+                                            children: "Add Post"
+                                        }, void 0, false, {
+                                            fileName: "[project]/pages/Blog/index.js",
+                                            lineNumber: 17,
+                                            columnNumber: 909
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/pages/Blog/index.js",
-                                    lineNumber: 16,
-                                    columnNumber: 698
+                                    lineNumber: 17,
+                                    columnNumber: 489
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/Blog/index.js",
-                            lineNumber: 16,
-                            columnNumber: 278
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/pages/Blog/index.js",
-                    lineNumber: 16,
-                    columnNumber: 43
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                    className: "max-w-7xl mx-auto px-4 py-12",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl text-center",
-                            children: "Latest Blog Posts"
-                        }, void 0, false, {
-                            fileName: "[project]/pages/Blog/index.js",
-                            lineNumber: 16,
-                            columnNumber: 818
+                            lineNumber: 17,
+                            columnNumber: 254
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8",
-                            children: blogs.map(_BlogPageBlogsMap)
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                            className: "max-w-7xl mx-auto px-4 py-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-4xl text-center",
+                                    children: "Latest Blog Posts"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/Blog/index.js",
+                                    lineNumber: 17,
+                                    columnNumber: 1029
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8",
+                                    children: blogs.map(_BlogPageBlogsMap)
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/Blog/index.js",
+                                    lineNumber: 17,
+                                    columnNumber: 1088
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/pages/Blog/index.js",
-                            lineNumber: 16,
-                            columnNumber: 877
+                            lineNumber: 17,
+                            columnNumber: 979
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/Blog/index.js",
-                    lineNumber: 16,
-                    columnNumber: 768
+                    lineNumber: 17,
+                    columnNumber: 221
                 }, this)
             ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Blog/index.js",
-            lineNumber: 16,
-            columnNumber: 10
-        }, this);
+        }, void 0, true);
         $[1] = t0;
     } else {
         t0 = $[1];
@@ -916,12 +945,12 @@ function _BlogPageBlogsMap(blog) {
                     className: "object-cover"
                 }, void 0, false, {
                     fileName: "[project]/pages/Blog/index.js",
-                    lineNumber: 24,
+                    lineNumber: 25,
                     columnNumber: 116
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/Blog/index.js",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 78
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -932,14 +961,14 @@ function _BlogPageBlogsMap(blog) {
                         children: blog.publishedAt
                     }, void 0, false, {
                         fileName: "[project]/pages/Blog/index.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 257
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "border-l h-4 border-gray-500 mb-2"
                     }, void 0, false, {
                         fileName: "[project]/pages/Blog/index.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 321
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -947,13 +976,13 @@ function _BlogPageBlogsMap(blog) {
                         children: blog.author
                     }, void 0, false, {
                         fileName: "[project]/pages/Blog/index.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 374
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/Blog/index.js",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 202
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -964,7 +993,7 @@ function _BlogPageBlogsMap(blog) {
                         children: blog.title
                     }, void 0, false, {
                         fileName: "[project]/pages/Blog/index.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 460
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -972,19 +1001,19 @@ function _BlogPageBlogsMap(blog) {
                         children: blog.content
                     }, void 0, false, {
                         fileName: "[project]/pages/Blog/index.js",
-                        lineNumber: 24,
+                        lineNumber: 25,
                         columnNumber: 516
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/Blog/index.js",
-                lineNumber: 24,
+                lineNumber: 25,
                 columnNumber: 439
             }, this)
         ]
     }, blog.id, true, {
         fileName: "[project]/pages/Blog/index.js",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 10
     }, this);
 }

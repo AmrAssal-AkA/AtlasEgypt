@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/AtlasEgypt/pages/404.js"],"sourcesContent":["import Button from \"@/components/ui/Button\";\nimport { useRouter } from \"next/router\";\nimport React from \"react\";\n\nfunction ErrorPage() {\n  const router = useRouter();\n\n  return (\n    <div className=\"mt-45 p-10 items-center justify-center flex flex-col gap-6\">\n      <h1 className=\"text-5xl font-bold  text-amber-700\">An Error Occurred</h1>\n      <p className=\" mt-4 text-xl\">Sorry looks like something went wrong.</p>\n      <Button onClick={() => router.push(\"/\")}>Go Back to home</Button>\n    </div>\n  );\n}\n\nexport default ErrorPage;\n"],"names":[],"mappings":";;;;;AAAA;AACA;AACA;;;;;AAEA,SAAS;IACP,MAAM,SAAS,IAAA,oIAAS;IAExB,qBACE,qKAAC;QAAI,WAAU;;0BACb,qKAAC;gBAAG,WAAU;0BAAqC;;;;;;0BACnD,qKAAC;gBAAE,WAAU;0BAAgB;;;;;;0BAC7B,qKAAC,+HAAM;gBAAC,SAAS,IAAM,OAAO,IAAI,CAAC;0BAAM;;;;;;;;;;;;AAG/C;uCAEe"}}]
+}

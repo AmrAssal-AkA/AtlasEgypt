@@ -1,337 +1,353 @@
-[00:00:01.576] Server  LOG      ✓ Ready in 1384ms
-[00:00:14.641] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:14.641] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:14.641] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:14.641] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:14.641] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:14.641] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.134] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.134] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.135] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.135] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.135] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.135] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.967] Browser ERROR   uncaughtError: ReferenceError: handleDestinationClick is not defined
-[00:00:28.662] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `BlogPage`. 
-[00:00:28.662] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:28.662] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:28.662] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:28.662] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:28.662] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:28.662] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:35.865] Browser WARN    Image with src "/BrandBanner.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:49.523] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:36.197] Server  LOG      ✓ Compiled in 118ms
-[00:01:42.971] Server  LOG      ✓ Compiled in 111ms
-[00:01:46.287] Server  LOG      ✓ Compiled in 63ms
-[00:01:57.598] Server  LOG      ✓ Compiled in 96ms
-[00:02:00.255] Server  LOG      ✓ Compiled in 103ms
-[00:02:03.310] Server  LOG      ✓ Compiled in 86ms
-[00:02:06.888] Server  LOG      ✓ Compiled in 72ms
-[00:02:09.411] Server  LOG      ✓ Compiled in 74ms
-[00:02:12.764] Server  LOG      ✓ Compiled in 44ms
-[00:02:15.978] Server  LOG      ✓ Compiled in 68ms
-[00:02:18.489] Server  LOG      ✓ Compiled in 86ms
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:21.842] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:02:37.783] Server  LOG      ✓ Compiled in 67ms
-[00:02:37.887] Browser LOG     Refreshing page data due to server-side change
-[00:02:37.887] Browser ERROR   ./pages/index.js:181:53
+[00:00:00.656] Server  LOG     ✓ Ready in 450ms
+[00:00:03.496] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.496] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.496] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.496] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.496] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:03.496] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.988] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:04.988] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.989] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.989] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.989] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:04.989] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.604] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.604] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.604] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.604] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.604] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.604] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:25.743] Server  LOG     ✓ Compiled in 295ms
+[00:00:32.371] Server  LOG     ✓ Compiled in 34ms
+[00:00:34.777] Server  LOG     ✓ Compiled in 44ms
+[00:00:37.156] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:37.156] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:37.156] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:37.156] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:37.156] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:37.156] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.582] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.582] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.582] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.582] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.582] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:31.582] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.873] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:31.873] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.873] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.873] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.873] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:31.873] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:46.098] Server  LOG     ✓ Compiled in 95ms
+[00:02:46.108] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/public/AtlasEgyptLogo.png" "received" null
+[00:02:49.167] Server  LOG     ✓ Compiled in 91ms
+[00:02:51.280] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:51.280] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:51.280] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:51.280] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:51.280] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:51.280] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.050] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:52.051] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.051] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.051] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.051] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.051] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.846] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:21.846] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.846] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.846] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.846] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:21.846] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.542] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.542] Browser WARN    Image with src "/AtlasEgyptLogo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:22.542] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.542] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.542] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.542] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:28.407] Server  LOG     ✓ Compiled in 114ms
+[00:03:28.651] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:37.857] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.857] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.857] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.857] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.857] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:37.857] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:58.878] Server  LOG     ✓ Compiled in 52ms
+[00:03:59.181] Browser LOG     Refreshing page data due to server-side change
+[00:03:59.181] Browser ERROR   ./pages/Discover/index.js:18:11
 Parsing ecmascript source code failed
-  179 |               >
-  180 |                 <div className="relative h-64 w-full">
-> 181 |                   <Image src={tour.image} alt={tour.} fill className="object-center" />
-      |                                                     ^
-  182 |                 </div>
-  183 |
-  184 |                 <div className=" relative p-4">
+  16 |   return (
+  17 |     <></>
+> 18 |     <main className=" mt-50">
+     |           ^^^^^^^^^
+  19 |       <div className="max-w-7xl mx-auto mb-20">
+  20 |         <h1 className="text-4xl font-bold px-5 mb-5">Explore Egypt wonder's</h1>
+  21 |         <p className="text-xl font-medium">
 
-Expected '</', got '}'
-[00:02:39.825] Server  LOG      ✓ Compiled in 131ms
-[00:02:39.897] Browser LOG     Refreshing page data due to server-side change
-[00:02:42.303] Server  LOG      ✓ Compiled in 144ms
-[00:02:47.113] Server  LOG      ✓ Compiled in 53ms
-[00:03:42.963] Browser LOG     Refreshing page data due to server-side change
-[00:03:43.002] Server  LOG      ✓ Compiled in 170ms
-[00:03:43.093] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:03:45.605] Server  LOG      ✓ Compiled in 136ms
-[00:03:45.671] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:03:56.366] Server  LOG      ✓ Compiled in 20ms
-[00:03:56.469] Browser LOG     Refreshing page data due to server-side change
-[00:03:56.470] Browser ERROR   ./pages/index.js:3:33
+Expected ',', got 'className'
+[00:04:01.068] Server  LOG     ✓ Compiled in 13ms
+[00:04:01.179] Browser ERROR   ./pages/Discover/index.js:119:1
 Parsing ecmascript source code failed
-  1 | import { useRouter } from "next/router"; 
-  2 | import Image from "next/image";
-> 3 | import { MapPin, User, Compass, , Star } from "lucide-react";
-    |                                 ^
-  4 |
-  5 | import Button from "../components/ui/Button"; 
-  6 | import {  getTours } from "@/data/data";
+  117 |     </main>
+  118 |   );
+> 119 | }
+      | ^
+  120 |
 
-Unexpected token `,`. Expected identifier or string
-[00:03:58.651] Server  LOG      ✓ Compiled in 670ms
-[00:03:58.741] Browser LOG     Refreshing page data due to server-side change
-[00:03:58.741] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:04:00.481] Server  LOG      ✓ Compiled in 117ms
-[00:04:00.547] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:04:05.167] Server  LOG      ✓ Compiled in 92ms
-[00:04:05.234] Browser LOG     Refreshing page data due to server-side change
-[00:04:05.234] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:04:14.047] Server  LOG      ✓ Compiled in 115ms
-[00:04:19.254] Server  LOG      ✓ Compiled in 115ms
-[00:04:27.232] Server  LOG      ✓ Compiled in 40ms
-[00:04:27.335] Browser LOG     Refreshing page data due to server-side change
-[00:04:27.335] Browser ERROR   ./pages/index.js:187:27
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:04:05.957] Server  LOG     ✓ Compiled in 129ms
+[00:04:06.180] Browser LOG     Refreshing page data due to server-side change
+[00:04:11.663] Server  LOG     ✓ Compiled in 17ms
+[00:04:12.180] Browser LOG     Refreshing page data due to server-side change
+[00:04:12.181] Browser ERROR   ./pages/Discover/index.js:19:5
 Parsing ecmascript source code failed
-  185 |                   <h4 className="text-2xl font-bold mb-2">{tour.title}</h4>
-  186 |                   <p className="text-gray-600 flex items-center mt-1">
-> 187 |                     {tour.}
-      |                           ^
-  188 |                     </p>
-  189 |                     <div className="absolute top-2 right-2 flex items-center">
-  190 |                     <Star className="mr-1 fill-yellow-500 border-yellow-500" />
-
-Expected '</', got '}'
-[00:04:30.412] Server  LOG      ✓ Compiled in 91ms
-[00:04:30.483] Browser LOG     Refreshing page data due to server-side change
-[00:04:32.310] Server  LOG      ✓ Compiled in 92ms
-[00:04:33.769] Server  LOG      ✓ Compiled in 57ms
-[00:04:39.172] Server  LOG      ✓ Compiled in 96ms
-[00:04:40.423] Server  LOG      ✓ Compiled in 97ms
-[00:05:02.575] Server  LOG      ✓ Compiled in 110ms
-[00:05:06.447] Server  LOG      ✓ Compiled in 55ms
-[00:05:09.757] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `Home`. See https://react.dev/link/warning-keys for more information.
-[00:05:10.056] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `Home`. 
-[00:05:10.056] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:10.056] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:10.056] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:10.056] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:10.056] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:10.056] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:22.586] Server  LOG      ✓ Compiled in 128ms
-[00:05:28.513] Server  LOG      ✓ Compiled in 74ms
-[00:05:38.064] Browser LOG     Refreshing page data due to server-side change
-[00:05:38.131] Server  LOG      ✓ Compiled in 180ms
-[00:05:50.300] Server  LOG      ✓ Compiled in 167ms
-[00:05:52.244] Server  LOG      ✓ Compiled in 85ms
-[00:06:04.720] Server  LOG      ✓ Compiled in 88ms
-[00:06:11.059] Server  LOG      ✓ Compiled in 103ms
-[00:07:13.570] Server  LOG      ✓ Compiled in 232ms
-[00:07:13.657] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:07:25.099] Server  LOG      ✓ Compiled in 110ms
-[00:07:25.156] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:07:26.237] Server  LOG      ✓ Compiled in 123ms
-[00:07:26.324] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:07:29.287] Server  LOG      ✓ Compiled in 95ms
-[00:07:29.353] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:07:33.678] Server  LOG      ✓ Compiled in 132ms
-[00:07:33.768] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:07:39.940] Server  ERROR   ReferenceError: tours is not defined
-[00:07:39.942] Server  ERROR    ⨯ ReferenceError: tours is not defined
-[00:07:39.945] Server  ERROR    ⨯ ReferenceError: tours is not defined
-[00:07:40.199] Browser ERROR   uncaughtError: ReferenceError: tours is not defined
-[00:07:52.429] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:52.510] Server  ERROR   ReferenceError: Clock is not defined
-[00:07:52.511] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:07:52.514] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:07:52.514] Server  LOG      ✓ Compiled in 90ms
-[00:07:52.622] Browser ERROR   uncaughtError: ReferenceError: Clock is not defined
-[00:07:59.658] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:59.701] Server  ERROR   ReferenceError: Clock is not defined
-[00:07:59.703] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:07:59.704] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:07:59.738] Server  LOG      ✓ Compiled in 68ms
-[00:07:59.792] Browser ERROR   uncaughtError: ReferenceError: Clock is not defined
-[00:08:02.849] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:02.883] Server  ERROR   ReferenceError: Clock is not defined
-[00:08:02.885] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:08:02.886] Server  ERROR    ⨯ ReferenceError: Clock is not defined
-[00:08:02.921] Server  LOG      ✓ Compiled in 98ms
-[00:08:02.978] Browser ERROR   uncaughtError: ReferenceError: Clock is not defined
-[00:08:06.370] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:06.401] Server  LOG      ✓ Compiled in 144ms
-[00:08:06.832] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:06.832] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:06.832] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:27.031] Server  LOG      ✓ Compiled in 159ms
-[00:08:27.108] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
-
-Check the render method of `Home`. 
-[00:08:42.479] Server  LOG      ✓ Compiled in 24ms
-[00:08:42.583] Browser LOG     Refreshing page data due to server-side change
-[00:08:42.583] Browser ERROR   ./pages/index.js:177:9
-Parsing ecmascript source code failed
-  175 |             {Tours.slice(0, 3).map((tour) => (
-  176 |              
-> 177 |         </section>
-      |         ^
-  178 |         {/* About Kemet Section */}
-  179 |         <section className="py-10 text-center">
-  180 |           <h1 className="text-3xl font-bold">About Kemet</h1>
+  17 |     <>
+  18 |     <Head
+> 19 |     <main className=" mt-50">
+     |     ^
+  20 |       <div className="max-w-7xl mx-auto mb-20">
+  21 |         <h1 className="text-4xl font-bold px-5 mb-5">Explore Egypt wonder's</h1>
+  22 |         <p className="text-xl font-medium">
 
 Expression expected
-[00:08:42.583] Browser ERROR   ./pages/index.js:177:10
+[00:04:14.180] Browser ERROR   ./pages/Discover/index.js:20:5
 Parsing ecmascript source code failed
-  175 |             {Tours.slice(0, 3).map((tour) => (
-  176 |              
-> 177 |         </section>
-      |          ^^^^^^^^^
-  178 |         {/* About Kemet Section */}
-  179 |         <section className="py-10 text-center">
-  180 |           <h1 className="text-3xl font-bold">About Kemet</h1>
+  18 |     <>
+  19 |     <Head
+> 20 |     <main className=" mt-50">
+     |     ^
+  21 |       <div className="max-w-7xl mx-auto mb-20">
+  22 |         <h1 className="text-4xl font-bold px-5 mb-5">Explore Egypt wonder's</h1>
+  23 |         <p className="text-xl font-medium">
 
-Unterminated regexp literal
-[00:08:53.024] Server  LOG      ✓ Compiled in 21ms
-[00:08:53.126] Browser ERROR   ./pages/index.js:207:10
+Expression expected
+[00:04:15.100] Server  LOG     ✓ Compiled in 53ms
+[00:04:15.179] Browser LOG     Refreshing page data due to server-side change
+[00:04:24.975] Server  LOG     ✓ Compiled in 102ms
+[00:04:27.887] Server  LOG     ✓ Compiled in 43ms
+[00:04:29.253] Server  LOG     ✓ Compiled in 43ms
+[00:04:36.838] Server  LOG     ✓ Compiled in 27ms
+[00:04:38.268] Server  LOG     ✓ Compiled in 72ms
+[00:04:39.553] Server  LOG     ✓ Compiled in 39ms
+[00:04:43.438] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:43.438] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:43.438] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:45.719] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:48.614] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `BlogPage`. 
+[00:04:48.614] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:48.614] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:48.614] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:48.614] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:48.614] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:48.614] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:58.574] Server  LOG     ✓ Compiled in 50ms
+[00:05:02.490] Server  LOG     ✓ Compiled in 59ms
+[00:05:03.179] Browser LOG     Refreshing page data due to server-side change
+[00:05:05.520] Server  LOG     ✓ Compiled in 9ms
+[00:05:06.180] Browser LOG     Refreshing page data due to server-side change
+[00:05:06.180] Browser ERROR   ./pages/Blog/index.js:11:11
 Parsing ecmascript source code failed
-  205 |               </div>
-  206 |             </div>
-> 207 |         </section>
-      |          ^^^^^^^^^
-  208 |         {/* About Kemet Section */}
-  209 |         <section className="py-10 text-center">
-  210 |           <h1 className="text-3xl font-bold">About Kemet</h1>
+   9 |   return (
+  10 |     <></>
+> 11 |     <main className="mt-20 md:mt-24">
+     |           ^^^^^^^^^
+  12 |       <section className="relative w-full h-[40vh] md:h-[60vh]">
+  13 |         <Image
+  14 |           src="/BlogPageBanner.jpg"
 
-Unterminated regexp literal
-[00:09:02.332] Browser ERROR   ./pages/index.js:207:14
+Expected ',', got 'className'
+[00:05:09.170] Server  LOG     ✓ Compiled in 9ms
+[00:05:10.180] Browser ERROR   ./pages/Blog/index.js:61:1
 Parsing ecmascript source code failed
-  205 |               </div>
-  206 |             </div>
-> 207 |             </div
-      |              ^^^^
-  208 |         </section>
-  209 |         {/* About Kemet Section */}
-  210 |         <section className="py-10 text-center">
+  59 |     </main>
+  60 |   );
+> 61 | }
+     | ^
+  62 |
 
-Unterminated regexp literal
-[00:09:03.521] Browser ERROR   ./pages/index.js:207:14
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:05:16.106] Server  LOG     ✓ Compiled in 69ms
+[00:05:16.179] Browser LOG     Refreshing page data due to server-side change
+[00:05:21.555] Server  LOG     ✓ Compiled in 44ms
+[00:05:22.180] Browser LOG     Refreshing page data due to server-side change
+[00:05:24.073] Server  LOG     ✓ Compiled in 56ms
+[00:05:31.982] Browser WARN    Image with src "/BrandBanner.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:05:50.990] Server  LOG     ✓ Compiled in 44ms
+[00:05:56.510] Server  LOG     ✓ Compiled in 62ms
+[00:05:57.180] Browser LOG     Refreshing page data due to server-side change
+[00:06:01.815] Server  LOG     ✓ Compiled in 16ms
+[00:06:02.181] Browser LOG     Refreshing page data due to server-side change
+[00:06:02.181] Browser ERROR   ./pages/Contactus/index.js:25:11
 Parsing ecmascript source code failed
-  205 |               </div>
-  206 |             </div>
-> 207 |             </div>
-      |              ^^^^^
-  208 |         </section>
-  209 |         {/* About Kemet Section */}
-  210 |         <section className="py-10 text-center">
+  23 |   return (
+  24 |     <></>
+> 25 |     <main className="min-h-screen bg-gray-50 flex items-center justify-center p-4 md:p-8 mt-20">
+     |           ^^^^^^^^^
+  26 |       <div className="max-w-6xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+  27 |         <div className="relative h-80 md:h-full md:min-h-[600px]">
+  28 |           <Image
 
-Unterminated regexp literal
-[00:09:06.331] Browser ERROR   ./pages/index.js:208:10
+Expected ',', got 'className'
+[00:06:02.181] Browser ERROR   ./pages/Contactus/index.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/Contactus/index.js [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/Contactus/index.js [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:06:03.472] Server  LOG     ✓ Compiled in 9ms
+[00:06:04.180] Browser ERROR   ./pages/Contactus/index.js:107:1
 Parsing ecmascript source code failed
-  206 |             </div>
-  207 |             
-> 208 |         </section>
-      |          ^^^^^^^^^
-  209 |         {/* About Kemet Section */}
-  210 |         <section className="py-10 text-center">
-  211 |           <h1 className="text-3xl font-bold">About Kemet</h1>
+  105 |     </main>
+  106 |   );
+> 107 | }
+      | ^
+  108 |
 
-Unterminated regexp literal
-[00:09:08.780] Server  LOG      ✓ Compiled in 91ms
-[00:09:08.867] Browser LOG     Refreshing page data due to server-side change
-[00:09:08.867] Browser ERROR   %o
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:06:04.180] Browser ERROR   ./pages/Contactus/index.js
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/pages/Contactus/index.js [ssr] (ecmascript)
 
-%s
+Caused by:
+- CJS module can't be async.
 
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:09:16.549] Server  LOG      ✓ Compiled in 135ms
-[00:09:16.598] Browser ERROR   %o
+Debug info:
+- An error occurred while generating the chunk item [project]/pages/Contactus/index.js [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+[00:06:07.567] Server  LOG     ✓ Compiled in 52ms
+[00:06:08.180] Browser LOG     Refreshing page data due to server-side change
+[00:06:17.385] Server  LOG     ✓ Compiled in 46ms
+[00:06:18.179] Browser LOG     Refreshing page data due to server-side change
+[00:06:19.329] Server  LOG     ✓ Compiled in 49ms
+[00:06:25.823] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:25.823] Browser WARN    Image with src "/BrandBanner.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:06:25.823] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:25.823] Browser WARN    Image with src "/BrandBanner.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:14.401] Server  LOG     ✓ Compiled in 40ms
+[00:07:16.092] Server  LOG     ✓ Compiled in 27ms
+[00:07:18.392] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:18.392] Browser WARN    Image with src "/BrandBanner.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:18.392] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:18.392] Browser WARN    Image with src "/BrandBanner.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:19.793] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:19.793] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:19.793] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:19.793] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:19.793] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:29.153] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
-%s
+Check the render method of `BlogPage`. 
+[00:07:38.034] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:38.034] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:15.498] Browser ERROR   uncaughtError: ReferenceError: handleDestinationClick is not defined
+[00:09:43.896] Server  LOG     ✓ Compiled in 30ms
+[00:09:44.180] Browser LOG     Refreshing page data due to server-side change
+[00:09:44.180] Browser ERROR   ./pages/Discover/index.js:125:2
+Parsing ecmascript source code failed
+  123 |     </>
+  124 |   );
+> 125 | }
+      |  ^
+  126 |
 
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:09:17.867] Server  LOG      ✓ Compiled in 55ms
-[00:09:17.928] Browser ERROR   %o
+Expected '}', got '<eof>'
+[00:09:50.180] Browser ERROR   ./pages/Discover/index.js:125:2
+Parsing ecmascript source code failed
+  123 |     </>
+  124 |   );
+> 125 | }
+      |  ^
+  126 |
 
-%s
+Expected '}', got '<eof>'
+[00:09:54.181] Browser ERROR   ./pages/Discover/index.js:127:2
+Parsing ecmascript source code failed
+  125 |     </>
+  126 |   );
+> 127 | }
+      |  ^
+  128 |
 
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:09:21.714] Server  LOG      ✓ Compiled in 106ms
-[00:09:23.306] Server  LOG      ✓ Compiled in 64ms
-[00:09:23.369] Browser ERROR   %o
+Expected '}', got '<eof>'
+[00:09:54.777] Server  LOG     ✓ Compiled in 48ms
+[00:09:55.179] Browser LOG     Refreshing page data due to server-side change
+[00:09:56.107] Server  LOG     ✓ Compiled in 62ms
+[00:10:09.411] Server  LOG     ✓ Compiled in 44ms
+[00:10:11.564] Server  LOG     ✓ Compiled in 54ms
+[00:10:13.661] Server  LOG     ✓ Compiled in 43ms
+[00:10:20.437] Server  LOG     ✓ Compiled in 16ms
+[00:10:21.180] Browser LOG     Refreshing page data due to server-side change
+[00:10:21.180] Browser ERROR   ./pages/Discover/index.js:15:30
+Parsing ecmascript source code failed
+  13 |
+  14 |   const handleClick = (id) => {
+> 15 |     router.push(`/dexcover/${}`);
+     |                              ^
+  16 |
+  17 |   }
+  18 |
 
-%s
+Expression expected
+[00:10:21.882] Server  LOG     ✓ Compiled in 43ms
+[00:10:22.180] Browser LOG     Refreshing page data due to server-side change
+[00:10:24.738] Server  LOG     ✓ Compiled in 49ms
+[00:10:29.263] Server  LOG     ✓ Compiled in 40ms
+[00:10:44.157] Server  LOG     ✓ Compiled in 43ms
+[00:10:49.535] Server  LOG     ✓ Compiled in 77ms
+[00:11:03.238] Server  LOG     ✓ Compiled in 126ms
+[00:11:06.824] Server  LOG     ✓ Compiled in 100ms
+[00:11:28.817] Server  LOG     ✓ Compiled in 147ms
+[00:11:30.918] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.918] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:30.918] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:30.919] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:32.580] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:48.364] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:48.365] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
-%s
- {} The above error occurred in the <Home> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:09:26.028] Server  LOG      ✓ Compiled in 51ms
-[00:09:37.477] Server  LOG      ✓ Compiled in 97ms
-[00:09:37.478] Browser LOG     Refreshing page data due to server-side change
-[00:09:55.705] Server  LOG      ✓ Compiled in 77ms
-[00:10:11.250] Server  LOG      ✓ Compiled in 94ms
-[00:10:46.361] Server  LOG      ✓ Compiled in 99ms
-[00:10:48.830] Server  LOG      ✓ Compiled in 54ms
-[00:10:50.415] Server  LOG      ✓ Compiled in 103ms
-[00:10:54.543] Server  LOG      ✓ Compiled in 45ms
-[00:11:02.663] Server  LOG      ✓ Compiled in 105ms
-[00:11:06.218] Server  LOG      ✓ Compiled in 90ms
-[00:11:07.259] Server  LOG      ✓ Compiled in 98ms
-[00:11:15.942] Server  LOG      ✓ Compiled in 107ms
+Check the render method of `BlogPage`. 
+[00:11:51.131] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:51.131] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:52.850] Browser WARN    Image with src "/BrandBanner.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:11:56.799] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes

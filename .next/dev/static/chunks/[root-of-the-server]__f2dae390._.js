@@ -1688,11 +1688,11 @@ var _s = __turbopack_context__.k.signature();
 function Header() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "afcd5ed608c86ed39ff276e61be2b0e399f5e2e65497d5b45f09d38ca7c1572c") {
+    if ($[0] !== "6a5cfe18a181d4b8dfc17609691338c0e8e09493aaef8521d13fc1b8643433d4") {
         for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "afcd5ed608c86ed39ff276e61be2b0e399f5e2e65497d5b45f09d38ca7c1572c";
+        $[0] = "6a5cfe18a181d4b8dfc17609691338c0e8e09493aaef8521d13fc1b8643433d4";
     }
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1891,8 +1891,8 @@ function Header() {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                 href: "/",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                    src: "/logo.png",
-                    alt: "Kemet Logo",
+                    src: "/AtlasEgypt.png",
+                    alt: "AtlasEgypt Logo",
                     width: 100,
                     height: 50
                 }, void 0, false, {
@@ -2161,6 +2161,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.jsx [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Header.jsx [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-toastify/dist/index.mjs [client] (ecmascript)");
@@ -2170,78 +2171,122 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toa
 ;
 ;
 ;
+;
 function App(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "43f6160619fcc905672b3bb3cba204573a3c437f88e6d4ac3d1b5e615f7376a6") {
-        for(let $i = 0; $i < 9; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(10);
+    if ($[0] !== "a060189991bb5726b1a32fd5038478d9353f8c635fd356316981adc71ee146f1") {
+        for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "43f6160619fcc905672b3bb3cba204573a3c437f88e6d4ac3d1b5e615f7376a6";
+        $[0] = "a060189991bb5726b1a32fd5038478d9353f8c635fd356316981adc71ee146f1";
     }
     const { Component, pageProps } = t0;
     let t1;
+    let t2;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                    children: "AtlasEgypt"
+                }, void 0, false, {
+                    fileName: "[project]/pages/_app.js",
+                    lineNumber: 22,
+                    columnNumber: 16
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "description",
+                    content: "Explore The wonders of egypt and the hidden gems with AtlasEgypt"
+                }, void 0, false, {
+                    fileName: "[project]/pages/_app.js",
+                    lineNumber: 22,
+                    columnNumber: 41
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
+                    rel: "icon",
+                    href: "/Favicon.ico"
+                }, void 0, false, {
+                    fileName: "[project]/pages/_app.js",
+                    lineNumber: 22,
+                    columnNumber: 143
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "viewport",
+                    content: "width=device-width, initial-scale=1"
+                }, void 0, false, {
+                    fileName: "[project]/pages/_app.js",
+                    lineNumber: 22,
+                    columnNumber: 182
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/pages/_app.js",
-            lineNumber: 20,
+            lineNumber: 22,
+            columnNumber: 10
+        }, this);
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Header$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/pages/_app.js",
+            lineNumber: 23,
             columnNumber: 10
         }, this);
         $[1] = t1;
+        $[2] = t2;
     } else {
         t1 = $[1];
+        t2 = $[2];
     }
-    let t2;
-    if ($[2] !== Component || $[3] !== pageProps) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Component, {
+    let t3;
+    if ($[3] !== Component || $[4] !== pageProps) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Component, {
             ...pageProps
         }, void 0, false, {
             fileName: "[project]/pages/_app.js",
-            lineNumber: 27,
+            lineNumber: 32,
             columnNumber: 10
         }, this);
-        $[2] = Component;
-        $[3] = pageProps;
-        $[4] = t2;
+        $[3] = Component;
+        $[4] = pageProps;
+        $[5] = t3;
     } else {
-        t2 = $[4];
+        t3 = $[5];
     }
-    let t3;
     let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["ToastContainer"], {
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["ToastContainer"], {
             position: "bottom-right"
         }, void 0, false, {
             fileName: "[project]/pages/_app.js",
-            lineNumber: 37,
+            lineNumber: 42,
             columnNumber: 10
         }, this);
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/pages/_app.js",
-            lineNumber: 38,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
-        $[5] = t3;
         $[6] = t4;
+        $[7] = t5;
     } else {
-        t3 = $[5];
         t4 = $[6];
+        t5 = $[7];
     }
-    let t5;
-    if ($[7] !== t2) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+    let t6;
+    if ($[8] !== t3) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
                 t1,
                 t2,
                 t3,
-                t4
+                t4,
+                t5
             ]
         }, void 0, true);
-        $[7] = t2;
-        $[8] = t5;
+        $[8] = t3;
+        $[9] = t6;
     } else {
-        t5 = $[8];
+        t6 = $[9];
     }
-    return t5;
+    return t6;
 }
 _c = App;
 var _c;

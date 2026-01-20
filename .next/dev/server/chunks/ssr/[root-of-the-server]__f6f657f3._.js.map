@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/KEMET-v1/pages/Book/index.js"],"sourcesContent":["import React from 'react'\n\nexport default function BookPage() {\n  return (\n    <main className='text center min-h-screen flex flex-col justify-center items-center mt-20'>\n        <h1 className='text-2xl font-bold'>This Page will be <span className='text-amber-500'> available soon</span></h1>\n    </main>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAK,WAAU;kBACZ,cAAA,qKAAC;YAAG,WAAU;;gBAAqB;8BAAkB,qKAAC;oBAAK,WAAU;8BAAiB;;;;;;;;;;;;;;;;;AAG9F"}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/AtlasEgypt/pages/Book/index.js"],"sourcesContent":["import React from 'react'\n\nexport default function BookPage() {\n  return (\n    <main className='text center min-h-screen flex flex-col justify-center items-center mt-20'>\n        <h1 className='text-2xl font-bold'>This Page will be <span className='text-amber-500'> available soon</span></h1>\n    </main>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAK,WAAU;kBACZ,cAAA,qKAAC;YAAG,WAAU;;gBAAqB;8BAAkB,qKAAC;oBAAK,WAAU;8BAAiB;;;;;;;;;;;;;;;;;AAG9F"}}]
 }
