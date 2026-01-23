@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Atlas Egypt
+
+A modern travel and discovery platform built with [Next.js](https://nextjs.org), designed to explore and share Egypt's amazing destinations and experiences.
+
+## Features
+
+- **Home Page**: Showcase featured trips and destinations
+- **Blog Section**: Share travel experiences and insights about Egypt
+- **Book Page**: Browse and manage travel bookings
+- **Discover Page**: Explore destinations with detailed information
+- **Contact Us**: Get in touch with the Atlas Egypt team
+- **User Authentication**: Login and registration pages
+- **Responsive Design**: Mobile-friendly interface
+- **SEO Optimized**: Meta tags and titles on every page for better search engine visibility
+
+## Project Structure
+
+```
+components/       # Reusable React components
+├── Header.jsx
+├── Footer.jsx
+├── Model.jsx
+└── ui/            # UI components
+    ├── Button.jsx
+    └── icons/
+
+pages/            # Next.js pages
+├── index.js       # Home page
+├── login.js       # Login page
+├── Register.js    # Registration page
+├── Blog/          # Blog section
+├── Book/          # Booking section
+├── Discover/      # Discover destinations
+└── Contactus/     # Contact page
+
+data/             # Application data
+styles/           # Global styles
+public/           # Static assets
+```
 
 ## Getting Started
 
-First, run the development server:
+### Installation
+
+```bash
+npm install
+```
+
+### Development Server
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Recent Updates
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- ✨ Enhanced website with meta tags and page titles for improved SEO
+- 🎨 Refined UI components and styling
+- 📱 Improved responsive design
+- 🔐 Added authentication pages (Login & Register)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org) - React framework
+- React - UI library
+- CSS - Styling
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, visit the [Next.js Documentation](https://nextjs.org/docs).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+We welcome contributions! Feel free to submit issues and pull requests.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+This project is open source and available under the MIT License.
