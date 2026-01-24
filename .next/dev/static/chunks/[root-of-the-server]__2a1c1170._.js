@@ -531,13 +531,14 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [client] (ecmascript) <export default as MapPin>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [client] (ecmascript) <export default as User>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/compass.js [client] (ecmascript) <export default as Compass>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.js [client] (ecmascript) <export default as Clock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/Button.jsx [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 ;
@@ -545,34 +546,64 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 var __N_SSG = true;
-function Home(t0) {
+function Home(props) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(35);
-    if ($[0] !== "3978ca0bb93f7d4710f1b573aa1e6ba42d040ce9fd8886046af9b148214f7e2d") {
-        for(let $i = 0; $i < 35; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(36);
+    if ($[0] !== "8087430fac8a34593964ca22ba4742f1e10c703a6df10e788cf4aa36ff640db8") {
+        for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3978ca0bb93f7d4710f1b573aa1e6ba42d040ce9fd8886046af9b148214f7e2d";
+        $[0] = "8087430fac8a34593964ca22ba4742f1e10c703a6df10e788cf4aa36ff640db8";
     }
-    const { tours } = t0;
+    const { tours } = props;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    let t1;
+    let t0;
     if ($[1] !== router) {
-        t1 = ({
-            "Home[handleClick]": (id)=>{
-                router.push(`/Discover/${id}`);
+        t0 = ({
+            "Home[handleClick]": (Id)=>{
+                router.push(`/Discover/${Id}`);
             }
         })["Home[handleClick]"];
         $[1] = router;
-        $[2] = t1;
+        $[2] = t0;
     } else {
-        t1 = $[2];
+        t0 = $[2];
     }
-    const handleClick = t1;
+    const handleClick = t0;
+    let t1;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                    children: "AtlasEgypt - Explore The Wonders of Egypt"
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 35,
+                    columnNumber: 16
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "description",
+                    content: "Discover the hidden gems of Egypt with AtlasEgypt. Book your unforgettable tour today!"
+                }, void 0, false, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 35,
+                    columnNumber: 72
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/index.js",
+            lineNumber: 35,
+            columnNumber: 10
+        }, this);
+        $[3] = t1;
+    } else {
+        t1 = $[3];
+    }
     let t2;
     let t3;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             src: "/HeroPhoto.png",
             alt: "Hero Photo refer to Egypt",
@@ -581,60 +612,60 @@ function Home(t0) {
             priority: true
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 36,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "absolute inset-0 bg-black/30"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 37,
+            lineNumber: 44,
             columnNumber: 10
         }, this);
-        $[3] = t2;
-        $[4] = t3;
+        $[4] = t2;
+        $[5] = t3;
     } else {
-        t2 = $[3];
-        t3 = $[4];
+        t2 = $[4];
+        t3 = $[5];
     }
     let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative z-10 flex flex-col items-center text-white px-4 py-32 md:py-40",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-3xl md:text-5xl font-bold text-center max-w-4xl mt-30 mb-20 ",
-                children: "Explore The wonders of egypt and the hidden gems with KEMET"
+                children: "Explore The wonders of egypt and the hidden gems with AtlasEgypt"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 46,
+                lineNumber: 53,
                 columnNumber: 99
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 46,
+            lineNumber: 53,
             columnNumber: 10
         }, this);
-        $[5] = t4;
+        $[6] = t4;
     } else {
-        t4 = $[5];
+        t4 = $[6];
     }
     let t5;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
             htmlFor: "FromLocation",
             className: "text-gray-700 font-semibold whitespace-nowrap",
             children: "From :"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 53,
+            lineNumber: 60,
             columnNumber: 10
         }, this);
-        $[6] = t5;
+        $[7] = t5;
     } else {
-        t5 = $[6];
+        t5 = $[7];
     }
     let t6;
-    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full md:w-auto flex items-center gap-3",
             children: [
@@ -649,7 +680,7 @@ function Home(t0) {
                             children: "Select Origin"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 252
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -657,7 +688,7 @@ function Home(t0) {
                             children: "France"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 291
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -665,7 +696,7 @@ function Home(t0) {
                             children: "Italy"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 329
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -673,7 +704,7 @@ function Home(t0) {
                             children: "Germany"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 365
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -681,42 +712,42 @@ function Home(t0) {
                             children: "Spain"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 60,
+                            lineNumber: 67,
                             columnNumber: 405
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 60,
+                    lineNumber: 67,
                     columnNumber: 72
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 60,
+            lineNumber: 67,
             columnNumber: 10
         }, this);
-        $[7] = t6;
+        $[8] = t6;
     } else {
-        t6 = $[7];
+        t6 = $[8];
     }
     let t7;
-    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
             htmlFor: "ToLocation",
             className: "text-gray-700 font-semibold whitespace-nowrap",
             children: "TO :"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 67,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
-        $[8] = t7;
+        $[9] = t7;
     } else {
-        t7 = $[8];
+        t7 = $[9];
     }
     let t8;
-    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full md:w-auto flex items-center gap-2",
             children: [
@@ -731,7 +762,7 @@ function Home(t0) {
                             children: "Select Destination"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 74,
+                            lineNumber: 81,
                             columnNumber: 248
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -739,7 +770,7 @@ function Home(t0) {
                             children: "Cairo"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 74,
+                            lineNumber: 81,
                             columnNumber: 292
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -747,7 +778,7 @@ function Home(t0) {
                             children: "Alexandria"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 74,
+                            lineNumber: 81,
                             columnNumber: 328
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -755,7 +786,7 @@ function Home(t0) {
                             children: "Luxor"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 74,
+                            lineNumber: 81,
                             columnNumber: 374
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -763,42 +794,42 @@ function Home(t0) {
                             children: "Aswan"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 74,
+                            lineNumber: 81,
                             columnNumber: 410
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 74,
+                    lineNumber: 81,
                     columnNumber: 72
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 74,
+            lineNumber: 81,
             columnNumber: 10
         }, this);
-        $[9] = t8;
+        $[10] = t8;
     } else {
-        t8 = $[9];
+        t8 = $[10];
     }
     let t9;
-    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
             htmlFor: "TripType",
             className: "text-gray-700 font-semibold whitespace-nowrap",
             children: "Tour Type"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 81,
+            lineNumber: 88,
             columnNumber: 10
         }, this);
-        $[10] = t9;
+        $[11] = t9;
     } else {
-        t9 = $[10];
+        t9 = $[11];
     }
     let t10;
-    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "relative w-full",
             children: [
@@ -828,7 +859,7 @@ function Home(t0) {
                                                     children: "Select Type"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 88,
+                                                    lineNumber: 95,
                                                     columnNumber: 540
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -836,7 +867,7 @@ function Home(t0) {
                                                     children: "Regular Tour"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 88,
+                                                    lineNumber: 95,
                                                     columnNumber: 577
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -844,7 +875,7 @@ function Home(t0) {
                                                     children: "Premium Tour"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 88,
+                                                    lineNumber: 95,
                                                     columnNumber: 622
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -852,80 +883,80 @@ function Home(t0) {
                                                     children: "Adventure"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/index.js",
-                                                    lineNumber: 88,
+                                                    lineNumber: 95,
                                                     columnNumber: 667
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 88,
+                                            lineNumber: 95,
                                             columnNumber: 368
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 88,
+                                    lineNumber: 95,
                                     columnNumber: 306
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                     children: "Book Now"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 88,
+                                    lineNumber: 95,
                                     columnNumber: 726
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 88,
+                            lineNumber: 95,
                             columnNumber: 218
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 88,
+                        lineNumber: 95,
                         columnNumber: 135
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 88,
+                    lineNumber: 95,
                     columnNumber: 60
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 88,
+            lineNumber: 95,
             columnNumber: 11
         }, this);
-        $[11] = t10;
+        $[12] = t10;
     } else {
-        t10 = $[11];
+        t10 = $[12];
     }
     let t11;
     let t12;
-    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
         t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
             className: "text-3xl font-bold",
-            children: "Why Choose Kemet "
+            children: "Why Choose AtlasEgypt "
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 96,
+            lineNumber: 103,
             columnNumber: 11
         }, this);
         t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
             className: "w-24 mx-auto my-4 border-amber-500"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 97,
+            lineNumber: 104,
             columnNumber: 11
         }, this);
-        $[12] = t11;
-        $[13] = t12;
+        $[13] = t11;
+        $[14] = t12;
     } else {
-        t11 = $[12];
-        t12 = $[13];
+        t11 = $[13];
+        t12 = $[14];
     }
     let t13;
-    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
         t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rounded-2xl p-5 m-4 shadow-lg shadow-amber-500",
             children: [
@@ -934,7 +965,7 @@ function Home(t0) {
                     className: "mx-auto mb-2 text-2xl text-gray-500"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 106,
+                    lineNumber: 113,
                     columnNumber: 75
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -942,7 +973,7 @@ function Home(t0) {
                     children: "Expert Guides"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 106,
+                    lineNumber: 113,
                     columnNumber: 143
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -950,21 +981,21 @@ function Home(t0) {
                     children: "Our guides are seasoned Egyptologists and local experts, providing deep insights into Egypt's history and culture."
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 106,
+                    lineNumber: 113,
                     columnNumber: 213
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 106,
+            lineNumber: 113,
             columnNumber: 11
         }, this);
-        $[14] = t13;
+        $[15] = t13;
     } else {
-        t13 = $[14];
+        t13 = $[15];
     }
     let t14;
-    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rounded-2xl p-5 m-4 shadow-md shadow-amber-500",
             children: [
@@ -973,7 +1004,7 @@ function Home(t0) {
                     className: "mx-auto mb-2 text-2xl text-gray-500"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 113,
+                    lineNumber: 120,
                     columnNumber: 75
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -981,7 +1012,7 @@ function Home(t0) {
                     children: "Personalized Itineraries"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 113,
+                    lineNumber: 120,
                     columnNumber: 141
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -989,28 +1020,28 @@ function Home(t0) {
                     children: "We tailor each trip to your interests and preferences, ensuring a unique and fulfilling adventure."
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 113,
+                    lineNumber: 120,
                     columnNumber: 222
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 113,
+            lineNumber: 120,
             columnNumber: 11
         }, this);
-        $[15] = t14;
+        $[16] = t14;
     } else {
-        t14 = $[15];
+        t14 = $[16];
     }
     let t15;
-    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
         t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "py-10 text-center",
             children: [
                 t11,
                 t12,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 gap-4 items-center justify-center md:grid-cols-3",
+                    className: "grid grid-cols-1 gap-4 items-center justify-center md:grid-cols-3 max-w-8xl mx-auto px-4",
                     children: [
                         t13,
                         t14,
@@ -1022,49 +1053,49 @@ function Home(t0) {
                                     className: "mx-auto mb-2 text-2xl text-gray-500"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 120,
-                                    columnNumber: 217
+                                    lineNumber: 127,
+                                    columnNumber: 240
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-2xl text-center mb-2 font-bold",
                                     children: "Authentic Experiences"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 120,
-                                    columnNumber: 286
+                                    lineNumber: 127,
+                                    columnNumber: 309
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl",
                                     children: "Immerse yourself in the real Egypt with exclusive access to hidden gems and local interactions."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 120,
-                                    columnNumber: 364
+                                    lineNumber: 127,
+                                    columnNumber: 387
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 120,
-                            columnNumber: 153
+                            lineNumber: 127,
+                            columnNumber: 176
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 120,
+                    lineNumber: 127,
                     columnNumber: 60
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 120,
+            lineNumber: 127,
             columnNumber: 11
         }, this);
-        $[16] = t15;
+        $[17] = t15;
     } else {
-        t15 = $[16];
+        t15 = $[17];
     }
     let t16;
-    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
         t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col items-center",
             children: [
@@ -1073,28 +1104,28 @@ function Home(t0) {
                     children: "Have Your ultimate vecation and enjoy with the journey between the past and the future"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 127,
+                    lineNumber: 134,
                     columnNumber: 55
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                     children: "Book Your Trip"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 127,
+                    lineNumber: 134,
                     columnNumber: 226
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 127,
+            lineNumber: 134,
             columnNumber: 11
         }, this);
-        $[17] = t16;
+        $[18] = t16;
     } else {
-        t16 = $[17];
+        t16 = $[18];
     }
     let t17;
-    if ($[18] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[19] === Symbol.for("react.memo_cache_sentinel")) {
         t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative w-1/2 h-64",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1104,20 +1135,20 @@ function Home(t0) {
                 className: "rounded-lg shadow-lg object-cover"
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 134,
+                lineNumber: 141,
                 columnNumber: 48
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 134,
+            lineNumber: 141,
             columnNumber: 11
         }, this);
-        $[18] = t17;
+        $[19] = t17;
     } else {
-        t17 = $[18];
+        t17 = $[19];
     }
     let t18;
-    if ($[19] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[20] === Symbol.for("react.memo_cache_sentinel")) {
         t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "py-10 text-center bg-gray-500 ",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1137,65 +1168,65 @@ function Home(t0) {
                                     className: "rounded-lg shadow-lg object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 141,
+                                    lineNumber: 148,
                                     columnNumber: 229
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 141,
+                                lineNumber: 148,
                                 columnNumber: 192
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 141,
+                        lineNumber: 148,
                         columnNumber: 145
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 141,
+                lineNumber: 148,
                 columnNumber: 63
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 141,
+            lineNumber: 148,
             columnNumber: 11
         }, this);
-        $[19] = t18;
+        $[20] = t18;
     } else {
-        t18 = $[19];
+        t18 = $[20];
     }
     let t19;
     let t20;
-    if ($[20] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[21] === Symbol.for("react.memo_cache_sentinel")) {
         t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
             className: "text-4xl font-bold text-center",
             children: "Featured Trips"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 149,
+            lineNumber: 156,
             columnNumber: 11
         }, this);
         t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
             className: "w-24 mx-auto my-4 border-amber-500"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 150,
+            lineNumber: 157,
             columnNumber: 11
         }, this);
-        $[20] = t19;
-        $[21] = t20;
+        $[21] = t19;
+        $[22] = t20;
     } else {
-        t19 = $[20];
-        t20 = $[21];
+        t19 = $[21];
+        t20 = $[22];
     }
     let t21;
-    if ($[22] !== handleClick || $[23] !== tours) {
+    if ($[23] !== handleClick || $[24] !== tours) {
         let t22;
-        if ($[25] !== handleClick) {
+        if ($[26] !== handleClick) {
             t22 = ({
-                "Home[(anonymous)()]": (tour)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                "Home[tours.map()]": (tour)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-xl overflow-hidden shadow-md",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1207,13 +1238,13 @@ function Home(t0) {
                                     className: "object-center"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 162,
-                                    columnNumber: 150
+                                    lineNumber: 169,
+                                    columnNumber: 148
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 162,
-                                columnNumber: 112
+                                lineNumber: 169,
+                                columnNumber: 110
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "p-4",
@@ -1223,8 +1254,8 @@ function Home(t0) {
                                         children: tour.title
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 162,
-                                        columnNumber: 258
+                                        lineNumber: 169,
+                                        columnNumber: 256
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-600 flex items-center mt-1",
@@ -1234,23 +1265,15 @@ function Home(t0) {
                                                 className: "mr-1 text-amber-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 162,
-                                                columnNumber: 367
+                                                lineNumber: 169,
+                                                columnNumber: 365
                                             }, this),
                                             tour.duration
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 162,
-                                        columnNumber: 315
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xl ",
-                                        children: tour.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/pages/index.js",
-                                        lineNumber: 162,
-                                        columnNumber: 437
+                                        lineNumber: 169,
+                                        columnNumber: 313
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center justify-between mt-2",
@@ -1263,102 +1286,102 @@ function Home(t0) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 162,
-                                                columnNumber: 539
+                                                lineNumber: 169,
+                                                columnNumber: 491
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 onClick: {
-                                                    "Home[(anonymous)() > <Button>.onClick]": ()=>handleClick(tour.tourId)
-                                                }["Home[(anonymous)() > <Button>.onClick]"],
-                                                children: "Learn More"
+                                                    "Home[tours.map() > <Button>.onClick]": ()=>handleClick(tour.tourId)
+                                                }["Home[tours.map() > <Button>.onClick]"],
+                                                children: "View Tour"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/index.js",
-                                                lineNumber: 162,
-                                                columnNumber: 613
+                                                lineNumber: 169,
+                                                columnNumber: 565
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 162,
-                                        columnNumber: 483
+                                        lineNumber: 169,
+                                        columnNumber: 435
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 162,
-                                columnNumber: 237
+                                lineNumber: 169,
+                                columnNumber: 235
                             }, this)
                         ]
                     }, tour.tourId, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 162,
-                        columnNumber: 40
+                        lineNumber: 169,
+                        columnNumber: 38
                     }, this)
-            })["Home[(anonymous)()]"];
-            $[25] = handleClick;
-            $[26] = t22;
+            })["Home[tours.map()]"];
+            $[26] = handleClick;
+            $[27] = t22;
         } else {
-            t22 = $[26];
+            t22 = $[27];
         }
-        t21 = tours.slice(0, 3).map(t22);
-        $[22] = handleClick;
-        $[23] = tours;
-        $[24] = t21;
+        t21 = tours.map(t22);
+        $[23] = handleClick;
+        $[24] = tours;
+        $[25] = t21;
     } else {
-        t21 = $[24];
+        t21 = $[25];
     }
     let t22;
-    if ($[27] !== t21) {
+    if ($[28] !== t21) {
         t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "py-10",
             children: [
                 t19,
                 t20,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  max-w-8xl  mx-auto px-4",
+                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  max-w-7xl  mx-auto px-4",
                     children: t21
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 180,
+                    lineNumber: 187,
                     columnNumber: 48
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 180,
+            lineNumber: 187,
             columnNumber: 11
         }, this);
-        $[27] = t21;
-        $[28] = t22;
+        $[28] = t21;
+        $[29] = t22;
     } else {
-        t22 = $[28];
+        t22 = $[29];
     }
     let t23;
     let t24;
-    if ($[29] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[30] === Symbol.for("react.memo_cache_sentinel")) {
         t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
             className: "text-3xl font-bold",
-            children: "About Kemet"
+            children: "About AtlasEgypt"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 189,
+            lineNumber: 196,
             columnNumber: 11
         }, this);
         t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("hr", {
             className: "w-24 mx-auto my-4 border-amber-500"
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 190,
+            lineNumber: 197,
             columnNumber: 11
         }, this);
-        $[29] = t23;
-        $[30] = t24;
+        $[30] = t23;
+        $[31] = t24;
     } else {
-        t23 = $[29];
-        t24 = $[30];
+        t23 = $[30];
+        t24 = $[31];
     }
     let t25;
-    if ($[31] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
         t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "text-left md:pr-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1366,20 +1389,20 @@ function Home(t0) {
                 children: "KEMET is dedicated to providing exceptional travel experiences in Egypt. Our team of experienced guides and travel experts are passionate about sharing the rich history and culture of this fascinating land. We offer a range of tours, from classic itineraries to custom-designed adventures, ensuring a memorable and enriching journey for every traveler."
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 199,
+                lineNumber: 206,
                 columnNumber: 46
             }, this)
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 199,
+            lineNumber: 206,
             columnNumber: 11
         }, this);
-        $[31] = t25;
+        $[32] = t25;
     } else {
-        t25 = $[31];
+        t25 = $[32];
     }
     let t26;
-    if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[33] === Symbol.for("react.memo_cache_sentinel")) {
         t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
             className: "py-10 text-center",
             children: [
@@ -1401,57 +1424,60 @@ function Home(t0) {
                                     className: "w-full h-auto rounded-lg shadow-lg shadow-amber-800"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 206,
+                                    lineNumber: 213,
                                     columnNumber: 203
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 206,
+                                lineNumber: 213,
                                 columnNumber: 173
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 206,
+                        lineNumber: 213,
                         columnNumber: 100
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 206,
+                    lineNumber: 213,
                     columnNumber: 60
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 206,
+            lineNumber: 213,
             columnNumber: 11
         }, this);
-        $[32] = t26;
+        $[33] = t26;
     } else {
-        t26 = $[32];
+        t26 = $[33];
     }
     let t27;
-    if ($[33] !== t22) {
+    if ($[34] !== t22) {
         t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                className: "mt-10",
-                children: [
-                    t10,
-                    t15,
-                    t18,
-                    t22,
-                    t26
-                ]
-            }, void 0, true, {
-                fileName: "[project]/pages/index.js",
-                lineNumber: 213,
-                columnNumber: 13
-            }, this)
-        }, void 0, false);
-        $[33] = t22;
-        $[34] = t27;
+            children: [
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                    className: "mt-10",
+                    children: [
+                        t10,
+                        t15,
+                        t18,
+                        t22,
+                        t26
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/index.js",
+                    lineNumber: 220,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true);
+        $[34] = t22;
+        $[35] = t27;
     } else {
-        t27 = $[34];
+        t27 = $[35];
     }
     return t27;
 }

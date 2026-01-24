@@ -4,10 +4,10 @@ import Head from "next/head";
 import { MapPin, User, Compass, Clock} from "lucide-react";
 
 import Button from "../components/ui/Button";
-import {  getTours } from "@/data/data";
+import { getFeaturedTours } from "@/helper/db-util";
 
-export default function Home() {
-  const Tours = getTours();
+export default function Home(props) {
+  const { tours} = props;
   const router = useRouter();
 
   const handleClick = (Id) => {
@@ -177,7 +177,7 @@ export default function Home() {
           <h3 className="text-4xl font-bold text-center">Featured Trips</h3>
           <hr className="w-24 mx-auto my-4 border-amber-500" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  max-w-7xl  mx-auto px-4">
-            {Tours.slice(0, 3).map((tour) => (
+            {tours.map((tour) => (
             <div
               key={tour.tourId}
               className="rounded-xl overflow-hidden shadow-md"
@@ -196,7 +196,6 @@ export default function Home() {
                   <Clock size={16} className="mr-1 text-amber-500" />
                   {tour.duration}
                 </p>
-                <p className="text-xl ">{tour.description}</p>
                 <div className="flex items-center justify-between mt-2">
                   <span className="text-amber-600 font-bold text-xl">
                     {tour.price} EGP
@@ -243,6 +242,16 @@ export default function Home() {
       </main>
     </>
   );
+}
+
+export async function getStaticProps(){
+  const featuredTours = await getFeaturedTours();
+  return {
+    props:{
+      tours : featuredTours
+    },
+    revalidate: 1800
+  }
 }
 
 

@@ -1,0 +1,14 @@
+{
+  "/": "pages/index.js",
+  "/404": "pages/404.html",
+  "/Blog": "pages/Blog.html",
+  "/Book": "pages/Book.html",
+  "/Contactus": "pages/Contactus.html",
+  "/Discover": "pages/Discover.js",
+  "/Discover/[Id]": "pages/Discover/[Id].html",
+  "/Register": "pages/Register.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/login": "pages/login.html"
+}

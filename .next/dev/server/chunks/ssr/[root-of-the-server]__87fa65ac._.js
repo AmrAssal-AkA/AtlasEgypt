@@ -7,96 +7,11 @@ __turbopack_context__.s([
     ()=>getBlogs,
     "getDestinationById",
     ()=>getDestinationById,
-    "getDestinations",
-    ()=>getDestinations,
     "getTours",
     ()=>getTours,
     "getToursById",
     ()=>getToursById
 ]);
-const Destinations = [
-    {
-        "id": 1,
-        "name": "Giza Pyramids",
-        "city": "Giza",
-        "description": "One of the Seven Wonders of the Ancient World and a world-famous archaeological site.",
-        "image": "/trips/giza-pyramids.jpeg",
-        "category": "Historical",
-        "rating": 4.9
-    },
-    {
-        "id": 2,
-        "name": "Karnak Temple",
-        "city": "Luxor",
-        "description": "The largest religious complex in ancient Egypt with massive columns and statues.",
-        "image": "/trips/karnak-temple.jpeg",
-        "category": "Historical",
-        "rating": 4.8
-    },
-    {
-        "id": 3,
-        "name": "Sharm El Sheikh",
-        "city": "South Sinai",
-        "description": "A famous tourist city known for resorts, beaches, and diving spots.",
-        "image": "/trips/sharm-el-sheikh.jpeg",
-        "category": "Beaches",
-        "rating": 4.7
-    },
-    {
-        "id": 4,
-        "name": "Nile River Cruise",
-        "city": "Cairo to Aswan",
-        "description": "Experience the beauty of Egypt while cruising along the Nile River.",
-        "image": "/trips/nile-cruise.jpeg",
-        "category": "Cruises",
-        "rating": 4.9
-    },
-    {
-        "id": 5,
-        "name": "Abu Simbel Temples",
-        "city": "Aswan",
-        "description": "Famous rock temples built by Ramses II, relocated to avoid flooding from the Aswan High Dam.",
-        "image": "/trips/Abu-Simbel.jpg",
-        "category": "Historical",
-        "rating": 4.8
-    },
-    {
-        "id": 6,
-        "name": "Siwa Oasis",
-        "city": "Western Desert",
-        "description": "A remote oasis known for its unique culture, natural springs, and ancient ruins.",
-        "image": "/trips/siwa-oasis.jpeg",
-        "category": "Nature",
-        "rating": 4.6
-    },
-    {
-        "id": 7,
-        "name": "Alexandria city",
-        "city": "Alexandria",
-        "description": "Home to the historic Library of Alexandria and beautiful Mediterranean beaches.",
-        "image": "/trips/Alexandria-city.jpeg",
-        "category": "City Trips",
-        "rating": 4.5
-    },
-    {
-        "id": 9,
-        "name": "Dahab",
-        "city": "Sinai Peninsula",
-        "description": "A laid-back beach town known for its diving spots and relaxed atmosphere.",
-        "image": "/trips/Dahab-city-trip.jpg",
-        "category": "Beaches",
-        "rating": 4.6
-    },
-    {
-        "id": 10,
-        "name": "Luxor Temple",
-        "city": "Luxor",
-        "description": "An ancient temple complex located on the east bank of the Nile River.",
-        "image": "/trips/Luxor-temple.jpg",
-        "category": "Historical",
-        "rating": 4.8
-    }
-];
 const tours = [
     {
         "tourId": 101,
@@ -234,9 +149,6 @@ const blogs = [
         "author": "Nadia Fathy"
     }
 ];
-function getDestinations() {
-    return Destinations;
-}
 function getTours() {
     return tours;
 }

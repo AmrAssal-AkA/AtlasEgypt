@@ -4,16 +4,16 @@ import { Bookmark, Star, Clock } from "lucide-react";
 import { useRouter } from "next/router";
 
 import Button from "../../components/ui/Button";
-import { getDestinations, getTours } from "@/data/data";
 
-export default function DestinationPage() {
-  const Destinations = getDestinations();
-  const tours = getTours();
+import { getAllDestination , getAllTours} from "@/helper/db-util";
+
+export default function DestinationPage(props) {
+  const {destinations} = props;
+  const {tours} = props
+
   const router = useRouter();
-
   const handleClick = (id) => {
     router.push(`/Discover/${id}`);
-
   }
 
 
@@ -38,7 +38,7 @@ export default function DestinationPage() {
         </h2>
         {/* Destination Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10  px-5">
-          {Destinations.map((destination) => {
+          {destinations.map((destination) => {
             return (
               <div
                 key={destination.id}
@@ -125,4 +125,16 @@ export default function DestinationPage() {
     </main>
     </>
   );
+}
+
+export async function getStaticProps(){
+  const Destinations = await getAllDestination();
+  const Tours = await getAllTours();
+  return {
+    props : {
+      destinations: Destinations,
+      tours: Tours
+    },
+    revalidate : 1800
+  }
 }

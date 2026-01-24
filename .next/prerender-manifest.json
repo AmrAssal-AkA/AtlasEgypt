@@ -1,0 +1,40 @@
+{
+  "version": 4,
+  "routes": {
+    "/Discover": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/0sXvYFl3apikYbWVNOuDi/Discover.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/0sXvYFl3apikYbWVNOuDi/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "a6545d124856b7d8fe866374e3138ac0",
+    "previewModeSigningKey": "ff453a79288a95d8bd05ecf22f1d754d69dfde79329ef7ee43c8e2b2b125d79b",
+    "previewModeEncryptionKey": "908f07ecd820210fe70d50345da5159a111dc1cf213a55cb62ec29513ac65156"
+  }
+}

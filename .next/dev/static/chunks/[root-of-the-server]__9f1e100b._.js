@@ -531,6 +531,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bookmark$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Bookmark$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bookmark.js [client] (ecmascript) <export default as Bookmark>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [client] (ecmascript) <export default as Star>");
@@ -544,33 +545,64 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 var __N_SSG = true;
-function DestinationPage(t0) {
+function DestinationPage(props) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(23);
-    if ($[0] !== "12e0334258f17f04e1b8576f90359e27563b487b4f71f1a88b56d8270ab65022") {
-        for(let $i = 0; $i < 23; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(24);
+    if ($[0] !== "6a96155432639e80888e18998f9230642adfb3937fc99546756a8b5717025c1e") {
+        for(let $i = 0; $i < 24; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "12e0334258f17f04e1b8576f90359e27563b487b4f71f1a88b56d8270ab65022";
+        $[0] = "6a96155432639e80888e18998f9230642adfb3937fc99546756a8b5717025c1e";
     }
-    const { Destinations, tours } = t0;
+    const { destinations } = props;
+    const { tours } = props;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    let t1;
+    let t0;
     if ($[1] !== router) {
-        t1 = ({
-            "DestinationPage[HandleClick]": (id)=>{
+        t0 = ({
+            "DestinationPage[handleClick]": (id)=>{
                 router.push(`/Discover/${id}`);
             }
-        })["DestinationPage[HandleClick]"];
+        })["DestinationPage[handleClick]"];
         $[1] = router;
-        $[2] = t1;
+        $[2] = t0;
     } else {
-        t1 = $[2];
+        t0 = $[2];
     }
-    const HandleClick = t1;
-    let t2;
+    const handleClick = t0;
+    let t1;
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                    children: "AtlasEgypt - Discover Egypt"
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 38,
+                    columnNumber: 16
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "description",
+                    content: "Explore the wonders of Egypt with AtlasEgypt. Discover top destinations and ready tours."
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 38,
+                    columnNumber: 58
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/Discover/index.js",
+            lineNumber: 38,
+            columnNumber: 10
+        }, this);
+        $[3] = t1;
+    } else {
+        t1 = $[3];
+    }
+    let t2;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto mb-20",
             children: [
@@ -579,7 +611,7 @@ function DestinationPage(t0) {
                     children: "Explore Egypt wonder's"
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 36,
+                    lineNumber: 45,
                     columnNumber: 51
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -587,48 +619,56 @@ function DestinationPage(t0) {
                     children: "Discover the magic of Egypt, from the ancient pyramids to the vibrant coral reefs. Our curated destinations offer a glimpse into the rich history and breathtaking landscapes of this extraordinary country."
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 36,
+                    lineNumber: 45,
                     columnNumber: 123
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 36,
+            lineNumber: 45,
             columnNumber: 10
         }, this);
-        $[3] = t2;
+        $[4] = t2;
     } else {
-        t2 = $[3];
+        t2 = $[4];
     }
     let t3;
-    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-4xl font-semibold text-center",
             children: "Feature Distinations"
         }, void 0, false, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 43,
+            lineNumber: 52,
             columnNumber: 10
         }, this);
-        $[4] = t3;
+        $[5] = t3;
     } else {
-        t3 = $[4];
+        t3 = $[5];
     }
     let t4;
-    if ($[5] !== Destinations || $[6] !== HandleClick) {
+    if ($[6] !== destinations || $[7] !== handleClick) {
         let t5;
-        if ($[8] !== HandleClick) {
+        if ($[9] !== handleClick) {
             t5 = ({
-                "DestinationPage[Destinations.map()]": (destination)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                "DestinationPage[destinations.map()]": (destination)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: " rounded-lg shadow-xl overflow-hidden",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: destination.image,
-                                alt: destination.name,
-                                className: "w-full h-48 object-cover"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative w-full h-48",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: destination.image,
+                                    alt: destination.name,
+                                    fill: true,
+                                    className: "object-cover"
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/Discover/index.js",
+                                    lineNumber: 62,
+                                    columnNumber: 177
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/Discover/index.js",
-                                lineNumber: 53,
+                                lineNumber: 62,
                                 columnNumber: 139
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -639,8 +679,8 @@ function DestinationPage(t0) {
                                         children: destination.name
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 53,
-                                        columnNumber: 260
+                                        lineNumber: 62,
+                                        columnNumber: 306
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "flex items-center mb-2",
@@ -649,22 +689,22 @@ function DestinationPage(t0) {
                                                 className: "inline-block mb-2 mr-2 text-orange-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 53,
-                                                columnNumber: 363
+                                                lineNumber: 62,
+                                                columnNumber: 409
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-gray-600 mb-2",
                                                 children: destination.category
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 53,
-                                                columnNumber: 426
+                                                lineNumber: 62,
+                                                columnNumber: 472
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 53,
-                                        columnNumber: 323
+                                        lineNumber: 62,
+                                        columnNumber: 369
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute top-2 right-2 flex items-center",
@@ -673,8 +713,8 @@ function DestinationPage(t0) {
                                                 className: "mr-1 fill-yellow-500 border-yellow-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 53,
-                                                columnNumber: 550
+                                                lineNumber: 62,
+                                                columnNumber: 596
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: [
@@ -683,60 +723,60 @@ function DestinationPage(t0) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 53,
-                                                columnNumber: 609
+                                                lineNumber: 62,
+                                                columnNumber: 655
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 53,
-                                        columnNumber: 492
+                                        lineNumber: 62,
+                                        columnNumber: 538
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-700 mb-4",
                                         children: destination.description
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 53,
-                                        columnNumber: 643
+                                        lineNumber: 62,
+                                        columnNumber: 689
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                         onClick: {
-                                            "DestinationPage[Destinations.map() > <Button>.onClick]": ()=>HandleClick(destination.id)
-                                        }["DestinationPage[Destinations.map() > <Button>.onClick]"],
+                                            "DestinationPage[destinations.map() > <Button>.onClick]": ()=>handleClick(destination.id)
+                                        }["DestinationPage[destinations.map() > <Button>.onClick]"],
                                         children: "Learn More"
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 53,
-                                        columnNumber: 706
+                                        lineNumber: 62,
+                                        columnNumber: 752
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/Discover/index.js",
-                                lineNumber: 53,
-                                columnNumber: 230
+                                lineNumber: 62,
+                                columnNumber: 276
                             }, this)
                         ]
                     }, destination.id, true, {
                         fileName: "[project]/pages/Discover/index.js",
-                        lineNumber: 53,
+                        lineNumber: 62,
                         columnNumber: 63
                     }, this)
-            })["DestinationPage[Destinations.map()]"];
-            $[8] = HandleClick;
-            $[9] = t5;
+            })["DestinationPage[destinations.map()]"];
+            $[9] = handleClick;
+            $[10] = t5;
         } else {
-            t5 = $[9];
+            t5 = $[10];
         }
-        t4 = Destinations.map(t5);
-        $[5] = Destinations;
-        $[6] = HandleClick;
-        $[7] = t4;
+        t4 = destinations.map(t5);
+        $[6] = destinations;
+        $[7] = handleClick;
+        $[8] = t4;
     } else {
-        t4 = $[7];
+        t4 = $[8];
     }
     let t5;
-    if ($[10] !== t4) {
+    if ($[11] !== t4) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto mb-20",
             children: [
@@ -746,38 +786,38 @@ function DestinationPage(t0) {
                     children: t4
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 71,
+                    lineNumber: 80,
                     columnNumber: 55
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 71,
+            lineNumber: 80,
             columnNumber: 10
         }, this);
-        $[10] = t4;
-        $[11] = t5;
+        $[11] = t4;
+        $[12] = t5;
     } else {
-        t5 = $[11];
+        t5 = $[12];
     }
     let t6;
-    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-4xl font-semibold text-center",
             children: "Related Ready Tours"
         }, void 0, false, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 79,
+            lineNumber: 88,
             columnNumber: 10
         }, this);
-        $[12] = t6;
+        $[13] = t6;
     } else {
-        t6 = $[12];
+        t6 = $[13];
     }
     let t7;
-    if ($[13] !== HandleClick || $[14] !== tours) {
+    if ($[14] !== handleClick || $[15] !== tours) {
         let t8;
-        if ($[16] !== HandleClick) {
+        if ($[17] !== handleClick) {
             t8 = ({
                 "DestinationPage[tours.map()]": (tour)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "rounded-xl overflow-hidden shadow-md",
@@ -791,12 +831,12 @@ function DestinationPage(t0) {
                                     className: "object-center"
                                 }, void 0, false, {
                                     fileName: "[project]/pages/Discover/index.js",
-                                    lineNumber: 89,
+                                    lineNumber: 98,
                                     columnNumber: 159
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/pages/Discover/index.js",
-                                lineNumber: 89,
+                                lineNumber: 98,
                                 columnNumber: 121
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -807,7 +847,7 @@ function DestinationPage(t0) {
                                         children: tour.title
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 89,
+                                        lineNumber: 98,
                                         columnNumber: 267
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -818,14 +858,14 @@ function DestinationPage(t0) {
                                                 className: "mr-1 text-amber-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 89,
+                                                lineNumber: 98,
                                                 columnNumber: 376
                                             }, this),
                                             tour.duration
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 89,
+                                        lineNumber: 98,
                                         columnNumber: 324
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -833,7 +873,7 @@ function DestinationPage(t0) {
                                         children: tour.description
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 89,
+                                        lineNumber: 98,
                                         columnNumber: 446
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -847,52 +887,52 @@ function DestinationPage(t0) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 89,
+                                                lineNumber: 98,
                                                 columnNumber: 548
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                                 onClick: {
-                                                    "DestinationPage[tours.map() > <Button>.onClick]": ()=>HandleClick(tour.tourId)
+                                                    "DestinationPage[tours.map() > <Button>.onClick]": ()=>handleClick(tour.tourId)
                                                 }["DestinationPage[tours.map() > <Button>.onClick]"],
-                                                children: "Learn More"
+                                                children: "View Tour"
                                             }, void 0, false, {
                                                 fileName: "[project]/pages/Discover/index.js",
-                                                lineNumber: 89,
+                                                lineNumber: 98,
                                                 columnNumber: 622
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/Discover/index.js",
-                                        lineNumber: 89,
+                                        lineNumber: 98,
                                         columnNumber: 492
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/Discover/index.js",
-                                lineNumber: 89,
+                                lineNumber: 98,
                                 columnNumber: 246
                             }, this)
                         ]
                     }, tour.tourId, true, {
                         fileName: "[project]/pages/Discover/index.js",
-                        lineNumber: 89,
+                        lineNumber: 98,
                         columnNumber: 49
                     }, this)
             })["DestinationPage[tours.map()]"];
-            $[16] = HandleClick;
-            $[17] = t8;
+            $[17] = handleClick;
+            $[18] = t8;
         } else {
-            t8 = $[17];
+            t8 = $[18];
         }
         t7 = tours.map(t8);
-        $[13] = HandleClick;
-        $[14] = tours;
-        $[15] = t7;
+        $[14] = handleClick;
+        $[15] = tours;
+        $[16] = t7;
     } else {
-        t7 = $[15];
+        t7 = $[16];
     }
     let t8;
-    if ($[18] !== t7) {
+    if ($[19] !== t7) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " justify-center mb-20",
             children: [
@@ -902,39 +942,44 @@ function DestinationPage(t0) {
                     children: t7
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 107,
+                    lineNumber: 116,
                     columnNumber: 53
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 107,
+            lineNumber: 116,
             columnNumber: 10
         }, this);
-        $[18] = t7;
-        $[19] = t8;
+        $[19] = t7;
+        $[20] = t8;
     } else {
-        t8 = $[19];
+        t8 = $[20];
     }
     let t9;
-    if ($[20] !== t5 || $[21] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: " mt-50",
+    if ($[21] !== t5 || $[22] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
-                t2,
-                t5,
-                t8
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                    className: " mt-50",
+                    children: [
+                        t2,
+                        t5,
+                        t8
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 124,
+                    columnNumber: 16
+                }, this)
             ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 115,
-            columnNumber: 10
-        }, this);
-        $[20] = t5;
-        $[21] = t8;
-        $[22] = t9;
+        }, void 0, true);
+        $[21] = t5;
+        $[22] = t8;
+        $[23] = t9;
     } else {
-        t9 = $[22];
+        t9 = $[23];
     }
     return t9;
 }
