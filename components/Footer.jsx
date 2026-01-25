@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useRef } from "react";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,8 +15,16 @@ import {
   faInstagram,
   faSnapchat,
 } from "@fortawesome/free-brands-svg-icons";
+import { newsletterSubscriptionHandler } from "@/helper/newsletter";
 
 export default function Footer() {
+  const userEmailRef = useRef();
+
+  function handleFormSubmit(e){
+    e.preventDefault();
+    const enteredEmail = userEmailRef.current.value;
+    newsletterSubscriptionHandler(enteredEmail);
+  }
   return (
     <footer className="bg-amber-500 border-t border-amber-400 flex flex-col">
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 w-full">
@@ -158,16 +168,17 @@ export default function Footer() {
             <p className="text-xs md:text-sm text-gray-600 mb-3 md:mb-4">
               Subscribe to the free newsletter and stay
             </p>
-            <div className="mb-4 md:mb-6 max-w-xs mx-auto sm:mx-0">
+            <form className="mb-4 md:mb-6 max-w-xs mx-auto sm:mx-0" onSubmit={handleFormSubmit}>
               <input
                 type="email"
                 placeholder="Enter your email"
                 className="w-full px-3 py-2 border border-gray-300 rounded text-xs md:text-sm mb-2 bg-white"
+                ref={userEmailRef}
               />
               <button className="w-full bg-yellow-500 text-black py-2 rounded text-sm md:text-base font-medium hover:bg-yellow-200 cursor-pointer">
-                Send
+                Subscribe
               </button>
-            </div>
+            </form>
           </div>
         </div>
 

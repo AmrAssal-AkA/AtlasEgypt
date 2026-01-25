@@ -1,31 +1,14 @@
-export async function getAllDestination(){
-    const response = await fetch("https://atlasegypt-5d673-default-rtdb.firebaseio.com/Destination.json");
-    const data = await response.json();
-    const destinations = [];
+import { MongoClient } from "mongodb";
 
-    for (const key in data){
-        destinations.push({
-            id : key,
-            ...data[key]
-        });
-    }
-    return destinations;
+export function connectDatabase() {
+  const client = MongoClient.connect(
+    "mongodb+srv://amrkhaledassal:AkA1292003@cluster0.bozkfl7.mongodb.net/AtlasEgypt?retryWrites=true&w=majority",
+  );
+  return client;
 }
 
-export async function getAllTours(){
-    const response = await fetch("https://atlasegypt-5d673-default-rtdb.firebaseio.com/tours.json");
-    const data = await response.json();
-    const tours = [];
-
-    for(const key in data){
-        tours.push({
-            id: key,
-            ...data[key]
-        });
-    }
-    return tours;
-}
-export async function getFeaturedTours(){
-    const allTours = await getAllTours();
-    return allTours.filter(tour => tour.isFeatured);
+export async function InsertDocument(client, document, collection) {
+  const db = client.db();
+  const result = db.collection(collection).insertOne(document);
+  return result;
 }

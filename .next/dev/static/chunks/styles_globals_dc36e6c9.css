@@ -402,6 +402,10 @@
     position: relative;
   }
 
+  .static {
+    position: static;
+  }
+
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
@@ -612,8 +616,8 @@
     margin-left: calc(var(--spacing) * 2);
   }
 
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
+  .ml-4\.5 {
+    margin-left: calc(var(--spacing) * 4.5);
   }
 
   .ml-6 {

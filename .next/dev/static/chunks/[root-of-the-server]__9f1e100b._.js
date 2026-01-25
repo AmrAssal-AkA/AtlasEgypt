@@ -550,11 +550,11 @@ var __N_SSG = true;
 function DestinationPage(props) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(24);
-    if ($[0] !== "6a96155432639e80888e18998f9230642adfb3937fc99546756a8b5717025c1e") {
+    if ($[0] !== "d5131348dc8b39591969845219b768e5e6bb2b78d171427a5389209be1e8dd0f") {
         for(let $i = 0; $i < 24; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6a96155432639e80888e18998f9230642adfb3937fc99546756a8b5717025c1e";
+        $[0] = "d5131348dc8b39591969845219b768e5e6bb2b78d171427a5389209be1e8dd0f";
     }
     const { destinations } = props;
     const { tours } = props;

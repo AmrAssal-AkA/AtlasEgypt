@@ -1,13 +1,13 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Head from "next/head";
-import { MapPin, User, Compass, Clock} from "lucide-react";
+import { MapPin, User, Compass, Clock } from "lucide-react";
 
 import Button from "../components/ui/Button";
-import { getFeaturedTours } from "@/helper/db-util";
+import { getFeaturedTours } from "@/helper/data-util";
 
 export default function Home(props) {
-  const { tours} = props;
+  const { tours } = props;
   const router = useRouter();
 
   const handleClick = (Id) => {
@@ -15,10 +15,13 @@ export default function Home(props) {
   };
   return (
     <>
-    <Head>
-      <title>AtlasEgypt - Explore The Wonders of Egypt</title>
-      <meta name="description" content="Discover the hidden gems of Egypt with AtlasEgypt. Book your unforgettable tour today!" />
-    </Head>
+      <Head>
+        <title>AtlasEgypt - Explore The Wonders of Egypt</title>
+        <meta
+          name="description"
+          content="Discover the hidden gems of Egypt with AtlasEgypt. Book your unforgettable tour today!"
+        />
+      </Head>
       <main className="mt-10">
         {/* Hero Section */}
         <section className="relative w-full">
@@ -178,36 +181,34 @@ export default function Home(props) {
           <hr className="w-24 mx-auto my-4 border-amber-500" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  max-w-7xl  mx-auto px-4">
             {tours.map((tour) => (
-            <div
-              key={tour.tourId}
-              className="rounded-xl overflow-hidden shadow-md"
-            >
-              <div className="relative h-64 w-full">
-                <Image
-                  src={tour.image}
-                  alt={tour.title}
-                  fill
-                  className="object-center"
-                />
-              </div>
-              <div className="p-4">
-                <h4 className="text-2xl font-bold mb-2">{tour.title}</h4>
-                <p className="text-gray-600 flex items-center mt-1">
-                  <Clock size={16} className="mr-1 text-amber-500" />
-                  {tour.duration}
-                </p>
-                <div className="flex items-center justify-between mt-2">
-                  <span className="text-amber-600 font-bold text-xl">
-                    {tour.price} EGP
-                  </span>
-                  <Button
-                    onClick={() => handleClick(tour.tourId)}
-                  >
-                    View Tour
-                  </Button>
+              <div
+                key={tour.tourId}
+                className="rounded-xl overflow-hidden shadow-md"
+              >
+                <div className="relative h-64 w-full">
+                  <Image
+                    src={tour.image}
+                    alt={tour.title}
+                    fill
+                    className="object-center"
+                  />
+                </div>
+                <div className="p-4">
+                  <h4 className="text-2xl font-bold mb-2">{tour.title}</h4>
+                  <p className="text-gray-600 flex items-center mt-1">
+                    <Clock size={16} className="mr-1 text-amber-500" />
+                    {tour.duration}
+                  </p>
+                  <div className="flex items-center justify-between mt-2">
+                    <span className="text-amber-600 font-bold text-xl">
+                      {tour.price} EGP
+                    </span>
+                    <Button onClick={() => handleClick(tour.tourId)}>
+                      View Tour
+                    </Button>
+                  </div>
                 </div>
               </div>
-            </div>
             ))}
           </div>
         </section>
@@ -244,14 +245,12 @@ export default function Home(props) {
   );
 }
 
-export async function getStaticProps(){
+export async function getStaticProps() {
   const featuredTours = await getFeaturedTours();
   return {
-    props:{
-      tours : featuredTours
+    props: {
+      tours: featuredTours,
     },
-    revalidate: 1800
-  }
+    revalidate: 1800,
+  };
 }
-
-

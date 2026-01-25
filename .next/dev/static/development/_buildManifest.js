@@ -2,9 +2,6 @@ self.__BUILD_MANIFEST = {
   "/": [
     "static/chunks/pages/index.js"
   ],
-  "/Blog": [
-    "static/chunks/pages/Blog.js"
-  ],
   "/Discover": [
     "static/chunks/pages/Discover.js"
   ],
@@ -27,6 +24,7 @@ self.__BUILD_MANIFEST = {
     "/Register",
     "/_app",
     "/_error",
+    "/api/newsletter",
     "/login"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

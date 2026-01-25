@@ -3,9 +3,9 @@
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
 
-A modern, responsive travel and discovery platform built with Next.js, designed to showcase Egypt's rich cultural heritage, breathtaking destinations, and unforgettable experiences. Explore ancient wonders, plan your perfect trip, and discover the magic of the Land of the Pharaohs.
+A modern, responsive travel and discovery platform built with Next.js, designed to showcase Egypt's rich cultural heritage, breathtaking destinations, and unforgettable experiences. Features newsletter subscription, interactive destination discovery, and seamless user experience. Explore ancient wonders, plan your perfect trip, and discover the magic of the Land of the Pharaohs.
 
 ## ✨ Features
 
@@ -31,80 +31,112 @@ A modern, responsive travel and discovery platform built with Next.js, designed 
 - **Secure Login/Register**: User account management
 - **Personalized Experience**: Save favorites and preferences
 
-### 📱 Modern UI/UX
+### � Newsletter Subscription
 
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **Intuitive Navigation**: Clean header and footer with easy access
-- **Accessibility**: WCAG compliant components
+- **Global Newsletter Handler**: Reusable newsletter subscription functionality
+- **Email Validation**: Client-side and server-side email validation
+- **Toast Notifications**: User feedback with success/error messages
+- **API Integration**: RESTful API endpoint for email subscriptions
 
 ### 🚀 Performance Optimized
 
 - **Server-Side Rendering (SSR)**: Fast initial page loads with Next.js
 - **SEO Friendly**: Meta tags and structured data for search engines
 - **Optimized Images**: Fast loading with Next.js Image component
+- **React Compiler**: Enhanced performance with React 19 compiler
 
 ## 🏗️ Project Structure
 
 ```
 atlas-egypt/
-├── components/          # Reusable React components
-│   ├── Header.jsx       # Navigation header
-│   ├── Footer.jsx       # Site footer
-│   ├── Model.jsx        # Modal components
-│   └── ui/              # UI component library
-│       ├── Button.jsx   # Custom button component
-│       └── icons/       # Icon components
-├── pages/               # Next.js pages (App Router)
-│   ├── index.js         # Home page with SSR
-│   ├── login.js         # Authentication page
-│   ├── Register.js      # User registration
-│   ├── Blog/            # Blog section
-│   ├── Book/            # Booking interface
-│   ├── Discover/        # Destination explorer
-│   └── Contactus/       # Contact form
-├── helper/              # Utility functions
-│   └── db-util.js       # Firebase data operations
-├── data/                # Static data files
-│   └── data.js          # Blog posts and static content
-├── styles/              # Global styles
-│   └── globals.css      # Tailwind CSS imports
-├── public/              # Static assets
-│   ├── blogs/           # Blog images
-│   └── trips/           # Destination images
-├── package.json         # Dependencies and scripts
-├── next.config.mjs      # Next.js configuration
-├── tailwind.config.js   # Tailwind CSS config
-└── README.md            # Project documentation
+├── components/              # Reusable React components
+│   ├── Footer.jsx           # Site footer
+│   ├── Model.jsx            # Modal components
+│   ├── main-navigation/     # Navigation components
+│   │   ├── Header.jsx       # Main navigation header
+│   │   └── upper-header.jsx # Top header with newsletter & contact
+│   └── ui/                  # UI component library
+│       ├── Button.jsx       # Custom button component
+│       └── icons/           # Icon components
+│           ├── menuIcon.jsx
+│           ├── Usericon.jsx
+│           └── Xicon.jsx
+├── pages/                   # Next.js pages (Pages Router)
+│   ├── _app.js              # Custom App component
+│   ├── _document.js         # Custom Document
+│   ├── index.js             # Home page
+│   ├── login.js             # Authentication page
+│   ├── Register.js          # User registration
+│   ├── 404.js               # 404 error page
+│   ├── api/                 # API routes
+│   │   └── newsletter.js    # Newsletter subscription API
+│   ├── Blog/                # Blog section
+│   │   └── index.js
+│   ├── Book/                # Booking interface
+│   │   └── index.js
+│   ├── Contactus/           # Contact form
+│   │   └── index.js
+│   └── Discover/            # Destination explorer
+│       ├── index.js
+│       └── [Id].js          # Dynamic route for destinations
+├── helper/                  # Utility functions
+│   ├── db-util.js           # Database operations
+│   ├── data-util.js         # Data processing utilities
+│   └── newsletter.js        # Newsletter subscription handler
+├── data/                    # Static data files
+│   └── data.js              # Blog posts and static content
+├── styles/                  # Global styles
+│   └── globals.css          # Tailwind CSS imports
+├── public/                  # Static assets
+│   ├── blogs/               # Blog images
+│   ├── trips/               # Destination images
+│   ├── AtlasEgypt.png       # Logo
+│   ├── HeroPhoto.png        # Hero banner
+│   └── Favicon.ico          # Favicon
+├── package.json             # Dependencies and scripts
+├── next.config.mjs          # Next.js configuration
+├── postcss.config.mjs       # PostCSS configuration
+├── eslint.config.mjs        # ESLint configuration
+├── jsconfig.json            # JavaScript configuration
+└── README.md                # Project documentation
 ```
 
 ## 🛠️ Tech Stack
 
 ### Frontend Framework
 
-- **[Next.js 16](https://nextjs.org)** - React framework with App Router and SSR
-- **React 19** - UI library with concurrent features
+- **[Next.js 16.1.4](https://nextjs.org)** - React framework with Pages Router and SSR
+- **React 19.2.0** - UI library with concurrent features
+- **React DOM 19.2.0** - React rendering library
 
 ### Styling & UI
 
-- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
-- **[Radix UI](https://www.radix-ui.com)** - Accessible UI primitives
+- **[Tailwind CSS v4](https://tailwindcss.com)** - Utility-first CSS framework
+- **[Radix UI](https://www.radix-ui.com)** - Accessible UI primitives for toast notifications
 - **[Lucide React](https://lucide.dev)** - Beautiful icon library
-- **[FontAwesome](https://fontawesome.com)** - Icon toolkit
+- **[FontAwesome](https://fontawesome.com)** - Icon toolkit with React integration
 
 ### Backend & Database
 
-- **[Firebase Realtime Database](https://firebase.google.com/products/realtime-database)** - NoSQL cloud database for dynamic content
+- **[MongoDB](https://www.mongodb.com)** - NoSQL database for data storage
+- **Next.js API Routes** - Serverless API endpoints
 
 ### Development Tools
 
-- **ESLint** - Code linting
-- **PostCSS** - CSS processing
+- **ESLint 9** - Code linting and formatting
+- **PostCSS** - CSS processing with Tailwind integration
 - **SVGR** - SVG to React component conversion
+- **Babel Plugin React Compiler** - React compilation optimization
 
 ### Notifications
 
 - **[React Hot Toast](https://react-hot-toast.com)** - Lightweight toast notifications
 - **[React Toastify](https://fkhadra.github.io/react-toastify)** - Feature-rich toast library
+
+### Configuration
+
+- **JSConfig** - JavaScript project configuration
+- **Next.js Config** - Custom Next.js configuration with React Compiler and Strict Mode
 
 ## 🚀 Getting Started
 
@@ -112,7 +144,7 @@ atlas-egypt/
 
 - Node.js 18.x or higher
 - npm or yarn package manager
-- Firebase project (for data management)
+- MongoDB database (local or cloud instance)
 
 ### Installation
 
@@ -130,9 +162,8 @@ atlas-egypt/
    ```
 
 3. **Environment Setup**
-   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
-   - Add your Firebase config to environment variables
-   - Populate the database with destination and tour data
+   - Set up MongoDB connection string in your environment variables
+   - Configure database collections for destinations, tours, and newsletter data
 
 4. **Run the development server**
 
@@ -151,27 +182,24 @@ npm run build
 npm start
 ```
 
+### Code Quality
+
+```bash
+npm run lint
+```
+
 ## 📊 Data Management
 
-The application uses Firebase Realtime Database for dynamic content:
+The application uses MongoDB for data storage and Next.js API routes for serverless backend functionality:
 
 - **Destinations**: Location data with images, descriptions, and ratings
 - **Tours**: Travel packages with pricing and itineraries
-- **Featured Content**: Curated highlights for the home page
+- **Newsletter Subscriptions**: Email collection and management
+- **User Data**: Authentication and user preferences
+- **Blog Content**: Articles and travel stories
 
-Data is fetched server-side using `getStaticProps` for optimal performance and SEO.
+Data is managed through utility functions in the `helper/` directory and API routes in `pages/api/`.
 
-## 🤝 Contributing
-
-We welcome contributions from developers, designers, and travel enthusiasts!
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ### Development Guidelines
 
@@ -194,8 +222,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaborations:
 
-- **Project Repository**: [GitHub](https://github.com/your-username/atlas-egypt)
-- **Issues**: [Create an issue](https://github.com/your-username/atlas-egypt/issues)
+- **Project Repository**: [GitHub](https://github.com/AmrAssal-AkA/AtlasEgypt)
+- **Issues**: [Create an issue](https://github.com/AmrAssal-AkA/AtlasEgypt/issues)
 
 ---
 

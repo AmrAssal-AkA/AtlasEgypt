@@ -10,7 +10,7 @@
   "static/chunks/node_modules_@fortawesome_fontawesome-svg-core_index_mjs_a0ec19d8._.js",
   "static/chunks/node_modules_@fortawesome_free-brands-svg-icons_index_mjs_e6bf0867._.js",
   "static/chunks/node_modules_b8bc44d2._.js",
-  "static/chunks/[root-of-the-server]__f2dae390._.js",
+  "static/chunks/[root-of-the-server]__6011555c._.js",
   "static/chunks/styles_globals_dc36e6c9.css"
 ],
     source: "entry"
