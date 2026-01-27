@@ -2,13 +2,13 @@
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
   "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
-  "static/chunks/node_modules_next_dist_shared_lib_bba7fdc5._.js",
-  "static/chunks/node_modules_next_dist_client_eed3d468._.js",
+  "static/chunks/node_modules_next_dist_shared_lib_3e55e98b._.js",
+  "static/chunks/node_modules_next_dist_client_8dd97e7a._.js",
   "static/chunks/node_modules_next_dist_75b597d7._.js",
-  "static/chunks/node_modules_next_d6a2c7a7._.js",
+  "static/chunks/node_modules_next_13d6d45d._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_f13cdc1a._.js",
-  "static/chunks/[root-of-the-server]__acde6e90._.js"
+  "static/chunks/[root-of-the-server]__dfda3549._.js"
 ],
     source: "entry"
 });

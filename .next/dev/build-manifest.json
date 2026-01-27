@@ -8,9 +8,33 @@
       "static/chunks/node_modules_next_936d8d58._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_76668ead._.js",
-      "static/chunks/[root-of-the-server]__2a1c1170._.js",
+      "static/chunks/[root-of-the-server]__00610a5b._.js",
       "static/chunks/pages_index_2da965e7._.js",
-      "static/chunks/turbopack-pages_index_afe8a3ed._.js"
+      "static/chunks/turbopack-pages_index_e62f898a._.js"
+    ],
+    "/Blog": [
+      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_0189c774._.js",
+      "static/chunks/node_modules_next_dist_client_9331d388._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_795373da._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_f13cdc1a._.js",
+      "static/chunks/[root-of-the-server]__d7163a1b._.js",
+      "static/chunks/pages_Blog_index_2da965e7.js",
+      "static/chunks/turbopack-pages_Blog_index_1826cefd.js"
+    ],
+    "/Blog/AddBlog": [
+      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_0189c774._.js",
+      "static/chunks/node_modules_next_dist_client_9331d388._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_cad67f06._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_f13cdc1a._.js",
+      "static/chunks/[root-of-the-server]__a113acd3._.js",
+      "static/chunks/pages_Blog_AddBlog_2da965e7.js",
+      "static/chunks/turbopack-pages_Blog_AddBlog_40be30fd.js"
     ],
     "/Discover": [
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
@@ -20,9 +44,9 @@
       "static/chunks/node_modules_next_284f8129._.js",
       "static/chunks/node_modules_react-dom_4411d9bd._.js",
       "static/chunks/node_modules_618b02e6._.js",
-      "static/chunks/[root-of-the-server]__9f1e100b._.js",
+      "static/chunks/[root-of-the-server]__016ecb44._.js",
       "static/chunks/pages_Discover_index_2da965e7.js",
-      "static/chunks/turbopack-pages_Discover_index_befb7852.js"
+      "static/chunks/turbopack-pages_Discover_index_8b234f6d.js"
     ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",

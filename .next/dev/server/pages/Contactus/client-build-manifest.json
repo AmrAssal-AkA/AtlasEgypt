@@ -1,5 +1,5 @@
 {
-  "/Contactus": [
-    "static/chunks/pages/Contactus.js"
+  "/contactus": [
+    "static/chunks/pages/contactus.js"
   ]
 }

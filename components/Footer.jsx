@@ -47,12 +47,12 @@ export default function Footer() {
             <ul className="space-y-2 text-xs md:text-sm text-gray-600 mb-4 md:mb-6">
               <li>10 Zaki Ragab, Ezbet Saad, Sidi Gaber</li>
               <li>
-                <a
+                <Link
                   href="mailto:KEMET@gmail.com"
                   className="hover:text-blue-500"
                 >
                   KEMET@gmail.com
-                </a>
+                </Link>
               </li>
             </ul>
 
@@ -60,34 +60,34 @@ export default function Footer() {
               Follow Us
             </h3>
             <div className="flex gap-3 md:gap-4 text-lg md:text-xl justify-center sm:justify-start">
-              <a
+              <Link
                 href="#"
                 className="text-blue-600 hover:opacity-80"
                 title="Facebook"
               >
                 <FontAwesomeIcon icon={faFacebook} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-blue-400 hover:opacity-80"
                 title="Twitter"
               >
                 <FontAwesomeIcon icon={faTwitter} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-pink-600 hover:opacity-80"
                 title="Instagram"
               >
                 <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-yellow-300 hover:opacity-80"
                 title="Snapchat"
               >
                 <FontAwesomeIcon icon={faSnapchat} />
-              </a>
+              </Link>
             </div>
           </div>
 

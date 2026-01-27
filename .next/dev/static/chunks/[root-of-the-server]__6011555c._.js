@@ -521,11 +521,11 @@ var _s = __turbopack_context__.k.signature();
 function Footer() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(20);
-    if ($[0] !== "83a766f70d4d88ffdaea8ee1ba681fa62dd21f52e1fdf50dbc56771267e26576") {
+    if ($[0] !== "5d0c781ef2f3de46654be7eadf3e3ea5714532bb69adb46bf170b7ff62795edd") {
         for(let $i = 0; $i < 20; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "83a766f70d4d88ffdaea8ee1ba681fa62dd21f52e1fdf50dbc56771267e26576";
+        $[0] = "5d0c781ef2f3de46654be7eadf3e3ea5714532bb69adb46bf170b7ff62795edd";
     }
     const userEmailRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
     let t0;
@@ -609,7 +609,7 @@ function Footer() {
                     columnNumber: 82
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "mailto:KEMET@gmail.com",
                         className: "hover:text-blue-500",
                         children: "KEMET@gmail.com"
@@ -645,7 +645,7 @@ function Footer() {
     }
     let t5;
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             href: "#",
             className: "text-blue-600 hover:opacity-80",
             title: "Facebook",
@@ -654,7 +654,7 @@ function Footer() {
             }, void 0, false, {
                 fileName: "[project]/components/Footer.jsx",
                 lineNumber: 56,
-                columnNumber: 82
+                columnNumber: 85
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer.jsx",
@@ -667,7 +667,7 @@ function Footer() {
     }
     let t6;
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             href: "#",
             className: "text-blue-400 hover:opacity-80",
             title: "Twitter",
@@ -676,7 +676,7 @@ function Footer() {
             }, void 0, false, {
                 fileName: "[project]/components/Footer.jsx",
                 lineNumber: 63,
-                columnNumber: 81
+                columnNumber: 84
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer.jsx",
@@ -689,7 +689,7 @@ function Footer() {
     }
     let t7;
     if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             href: "#",
             className: "text-pink-600 hover:opacity-80",
             title: "Instagram",
@@ -698,7 +698,7 @@ function Footer() {
             }, void 0, false, {
                 fileName: "[project]/components/Footer.jsx",
                 lineNumber: 70,
-                columnNumber: 83
+                columnNumber: 86
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Footer.jsx",
@@ -723,7 +723,7 @@ function Footer() {
                         t5,
                         t6,
                         t7,
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "#",
                             className: "text-yellow-300 hover:opacity-80",
                             title: "Snapchat",
@@ -732,7 +732,7 @@ function Footer() {
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.jsx",
                                 lineNumber: 77,
-                                columnNumber: 238
+                                columnNumber: 241
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.jsx",
@@ -1957,11 +1957,11 @@ var _s = __turbopack_context__.k.signature();
 function Header() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(28);
-    if ($[0] !== "833a4bb943403e8060047f22d52cf88e29173f13ace05e6cde00de424d1fea68") {
+    if ($[0] !== "293a2498ca43795c9e91a080eb49efab8b462c8e20f74f5b7516d90b86b66b13") {
         for(let $i = 0; $i < 28; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "833a4bb943403e8060047f22d52cf88e29173f13ace05e6cde00de424d1fea68";
+        $[0] = "293a2498ca43795c9e91a080eb49efab8b462c8e20f74f5b7516d90b86b66b13";
     }
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1983,7 +1983,7 @@ function Header() {
             },
             {
                 name: "Contact us",
-                path: "/Contactus"
+                path: "/contactus"
             }
         ];
         $[1] = t0;

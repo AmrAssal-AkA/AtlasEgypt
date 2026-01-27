@@ -5,6 +5,7 @@ import { MapPin, User, Compass, Clock } from "lucide-react";
 
 import Button from "../components/ui/Button";
 import { getFeaturedTours } from "@/helper/data-util";
+import TourGrid from "@/components/Discover/Tour-grid";
 
 export default function Home(props) {
   const { tours } = props;
@@ -21,6 +22,7 @@ export default function Home(props) {
           name="description"
           content="Discover the hidden gems of Egypt with AtlasEgypt. Book your unforgettable tour today!"
         />
+        <meta name="robots" content="index, follow" />
       </Head>
       <main className="mt-10">
         {/* Hero Section */}
@@ -179,40 +181,9 @@ export default function Home(props) {
         <section className="py-10">
           <h3 className="text-4xl font-bold text-center">Featured Trips</h3>
           <hr className="w-24 mx-auto my-4 border-amber-500" />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8  max-w-7xl  mx-auto px-4">
-            {tours.map((tour) => (
-              <div
-                key={tour.tourId}
-                className="rounded-xl overflow-hidden shadow-md"
-              >
-                <div className="relative h-64 w-full">
-                  <Image
-                    src={tour.image}
-                    alt={tour.title}
-                    fill
-                    className="object-center"
-                  />
-                </div>
-                <div className="p-4">
-                  <h4 className="text-2xl font-bold mb-2">{tour.title}</h4>
-                  <p className="text-gray-600 flex items-center mt-1">
-                    <Clock size={16} className="mr-1 text-amber-500" />
-                    {tour.duration}
-                  </p>
-                  <div className="flex items-center justify-between mt-2">
-                    <span className="text-amber-600 font-bold text-xl">
-                      {tour.price} EGP
-                    </span>
-                    <Button onClick={() => handleClick(tour.tourId)}>
-                      View Tour
-                    </Button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <TourGrid tours={tours} />
         </section>
-        {/* About Kemet Section */}
+        {/* About us Section */}
         <section className="py-10 text-center">
           <h1 className="text-3xl font-bold">About AtlasEgypt</h1>
           <hr className="w-24 mx-auto my-4 border-amber-500" />
@@ -220,7 +191,7 @@ export default function Home(props) {
             <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
               <div className="text-left md:pr-8">
                 <p className="text-xl text-gray-700">
-                  KEMET is dedicated to providing exceptional travel experiences
+                  AtlasEgypt is dedicated to providing exceptional travel experiences
                   in Egypt. Our team of experienced guides and travel experts
                   are passionate about sharing the rich history and culture of
                   this fascinating land. We offer a range of tours, from classic

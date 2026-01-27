@@ -5,10 +5,10 @@
   "static/chunks/node_modules_next_dist_shared_lib_0189c774._.js",
   "static/chunks/node_modules_next_dist_client_9331d388._.js",
   "static/chunks/node_modules_next_dist_75b597d7._.js",
-  "static/chunks/node_modules_next_cad67f06._.js",
+  "static/chunks/node_modules_next_795373da._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_f13cdc1a._.js",
-  "static/chunks/[root-of-the-server]__6cc41d04._.js"
+  "static/chunks/[root-of-the-server]__d7163a1b._.js"
 ],
     source: "entry"
 });

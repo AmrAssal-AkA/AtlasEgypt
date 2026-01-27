@@ -1,8 +1,9 @@
 {
   "/": "pages/index.js",
+  "/Blog": "pages/Blog.js",
+  "/Blog/AddBlog": "pages/Blog/AddBlog.js",
   "/Discover": "pages/Discover.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/api/newsletter": "pages/api/newsletter.js"
+  "/_error": "pages/_error.js"
 }
