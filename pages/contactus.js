@@ -13,10 +13,10 @@ export default function ContactUsPage() {
       <meta name="robots" content="index, follow" />
     </Head>
     <main className="min-h-screen bg-gray-50 flex items-center justify-center p-4 md:p-8 mt-20">
-      <div className="max-w-6xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
-        <div className="relative h-80 md:h-full md:min-h-[600px]">
+      <div className="max-w-8xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+        <div className="relative h-50 md:h-full md:min-h-[600px]">
           <Image
-            src={"/BrandBanner.png"}
+            src="/AtlasEgypt.jpg"
             alt="Contact Us"
             fill
             className="object-cover"

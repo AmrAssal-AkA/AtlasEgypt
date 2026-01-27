@@ -12,8 +12,8 @@ function AddBlog() {
         />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
-      <main className="mt-20 md:mt-24">
-        <section className="relative w-full h-[40vh] md:h-[60vh]">
+      <main className="mt-20 md:min-h-screen">
+        <section className="relative w-full h-[30vh] md:h-[55vh]">
           <Image
             src="/BlogPageBanner.jpg"
             alt="Blog Page Banner"

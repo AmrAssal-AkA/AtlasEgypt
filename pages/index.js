@@ -201,7 +201,7 @@ export default function Home(props) {
               </div>
               <div className="mt-8 md:mt-0">
                 <Image
-                  src={"/BrandBanner.png"}
+                  src="/AtlasEgypt.jpg"
                   alt="About Kemet"
                   width={800}
                   height={400}

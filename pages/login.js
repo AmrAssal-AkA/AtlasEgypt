@@ -11,10 +11,10 @@ export default function loginPage() {
       <meta name="robots" content="noindex, nofollow" />
     </Head>
     <main className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
-        <div className="relative h-64 md:h-auto">
+      <div className="max-w-7xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+        <div className="relative h-60 md:h-auto">
           <Image
-            src={"/BrandBanner.png"}
+            src="/AtlasEgypt.jpg"
             alt="Login Banner"
             fill
             className="object-cover"

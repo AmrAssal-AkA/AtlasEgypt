@@ -12,6 +12,18 @@
       "static/chunks/pages_index_2da965e7._.js",
       "static/chunks/turbopack-pages_index_e62f898a._.js"
     ],
+    "/404": [
+      "static/chunks/node_modules_next_dist_compiled_8ca6b690._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_8bac8163._.js",
+      "static/chunks/node_modules_next_dist_client_5a8a528e._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_router_104fab1c.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_f13cdc1a._.js",
+      "static/chunks/[root-of-the-server]__57013000._.js",
+      "static/chunks/pages_404_2da965e7._.js",
+      "static/chunks/turbopack-pages_404_a188c3d7._.js"
+    ],
     "/Blog": [
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
       "static/chunks/node_modules_next_dist_shared_lib_0189c774._.js",
@@ -48,6 +60,18 @@
       "static/chunks/pages_Discover_index_2da965e7.js",
       "static/chunks/turbopack-pages_Discover_index_8b234f6d.js"
     ],
+    "/Register": [
+      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_3e55e98b._.js",
+      "static/chunks/node_modules_next_dist_client_8dd97e7a._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_13d6d45d._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_f13cdc1a._.js",
+      "static/chunks/[root-of-the-server]__dfda3549._.js",
+      "static/chunks/pages_Register_2da965e7._.js",
+      "static/chunks/turbopack-pages_Register_5c3d45e2._.js"
+    ],
     "/_app": [
       "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
       "static/chunks/node_modules_next_dist_shared_lib_d5f79ea0._.js",
@@ -75,6 +99,30 @@
       "static/chunks/[root-of-the-server]__092393de._.js",
       "static/chunks/pages__error_2da965e7._.js",
       "static/chunks/turbopack-pages__error_af01c4e3._.js"
+    ],
+    "/contactus": [
+      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_0189c774._.js",
+      "static/chunks/node_modules_next_dist_client_9331d388._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_cad67f06._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_b69552a8._.js",
+      "static/chunks/[root-of-the-server]__832ec2b1._.js",
+      "static/chunks/pages_contactus_2da965e7._.js",
+      "static/chunks/turbopack-pages_contactus_786296c9._.js"
+    ],
+    "/login": [
+      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_3e55e98b._.js",
+      "static/chunks/node_modules_next_dist_client_8dd97e7a._.js",
+      "static/chunks/node_modules_next_dist_75b597d7._.js",
+      "static/chunks/node_modules_next_1cba7cef._.js",
+      "static/chunks/node_modules_react-dom_4411d9bd._.js",
+      "static/chunks/node_modules_b69552a8._.js",
+      "static/chunks/[root-of-the-server]__27affce6._.js",
+      "static/chunks/pages_login_2da965e7._.js",
+      "static/chunks/turbopack-pages_login_a60da7c9._.js"
     ]
   },
   "devFiles": [],

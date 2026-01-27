@@ -1,6 +1,5 @@
 {
   "version": 3,
   "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/AtlasEgypt/pages/login.js"],"sourcesContent":["import LoginForm from \"@/components/login/login-form\";\nimport Image from \"next/image\";\n\nexport default function loginPage() {\n  return (\n    <main className=\"min-h-screen bg-gray-50 flex items-center justify-center p-4\">\n      <div className=\"max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2\">\n        <div className=\"relative h-64 md:h-auto\">\n          <Image\n            src={\"/BrandBanner.png\"}\n            alt=\"Login Banner\"\n            fill\n            className=\"object-cover\"\n          />\n        </div>\n        <div className=\"p-8 md:p-12 flex flex-col justify-center\">\n          <h2 className=\"text-3xl font-bold text-center mb-2\">\n            Login to Your Account\n          </h2>\n          <div className=\"w-16 h-1 bg-amber-500 mx-auto mb-8\"></div>\n          <LoginForm />\n        </div>\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;AACA;;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAK,WAAU;kBACd,cAAA,qKAAC;YAAI,WAAU;;8BACb,qKAAC;oBAAI,WAAU;8BACb,cAAA,qKAAC,iIAAK;wBACJ,KAAK;wBACL,KAAI;wBACJ,IAAI;wBACJ,WAAU;;;;;;;;;;;8BAGd,qKAAC;oBAAI,WAAU;;sCACb,qKAAC;4BAAG,WAAU;sCAAsC;;;;;;sCAGpD,qKAAC;4BAAI,WAAU;;;;;;sCACf,qKAAC;;;;;;;;;;;;;;;;;;;;;;AAKX"}}]
+  "sections": []
 }

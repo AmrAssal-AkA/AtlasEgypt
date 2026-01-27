@@ -833,11 +833,11 @@ var __N_SSG = true;
 function Home(props) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(29);
-    if ($[0] !== "e283cb916b6ced9d35a7e7df0e518b268630c26adef7cf0a909a7622d9ba7039") {
+    if ($[0] !== "c6aae3cdb5560a7e0101989f4fb14d16abd1e36a1c2833658f4a5471ea33047f") {
         for(let $i = 0; $i < 29; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e283cb916b6ced9d35a7e7df0e518b268630c26adef7cf0a909a7622d9ba7039";
+        $[0] = "c6aae3cdb5560a7e0101989f4fb14d16abd1e36a1c2833658f4a5471ea33047f";
     }
     const { tours } = props;
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -1584,7 +1584,7 @@ function Home(props) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mt-8 md:mt-0",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/BrandBanner.png",
+                                    src: "/AtlasEgypt.jpg",
                                     alt: "About Kemet",
                                     width: 800,
                                     height: 400,

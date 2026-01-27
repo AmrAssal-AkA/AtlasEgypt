@@ -718,11 +718,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$contact$2f$con
 ;
 function ContactUsPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "c29bbe2b9fc893991be2eafeb2a81dd7982fc7a4a6c6a1ac22e4d049ea8d818c") {
+    if ($[0] !== "88011002a405e71770c67cee1ff318c556c2887408a4d08b26d25d769ee087fd") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c29bbe2b9fc893991be2eafeb2a81dd7982fc7a4a6c6a1ac22e4d049ea8d818c";
+        $[0] = "88011002a405e71770c67cee1ff318c556c2887408a4d08b26d25d769ee087fd";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -764,9 +764,9 @@ function ContactUsPage() {
     let t1;
     if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative h-80 md:h-full md:min-h-[600px]",
+            className: "relative h-50 md:h-full md:min-h-[600px]",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "/BrandBanner.png",
+                src: "/AtlasEgypt.jpg",
                 alt: "Contact Us",
                 fill: true,
                 className: "object-cover"
@@ -792,7 +792,7 @@ function ContactUsPage() {
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                     className: "min-h-screen bg-gray-50 flex items-center justify-center p-4 md:p-8 mt-20",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-6xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2",
+                        className: "max-w-8xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2",
                         children: [
                             t1,
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

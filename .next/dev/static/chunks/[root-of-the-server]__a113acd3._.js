@@ -479,11 +479,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head
 ;
 function AddBlog() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "507e5f1c907d2e75c9c482aa8a862a1e7d7c83dfca4594d48c9d8eb965dc797d") {
+    if ($[0] !== "082eb70a96b0330532e5fca12e2caadab4e51240f1bff5222bc3c757928aa6ef") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "507e5f1c907d2e75c9c482aa8a862a1e7d7c83dfca4594d48c9d8eb965dc797d";
+        $[0] = "082eb70a96b0330532e5fca12e2caadab4e51240f1bff5222bc3c757928aa6ef";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -555,9 +555,9 @@ function AddBlog() {
             children: [
                 t0,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                    className: "mt-20 md:mt-24",
+                    className: "mt-20 md:min-h-screen",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "relative w-full h-[40vh] md:h-[60vh]",
+                        className: "relative w-full h-[30vh] md:h-[55vh]",
                         children: [
                             t1,
                             t2,
@@ -570,7 +570,7 @@ function AddBlog() {
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Blog/AddBlog.js",
                                         lineNumber: 32,
-                                        columnNumber: 224
+                                        columnNumber: 231
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-lg md:text-xl max-w-4xl mb-5",
@@ -578,19 +578,19 @@ function AddBlog() {
                                     }, void 0, false, {
                                         fileName: "[project]/pages/Blog/AddBlog.js",
                                         lineNumber: 32,
-                                        columnNumber: 300
+                                        columnNumber: 307
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/pages/Blog/AddBlog.js",
                                 lineNumber: 32,
-                                columnNumber: 115
+                                columnNumber: 122
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/pages/Blog/AddBlog.js",
                         lineNumber: 32,
-                        columnNumber: 49
+                        columnNumber: 56
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/Blog/AddBlog.js",
