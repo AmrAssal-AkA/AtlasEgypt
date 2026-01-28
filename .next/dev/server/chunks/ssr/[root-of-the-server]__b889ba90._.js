@@ -7,6 +7,8 @@ __turbopack_context__.s([
     ()=>getAllDestination,
     "getAllTours",
     ()=>getAllTours,
+    "getDestinationById",
+    ()=>getDestinationById,
     "getFeaturedTours",
     ()=>getFeaturedTours
 ]);
@@ -37,6 +39,10 @@ async function getAllTours() {
 async function getFeaturedTours() {
     const allTours = await getAllTours();
     return allTours.filter((tour)=>tour.isFeatured);
+}
+async function getDestinationById(Id) {
+    const allDetination = await getAllDestination();
+    return allDetination.find((destination)=>destination.id === Id);
 }
 }),
 "[project]/components/Discover/Tour-card.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {

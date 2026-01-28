@@ -5,23 +5,14 @@ self.__BUILD_MANIFEST = {
   "/404": [
     "static/chunks/pages/404.js"
   ],
-  "/Blog": [
-    "static/chunks/pages/Blog.js"
-  ],
-  "/Blog/AddBlog": [
-    "static/chunks/pages/Blog/AddBlog.js"
-  ],
   "/Discover": [
     "static/chunks/pages/Discover.js"
   ],
-  "/Register": [
-    "static/chunks/pages/Register.js"
+  "/Discover/[Id]": [
+    "static/chunks/pages/Discover/[Id].js"
   ],
   "/_error": [
     "static/chunks/pages/_error.js"
-  ],
-  "/contactus": [
-    "static/chunks/pages/contactus.js"
   ],
   "/login": [
     "static/chunks/pages/login.js"

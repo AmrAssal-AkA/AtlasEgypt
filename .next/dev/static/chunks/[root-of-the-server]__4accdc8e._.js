@@ -462,102 +462,11 @@ function triggerUpdate(msg) {
     }
 }
 }),
-"[project]/pages/Discover/[Id].js [client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/pages/Discover/[Id].js [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>__TURBOPACK__default__export__
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
-;
-;
-;
-function TripDetailPage() {
-    _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(8);
-    if ($[0] !== "739d92a272fdce7fe031c0dd2efc4b47d95989691718c162c05a1f5117c40c4c") {
-        for(let $i = 0; $i < 8; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "739d92a272fdce7fe031c0dd2efc4b47d95989691718c162c05a1f5117c40c4c";
-    }
-    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
-    const { Id, name } = router.query;
-    let t0;
-    if ($[1] !== Id) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "text-4xl font-bold px-5 mb-5",
-            children: [
-                "Trip Detail Page - ",
-                Id
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Discover/[Id].js",
-            lineNumber: 19,
-            columnNumber: 10
-        }, this);
-        $[1] = Id;
-        $[2] = t0;
-    } else {
-        t0 = $[2];
-    }
-    let t1;
-    if ($[3] !== name) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-xl font-medium",
-            children: [
-                "This is the detail page for trip with ID: ",
-                name
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Discover/[Id].js",
-            lineNumber: 27,
-            columnNumber: 10
-        }, this);
-        $[3] = name;
-        $[4] = t1;
-    } else {
-        t1 = $[4];
-    }
-    let t2;
-    if ($[5] !== t0 || $[6] !== t1) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-            className: "mt-50 max-w-7xl mx-auto mb-20",
-            children: [
-                t0,
-                t1
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Discover/[Id].js",
-            lineNumber: 35,
-            columnNumber: 10
-        }, this);
-        $[5] = t0;
-        $[6] = t1;
-        $[7] = t2;
-    } else {
-        t2 = $[7];
-    }
-    return t2;
-}
-_s(TripDetailPage, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
-    ];
-});
-_c = TripDetailPage;
-const __TURBOPACK__default__export__ = TripDetailPage;
-var _c;
-__turbopack_context__.k.register(_c, "TripDetailPage");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
+const e = new Error("Could not parse module '[project]/pages/Discover/[Id].js'\n\nExpression expected");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/pages/Discover/[Id].js [client] (ecmascript)\" } [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 

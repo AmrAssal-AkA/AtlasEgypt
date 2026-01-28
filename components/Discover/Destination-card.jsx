@@ -3,7 +3,7 @@ import { Bookmark, Star } from "lucide-react";
 
 import Button from "../../components/ui/Button";
 
-function DestinationCard({ destination }) {
+function DestinationCard({ destination , handleClick}) {
   return (
     <div key={destination.id} className=" rounded-lg shadow-xl overflow-hidden">
       {/* Destination Card */}
@@ -27,7 +27,7 @@ function DestinationCard({ destination }) {
           <Star className="mr-1 fill-yellow-500 border-yellow-500" />
           <p> {destination.rating}</p>
         </div>
-        <p className="text-gray-700 mb-4">{destination.description}</p>
+        <p className="text-gray-700 mb-4">{destination.shortDescription}</p>
         <Button onClick={() => handleClick(destination.id)}>Learn More</Button>
       </div>
     </div>

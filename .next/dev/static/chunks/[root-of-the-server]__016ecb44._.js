@@ -539,14 +539,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2
 ;
 ;
 function DestinationCard(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(26);
-    if ($[0] !== "3a08f611203e2f7d409c6c4c60fa53dd23a5a929478d24eee276371092327ca2") {
-        for(let $i = 0; $i < 26; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(27);
+    if ($[0] !== "6d0113b3fab26db5162c09b045b57443a825c208d7b3017f3cc68a4c547a5c74") {
+        for(let $i = 0; $i < 27; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3a08f611203e2f7d409c6c4c60fa53dd23a5a929478d24eee276371092327ca2";
+        $[0] = "6d0113b3fab26db5162c09b045b57443a825c208d7b3017f3cc68a4c547a5c74";
     }
-    const { destination } = t0;
+    const { destination, handleClick } = t0;
     let t1;
     if ($[1] !== destination.image || $[2] !== destination.name) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -558,12 +558,12 @@ function DestinationCard(t0) {
                 className: "object-cover"
             }, void 0, false, {
                 fileName: "[project]/components/Discover/Destination-card.jsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 48
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 10
         }, this);
         $[1] = destination.image;
@@ -579,7 +579,7 @@ function DestinationCard(t0) {
             children: destination.name
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 10
         }, this);
         $[4] = destination.name;
@@ -593,7 +593,7 @@ function DestinationCard(t0) {
             className: "inline-block mb-2 mr-2 text-orange-400"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 10
         }, this);
         $[6] = t3;
@@ -611,13 +611,13 @@ function DestinationCard(t0) {
                     children: destination.category
                 }, void 0, false, {
                     fileName: "[project]/components/Discover/Destination-card.jsx",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 54
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 42,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
         $[7] = destination.category;
@@ -631,7 +631,7 @@ function DestinationCard(t0) {
             className: "mr-1 fill-yellow-500 border-yellow-500"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 10
         }, this);
         $[9] = t5;
@@ -651,13 +651,13 @@ function DestinationCard(t0) {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Discover/Destination-card.jsx",
-                    lineNumber: 57,
+                    lineNumber: 58,
                     columnNumber: 72
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 57,
+            lineNumber: 58,
             columnNumber: 10
         }, this);
         $[10] = destination.rating;
@@ -666,22 +666,22 @@ function DestinationCard(t0) {
         t6 = $[11];
     }
     let t7;
-    if ($[12] !== destination.description) {
+    if ($[12] !== destination.shortDescription) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-700 mb-4",
-            children: destination.description
+            children: destination.shortDescription
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 65,
+            lineNumber: 66,
             columnNumber: 10
         }, this);
-        $[12] = destination.description;
+        $[12] = destination.shortDescription;
         $[13] = t7;
     } else {
         t7 = $[13];
     }
     let t8;
-    if ($[14] !== destination.id) {
+    if ($[14] !== destination.id || $[15] !== handleClick) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             onClick: {
                 "DestinationCard[<Button>.onClick]": ()=>handleClick(destination.id)
@@ -689,16 +689,17 @@ function DestinationCard(t0) {
             children: "Learn More"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[14] = destination.id;
-        $[15] = t8;
+        $[15] = handleClick;
+        $[16] = t8;
     } else {
-        t8 = $[15];
+        t8 = $[16];
     }
     let t9;
-    if ($[16] !== t2 || $[17] !== t4 || $[18] !== t6 || $[19] !== t7 || $[20] !== t8) {
+    if ($[17] !== t2 || $[18] !== t4 || $[19] !== t6 || $[20] !== t7 || $[21] !== t8) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative p-4",
             children: [
@@ -710,20 +711,20 @@ function DestinationCard(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 83,
+            lineNumber: 85,
             columnNumber: 10
         }, this);
-        $[16] = t2;
-        $[17] = t4;
-        $[18] = t6;
-        $[19] = t7;
-        $[20] = t8;
-        $[21] = t9;
+        $[17] = t2;
+        $[18] = t4;
+        $[19] = t6;
+        $[20] = t7;
+        $[21] = t8;
+        $[22] = t9;
     } else {
-        t9 = $[21];
+        t9 = $[22];
     }
     let t10;
-    if ($[22] !== destination.id || $[23] !== t1 || $[24] !== t9) {
+    if ($[23] !== destination.id || $[24] !== t1 || $[25] !== t9) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " rounded-lg shadow-xl overflow-hidden",
             children: [
@@ -732,15 +733,15 @@ function DestinationCard(t0) {
             ]
         }, destination.id, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 95,
+            lineNumber: 97,
             columnNumber: 11
         }, this);
-        $[22] = destination.id;
-        $[23] = t1;
-        $[24] = t9;
-        $[25] = t10;
+        $[23] = destination.id;
+        $[24] = t1;
+        $[25] = t9;
+        $[26] = t10;
     } else {
-        t10 = $[25];
+        t10 = $[26];
     }
     return t10;
 }
@@ -766,49 +767,58 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$De
 ;
 ;
 function DestinationGrid(props) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "2b4add35afd983f2e4c01edabb11eb9f318cfa9acb97334fce0679b107312b15") {
-        for(let $i = 0; $i < 5; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(8);
+    if ($[0] !== "7bff18e96cdc33bef52a839dbdba9353967c3fb0b5bf26fe64644e4f7034ccac") {
+        for(let $i = 0; $i < 8; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "2b4add35afd983f2e4c01edabb11eb9f318cfa9acb97334fce0679b107312b15";
+        $[0] = "7bff18e96cdc33bef52a839dbdba9353967c3fb0b5bf26fe64644e4f7034ccac";
     }
-    const { destinations } = props;
+    const { destinations, handleClick } = props;
     let t0;
-    if ($[1] !== destinations) {
-        t0 = destinations.map(_DestinationGridDestinationsMap);
+    if ($[1] !== destinations || $[2] !== handleClick) {
+        let t1;
+        if ($[4] !== handleClick) {
+            t1 = ({
+                "DestinationGrid[destinations.map()]": (destination)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$card$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                        destination: destination,
+                        handleClick: handleClick
+                    }, destination.id, false, {
+                        fileName: "[project]/components/Discover/Destination-grid.jsx",
+                        lineNumber: 20,
+                        columnNumber: 63
+                    }, this)
+            })["DestinationGrid[destinations.map()]"];
+            $[4] = handleClick;
+            $[5] = t1;
+        } else {
+            t1 = $[5];
+        }
+        t0 = destinations.map(t1);
         $[1] = destinations;
-        $[2] = t0;
+        $[2] = handleClick;
+        $[3] = t0;
     } else {
-        t0 = $[2];
+        t0 = $[3];
     }
     let t1;
-    if ($[3] !== t0) {
+    if ($[6] !== t0) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid grid-cols-1 md:grid-cols-3 gap-10 mt-10  px-5",
             children: t0
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-grid.jsx",
-            lineNumber: 24,
+            lineNumber: 36,
             columnNumber: 10
         }, this);
-        $[3] = t0;
-        $[4] = t1;
+        $[6] = t0;
+        $[7] = t1;
     } else {
-        t1 = $[4];
+        t1 = $[7];
     }
     return t1;
 }
 _c = DestinationGrid;
-function _DestinationGridDestinationsMap(destination) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$card$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-        destination: destination
-    }, destination.id, false, {
-        fileName: "[project]/components/Discover/Destination-grid.jsx",
-        lineNumber: 33,
-        columnNumber: 10
-    }, this);
-}
 const __TURBOPACK__default__export__ = DestinationGrid;
 var _c;
 __turbopack_context__.k.register(_c, "DestinationGrid");
@@ -1127,25 +1137,38 @@ var _s = __turbopack_context__.k.signature();
 var __N_SSG = true;
 function DestinationPage(props) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(12);
-    if ($[0] !== "e01058e022537d0ae2c8ec142a5dab8c90a316f1be55ccabe7305dcf336a612e") {
-        for(let $i = 0; $i < 12; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(15);
+    if ($[0] !== "a95c7909c2020d5dd86421c0023d36148082b70df9e6684e9704535fb5a09ede") {
+        for(let $i = 0; $i < 15; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e01058e022537d0ae2c8ec142a5dab8c90a316f1be55ccabe7305dcf336a612e";
+        $[0] = "a95c7909c2020d5dd86421c0023d36148082b70df9e6684e9704535fb5a09ede";
     }
     const { destinations } = props;
     const { tours } = props;
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     let t0;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+    if ($[1] !== router) {
+        t0 = ({
+            "DestinationPage[handleClick]": (id)=>{
+                router.push(`/Discover/${id}`);
+            }
+        })["DestinationPage[handleClick]"];
+        $[1] = router;
+        $[2] = t0;
+    } else {
+        t0 = $[2];
+    }
+    const handleClick = t0;
+    let t1;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
                     children: "AtlasEgypt - Discover Egypt"
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 27,
+                    lineNumber: 40,
                     columnNumber: 16
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1153,7 +1176,7 @@ function DestinationPage(props) {
                     content: "Explore the wonders of Egypt with AtlasEgypt. Discover top destinations and ready tours."
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 27,
+                    lineNumber: 40,
                     columnNumber: 58
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1161,22 +1184,22 @@ function DestinationPage(props) {
                     content: "index, follow"
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 27,
+                    lineNumber: 40,
                     columnNumber: 184
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 27,
+            lineNumber: 40,
             columnNumber: 10
         }, this);
-        $[1] = t0;
+        $[3] = t1;
     } else {
-        t0 = $[1];
+        t1 = $[3];
     }
-    let t1;
-    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t2;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto mb-20",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1184,7 +1207,7 @@ function DestinationPage(props) {
                     children: "Explore Egypt wonder's"
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 34,
+                    lineNumber: 47,
                     columnNumber: 51
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1192,123 +1215,125 @@ function DestinationPage(props) {
                     children: "Discover the magic of Egypt, from the ancient pyramids to the vibrant coral reefs. Our curated destinations offer a glimpse into the rich history and breathtaking landscapes of this extraordinary country."
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 34,
+                    lineNumber: 47,
                     columnNumber: 123
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 34,
+            lineNumber: 47,
             columnNumber: 10
         }, this);
-        $[2] = t1;
+        $[4] = t2;
     } else {
-        t1 = $[2];
+        t2 = $[4];
     }
-    let t2;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+    let t3;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-4xl font-semibold text-center",
             children: "Feature Distinations"
         }, void 0, false, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 41,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
-        $[3] = t2;
-    } else {
-        t2 = $[3];
-    }
-    let t3;
-    if ($[4] !== destinations) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto mb-20",
-            children: [
-                t2,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$grid$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-                    destinations: destinations
-                }, void 0, false, {
-                    fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 48,
-                    columnNumber: 55
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 48,
-            columnNumber: 10
-        }, this);
-        $[4] = destinations;
         $[5] = t3;
     } else {
         t3 = $[5];
     }
     let t4;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+    if ($[6] !== destinations || $[7] !== handleClick) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl mx-auto mb-20",
+            children: [
+                t3,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$grid$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                    destinations: destinations,
+                    handleClick: handleClick
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 61,
+                    columnNumber: 55
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/Discover/index.js",
+            lineNumber: 61,
+            columnNumber: 10
+        }, this);
+        $[6] = destinations;
+        $[7] = handleClick;
+        $[8] = t4;
+    } else {
+        t4 = $[8];
+    }
+    let t5;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
             className: "text-4xl font-semibold text-center",
             children: "Related Ready Tours"
         }, void 0, false, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 56,
+            lineNumber: 70,
             columnNumber: 10
         }, this);
-        $[6] = t4;
+        $[9] = t5;
     } else {
-        t4 = $[6];
+        t5 = $[9];
     }
-    let t5;
-    if ($[7] !== tours) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t6;
+    if ($[10] !== tours) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " justify-center mb-20",
             children: [
-                t4,
+                t5,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Tour$2d$grid$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                     tours: tours
                 }, void 0, false, {
                     fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 63,
+                    lineNumber: 77,
                     columnNumber: 53
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/Discover/index.js",
-            lineNumber: 63,
+            lineNumber: 77,
             columnNumber: 10
         }, this);
-        $[7] = tours;
-        $[8] = t5;
-    } else {
-        t5 = $[8];
-    }
-    let t6;
-    if ($[9] !== t3 || $[10] !== t5) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
-            children: [
-                t0,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-                    className: " mt-30 md:mt-50 px-5 md:px-0",
-                    children: [
-                        t1,
-                        t3,
-                        t5
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/pages/Discover/index.js",
-                    lineNumber: 71,
-                    columnNumber: 16
-                }, this)
-            ]
-        }, void 0, true);
-        $[9] = t3;
-        $[10] = t5;
+        $[10] = tours;
         $[11] = t6;
     } else {
         t6 = $[11];
     }
-    return t6;
+    let t7;
+    if ($[12] !== t4 || $[13] !== t6) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                    className: " mt-30 md:mt-50 px-5 md:px-0",
+                    children: [
+                        t2,
+                        t4,
+                        t6
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 85,
+                    columnNumber: 16
+                }, this)
+            ]
+        }, void 0, true);
+        $[12] = t4;
+        $[13] = t6;
+        $[14] = t7;
+    } else {
+        t7 = $[14];
+    }
+    return t7;
 }
-_s(DestinationPage, "CeygcqajjFExIxFEzW4x/gfWEGQ=", false, function() {
+_s(DestinationPage, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
     ];

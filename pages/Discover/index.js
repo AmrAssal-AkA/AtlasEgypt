@@ -45,7 +45,7 @@ export default function DestinationPage(props) {
             Feature Distinations
           </h2>
           {/* Destination Cards */}
-            <DestinationGrid destinations={destinations} />
+            <DestinationGrid destinations={destinations} handleClick={handleClick}/>
             </div>
 
         {/* Tours Section */}

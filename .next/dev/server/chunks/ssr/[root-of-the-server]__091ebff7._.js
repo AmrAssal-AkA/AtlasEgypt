@@ -7,6 +7,8 @@ __turbopack_context__.s([
     ()=>getAllDestination,
     "getAllTours",
     ()=>getAllTours,
+    "getDestinationById",
+    ()=>getDestinationById,
     "getFeaturedTours",
     ()=>getFeaturedTours
 ]);
@@ -38,6 +40,10 @@ async function getFeaturedTours() {
     const allTours = await getAllTours();
     return allTours.filter((tour)=>tour.isFeatured);
 }
+async function getDestinationById(Id) {
+    const allDetination = await getAllDestination();
+    return allDetination.find((destination)=>destination.id === Id);
+}
 }),
 "[project]/components/Discover/Destination-card.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -55,7 +61,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2
 ;
 ;
 ;
-function DestinationCard({ destination }) {
+function DestinationCard({ destination, handleClick }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: " rounded-lg shadow-xl overflow-hidden",
         children: [
@@ -139,7 +145,7 @@ function DestinationCard({ destination }) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                         className: "text-gray-700 mb-4",
-                        children: destination.description
+                        children: destination.shortDescription
                     }, void 0, false, {
                         fileName: "[project]/components/Discover/Destination-card.jsx",
                         lineNumber: 30,
@@ -180,11 +186,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$De
 ;
 ;
 function DestinationGrid(props) {
-    const { destinations } = props;
+    const { destinations, handleClick } = props;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
         className: "grid grid-cols-1 md:grid-cols-3 gap-10 mt-10  px-5",
         children: destinations.map((destination)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$card$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                destination: destination
+                destination: destination,
+                handleClick: handleClick
             }, destination.id, false, {
                 fileName: "[project]/components/Discover/Destination-grid.jsx",
                 lineNumber: 8,
@@ -451,7 +458,8 @@ function DestinationPage(props) {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$grid$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                destinations: destinations
+                                destinations: destinations,
+                                handleClick: handleClick
                             }, void 0, false, {
                                 fileName: "[project]/pages/Discover/index.js",
                                 lineNumber: 48,
