@@ -5,8 +5,8 @@ __turbopack_load_page_chunks__("/Register", [
   "static/chunks/node_modules_next_dist_75b597d7._.js",
   "static/chunks/node_modules_next_13d6d45d._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
-  "static/chunks/node_modules_f13cdc1a._.js",
+  "static/chunks/node_modules_b69552a8._.js",
   "static/chunks/[root-of-the-server]__dfda3549._.js",
   "static/chunks/pages_Register_2da965e7._.js",
-  "static/chunks/turbopack-pages_Register_5c3d45e2._.js"
+  "static/chunks/turbopack-pages_Register_768f5c6d._.js"
 ])

@@ -473,7 +473,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-auth/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-toastify/dist/index.mjs [client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -484,39 +484,39 @@ var _s = __turbopack_context__.k.signature();
 ;
 function LoginForm() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "a8473631501a7ee2009cf66bdefe3a1484aae8f90fff32d9e6c633314c798581") {
-        for(let $i = 0; $i < 14; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(13);
+    if ($[0] !== "a0d272c1014e1213d553daaaec1acd4e325c006ab8add405acf84018c0a9ee25") {
+        for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a8473631501a7ee2009cf66bdefe3a1484aae8f90fff32d9e6c633314c798581";
+        $[0] = "a0d272c1014e1213d553daaaec1acd4e325c006ab8add405acf84018c0a9ee25";
     }
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [password, setPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])("");
-    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     let t0;
-    if ($[1] !== email || $[2] !== password || $[3] !== router) {
-        t0 = ({
-            "LoginForm[handlelogin]": (e)=>{
-                e.preventDefault();
-                if (email === "amr@gmail.com" && password === "amr1234") {
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].success("Login Successful!");
-                    router.push("/");
-                } else {
-                    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].error("Invalid email or password.");
-                }
+    if ($[1] !== email || $[2] !== password) {
+        t0 = async function handlelogin(e) {
+            e.preventDefault();
+            const response = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$auth$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["signIn"])("credentials", {
+                redirect: false,
+                email,
+                password
+            });
+            if (!response.ok) {
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].error("Invalid email or password");
+            } else {
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].success("Logged in successfully");
             }
-        })["LoginForm[handlelogin]"];
+        };
         $[1] = email;
         $[2] = password;
-        $[3] = router;
-        $[4] = t0;
+        $[3] = t0;
     } else {
-        t0 = $[4];
+        t0 = $[3];
     }
     const handlelogin = t0;
     let t1;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
             htmlFor: "email",
             className: "block text-sm font-medium text-gray-700 mb-2",
@@ -526,13 +526,13 @@ function LoginForm() {
             lineNumber: 40,
             columnNumber: 10
         }, this);
-        $[5] = t1;
+        $[4] = t1;
     } else {
-        t1 = $[5];
+        t1 = $[4];
     }
     let t2;
     let t3;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 t1,
@@ -566,14 +566,14 @@ function LoginForm() {
             lineNumber: 51,
             columnNumber: 10
         }, this);
-        $[6] = t2;
-        $[7] = t3;
+        $[5] = t2;
+        $[6] = t3;
     } else {
-        t2 = $[6];
-        t3 = $[7];
+        t2 = $[5];
+        t3 = $[6];
     }
     let t4;
-    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 t3,
@@ -598,13 +598,13 @@ function LoginForm() {
             lineNumber: 60,
             columnNumber: 10
         }, this);
-        $[8] = t4;
+        $[7] = t4;
     } else {
-        t4 = $[8];
+        t4 = $[7];
     }
     let t5;
     let t6;
-    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "text-right",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -630,14 +630,14 @@ function LoginForm() {
             lineNumber: 71,
             columnNumber: 10
         }, this);
-        $[9] = t5;
-        $[10] = t6;
+        $[8] = t5;
+        $[9] = t6;
     } else {
-        t5 = $[9];
-        t6 = $[10];
+        t5 = $[8];
+        t6 = $[9];
     }
     let t7;
-    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "text-center mt-6",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -654,12 +654,12 @@ function LoginForm() {
             lineNumber: 80,
             columnNumber: 10
         }, this);
-        $[11] = t7;
+        $[10] = t7;
     } else {
-        t7 = $[11];
+        t7 = $[10];
     }
     let t8;
-    if ($[12] !== handlelogin) {
+    if ($[11] !== handlelogin) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
             onSubmit: handlelogin,
             className: "space-y-6",
@@ -675,18 +675,14 @@ function LoginForm() {
             lineNumber: 87,
             columnNumber: 10
         }, this);
-        $[12] = handlelogin;
-        $[13] = t8;
+        $[11] = handlelogin;
+        $[12] = t8;
     } else {
-        t8 = $[13];
+        t8 = $[12];
     }
     return t8;
 }
-_s(LoginForm, "Rc5QvcEU7xRaqjB2jUCdBs6Apgc=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
-    ];
-});
+_s(LoginForm, "3B3pqDcVnkT+z/sPK6Z9zQsLP+s=");
 _c = LoginForm;
 const __TURBOPACK__default__export__ = LoginForm;
 var _c;

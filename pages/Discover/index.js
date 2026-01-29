@@ -7,7 +7,6 @@ import Button from "../../components/ui/Button";
 
 import { getAllDestination, getAllTours } from "@/helper/data-util";
 import DestinationGrid from "@/components/Discover/Destination-grid";
-import TourGrid from "@/components/Discover/Tour-grid";
 
 export default function DestinationPage(props) {
   const { destinations } = props;
@@ -47,14 +46,6 @@ export default function DestinationPage(props) {
           {/* Destination Cards */}
             <DestinationGrid destinations={destinations} handleClick={handleClick}/>
             </div>
-
-        {/* Tours Section */}
-        <div className=" justify-center mb-20">
-          <h2 className="text-4xl font-semibold text-center">
-            Related Ready Tours
-          </h2>
-          <TourGrid tours={tours} />
-        </div>
       </main>
     </>
   );
@@ -62,11 +53,9 @@ export default function DestinationPage(props) {
 
 export async function getStaticProps() {
   const Destinations = await getAllDestination();
-  const Tours = await getAllTours();
   return {
     props: {
       destinations: Destinations,
-      tours: Tours,
     },
     revalidate: 60
   };

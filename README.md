@@ -37,10 +37,12 @@ A modern, responsive travel and discovery platform built with Next.js 16, design
 
 ### 🔐 User Authentication
 
-- **Secure Login System**: User authentication with login validation
-- **User Registration**: New user signup with form validation
+- **Secure Login System**: User authentication with NextAuth.js and credential validation
+- **User Registration**: New user signup with password hashing and form validation
 - **Login/Register Pages**: Dedicated pages for authentication flows
-- **Session Management**: User account management and preferences
+- **Authentication Modal**: Quick access authentication modal for seamless user experience
+- **Session Management**: JWT-based session management and user account handling
+- **Password Security**: bcryptjs hashing for secure password storage and verification
 
 ### 📧 Newsletter Subscription
 
@@ -57,7 +59,12 @@ A modern, responsive travel and discovery platform built with Next.js 16, design
 - **Dynamic Tour Selection**: Integration with destination and tour data for booking
 - **Booking Management**: Complete booking interface for customers
 
-### 📞 Contact Management
+### � User Profile
+
+- **Profile Page**: User account management and preferences
+- **Account Settings**: User profile customization and management
+
+### �📞 Contact Management
 
 - **Contact Form Page**: Professional contact form with multiple input fields
 - **Form Validation**: Comprehensive client and server-side validation
@@ -80,7 +87,7 @@ A modern, responsive travel and discovery platform built with Next.js 16, design
 atlas-egypt/
 ├── components/                 # Reusable React components
 │   ├── Footer.jsx              # Site-wide footer component
-│   ├── Model.jsx               # Modal/dialog components
+│   ├── Model.jsx               # Authentication modal component
 │   ├── Authentication/         # Auth-related components
 │   │   ├── login-form.jsx      # Login form component
 │   │   └── Register-form.jsx   # Registration form component
@@ -91,14 +98,13 @@ atlas-egypt/
 │   │   └── contact-form.jsx    # Contact form component
 │   ├── Discover/               # Destination discovery components
 │   │   ├── Destination-card.jsx # Single destination card
-│   │   ├── Destination-grid.jsx # Destinations grid layout
-│   │   ├── Tour-card.jsx       # Single tour package card
-│   │   └── Tour-grid.jsx       # Tours grid layout
+│   │   └── Destination-grid.jsx # Destinations grid layout
 │   ├── main-navigation/        # Navigation components
 │   │   ├── Header.jsx          # Main navigation header
 │   │   └── upper-header.jsx    # Top header with newsletter & contact
 │   └── ui/                     # Reusable UI component library
 │       ├── Button.jsx          # Custom button component
+│       ├── Dropdown.jsx        # Dropdown component
 │       └── icons/              # SVG icon components
 │           ├── menuIcon.jsx
 │           ├── Usericon.jsx
@@ -112,9 +118,14 @@ atlas-egypt/
 │   ├── Register.js             # User registration page
 │   ├── contactus.js            # Contact page
 │   ├── 404.js                  # Custom 404 error page
+│   ├── profilePage/            # User profile section
+│   │   └── index.js            # User profile page
 │   ├── api/                    # Next.js API routes (backend)
 │   │   ├── contactus.js        # Contact form API handler
-│   │   └── newsletter.js       # Newsletter subscription API
+│   │   ├── newsletter.js       # Newsletter subscription API
+│   │   └── auth/               # Authentication API routes
+│   │       ├── [...nextauth].js # NextAuth.js configuration
+│   │       └── signup.js       # User registration API handler
 │   ├── Blog/                   # Blog section
 │   │   ├── index.js            # Blog listing page
 │   │   └── AddBlog.js          # Blog creation/admin page
@@ -127,6 +138,7 @@ atlas-egypt/
 ├── helper/                     # Utility functions and helpers
 │   ├── db-util.js              # Database operations and queries
 │   ├── data-util.js            # Data processing and transformation utilities
+│   ├── hash-Password.js        # Password hashing and verification utilities
 │   └── newsletter.js           # Newsletter subscription handler logic
 │
 ├── data/                       # Static data files
@@ -170,7 +182,9 @@ atlas-egypt/
 ### Backend & Database
 
 - **[Firebase Realtime Database](https://firebase.google.com/products/realtime-database)** - Real-time NoSQL database for dynamic destinations, tours, and live content
-- **[MongoDB 7.0.0](https://www.mongodb.com)** - NoSQL database for data persistence (newsletter, contacts, blog posts)
+- **[MongoDB 7.0.0](https://www.mongodb.com)** - NoSQL database for data persistence (newsletter, contacts, blog posts, users)
+- **[NextAuth.js](https://next-auth.js.org)** - Complete open source authentication solution for Next.js
+- **[bcryptjs](https://www.npmjs.com/package/bcryptjs)** - Password hashing library for secure authentication
 - **Next.js API Routes** - Serverless API endpoints for backend functionality
 
 ### Notifications & Toast
@@ -226,6 +240,10 @@ atlas-egypt/
 
    # MongoDB Connection
    MONGODB_URI=your_mongodb_connection_string
+
+   # NextAuth Configuration
+   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_SECRET=your_nextauth_secret_key
    ```
 
 4. **Firebase Setup**
@@ -240,6 +258,7 @@ atlas-egypt/
    - Create database collections for:
      - `newsletter` - Newsletter subscriptions
      - `contacts` - Contact form submissions
+     - `users` - User accounts for authentication
 
 6. **Run Development Server**
 
@@ -280,6 +299,7 @@ The application uses both Firebase Realtime Database and MongoDB for comprehensi
 - **Newsletter Subscriptions**: Email addresses for newsletter campaigns
 - **Contact Submissions**: User contact form submissions with messages
 - **Blog Posts**: Article content with author, date, and formatted body
+- **Users**: User accounts with hashed passwords for authentication
 
 ### Data Access
 

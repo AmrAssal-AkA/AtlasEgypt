@@ -539,12 +539,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2
 ;
 ;
 function DestinationCard(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(27);
-    if ($[0] !== "6d0113b3fab26db5162c09b045b57443a825c208d7b3017f3cc68a4c547a5c74") {
-        for(let $i = 0; $i < 27; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(32);
+    if ($[0] !== "978a428ab3c24ad48adfb2c40c733cac78ea67f8387cd34b1daf02175884b0d4") {
+        for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6d0113b3fab26db5162c09b045b57443a825c208d7b3017f3cc68a4c547a5c74";
+        $[0] = "978a428ab3c24ad48adfb2c40c733cac78ea67f8387cd34b1daf02175884b0d4";
     }
     const { destination, handleClick } = t0;
     let t1;
@@ -699,51 +699,88 @@ function DestinationCard(t0) {
         t8 = $[16];
     }
     let t9;
-    if ($[17] !== t2 || $[18] !== t4 || $[19] !== t6 || $[20] !== t7 || $[21] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative p-4",
+    if ($[17] !== destination.price) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-amber-600 font-bold text-xl",
             children: [
-                t2,
-                t4,
-                t6,
-                t7,
-                t8
+                destination.price,
+                " EGP"
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
             lineNumber: 85,
             columnNumber: 10
         }, this);
-        $[17] = t2;
-        $[18] = t4;
-        $[19] = t6;
-        $[20] = t7;
-        $[21] = t8;
-        $[22] = t9;
+        $[17] = destination.price;
+        $[18] = t9;
     } else {
-        t9 = $[22];
+        t9 = $[18];
     }
     let t10;
-    if ($[23] !== destination.id || $[24] !== t1 || $[25] !== t9) {
+    if ($[19] !== t8 || $[20] !== t9) {
         t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between mt-2",
+            children: [
+                t8,
+                t9
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Discover/Destination-card.jsx",
+            lineNumber: 93,
+            columnNumber: 11
+        }, this);
+        $[19] = t8;
+        $[20] = t9;
+        $[21] = t10;
+    } else {
+        t10 = $[21];
+    }
+    let t11;
+    if ($[22] !== t10 || $[23] !== t2 || $[24] !== t4 || $[25] !== t6 || $[26] !== t7) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative p-4",
+            children: [
+                t2,
+                t4,
+                t6,
+                t7,
+                t10
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Discover/Destination-card.jsx",
+            lineNumber: 102,
+            columnNumber: 11
+        }, this);
+        $[22] = t10;
+        $[23] = t2;
+        $[24] = t4;
+        $[25] = t6;
+        $[26] = t7;
+        $[27] = t11;
+    } else {
+        t11 = $[27];
+    }
+    let t12;
+    if ($[28] !== destination.id || $[29] !== t1 || $[30] !== t11) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " rounded-lg shadow-xl overflow-hidden",
             children: [
                 t1,
-                t9
+                t11
             ]
         }, destination.id, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 97,
+            lineNumber: 114,
             columnNumber: 11
         }, this);
-        $[23] = destination.id;
-        $[24] = t1;
-        $[25] = t9;
-        $[26] = t10;
+        $[28] = destination.id;
+        $[29] = t1;
+        $[30] = t11;
+        $[31] = t12;
     } else {
-        t10 = $[26];
+        t12 = $[31];
     }
-    return t10;
+    return t12;
 }
 _c = DestinationCard;
 const __TURBOPACK__default__export__ = DestinationCard;
@@ -844,12 +881,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2
 ;
 ;
 function TourCard(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(25);
-    if ($[0] !== "49ad72ed1e211e877e1f238e0b918a22081f8a303856a1a525f73974737221e0") {
-        for(let $i = 0; $i < 25; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(20);
+    if ($[0] !== "52f33018c936c7ffd6809277ae9e53dea11640fdd1792dd170a28aa222e85848") {
+        for(let $i = 0; $i < 20; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "49ad72ed1e211e877e1f238e0b918a22081f8a303856a1a525f73974737221e0";
+        $[0] = "52f33018c936c7ffd6809277ae9e53dea11640fdd1792dd170a28aa222e85848";
     }
     const { tour } = t0;
     let t1;
@@ -940,98 +977,68 @@ function TourCard(t0) {
         t5 = $[10];
     }
     let t6;
-    if ($[11] !== tour.price) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-amber-600 font-bold text-xl",
-            children: [
-                tour.price,
-                " EGP"
-            ]
-        }, void 0, true, {
+    if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between mt-2",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                children: "View Tour"
+            }, void 0, false, {
+                fileName: "[project]/components/Discover/Tour-card.jsx",
+                lineNumber: 58,
+                columnNumber: 66
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/components/Discover/Tour-card.jsx",
             lineNumber: 58,
             columnNumber: 10
         }, this);
-        $[11] = tour.price;
-        $[12] = t6;
+        $[11] = t6;
     } else {
-        t6 = $[12];
+        t6 = $[11];
     }
     let t7;
-    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-            children: "View Tour"
-        }, void 0, false, {
-            fileName: "[project]/components/Discover/Tour-card.jsx",
-            lineNumber: 66,
-            columnNumber: 10
-        }, this);
-        $[13] = t7;
-    } else {
-        t7 = $[13];
-    }
-    let t8;
-    if ($[14] !== t6) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center justify-between mt-2",
-            children: [
-                t6,
-                t7
-            ]
-        }, void 0, true, {
-            fileName: "[project]/components/Discover/Tour-card.jsx",
-            lineNumber: 73,
-            columnNumber: 10
-        }, this);
-        $[14] = t6;
-        $[15] = t8;
-    } else {
-        t8 = $[15];
-    }
-    let t9;
-    if ($[16] !== t2 || $[17] !== t4 || $[18] !== t5 || $[19] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[12] !== t2 || $[13] !== t4 || $[14] !== t5) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "p-4",
             children: [
                 t2,
                 t4,
                 t5,
-                t8
+                t6
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Tour-card.jsx",
-            lineNumber: 81,
+            lineNumber: 65,
             columnNumber: 10
         }, this);
-        $[16] = t2;
-        $[17] = t4;
-        $[18] = t5;
-        $[19] = t8;
-        $[20] = t9;
+        $[12] = t2;
+        $[13] = t4;
+        $[14] = t5;
+        $[15] = t7;
     } else {
-        t9 = $[20];
+        t7 = $[15];
     }
-    let t10;
-    if ($[21] !== t1 || $[22] !== t9 || $[23] !== tour.tourId) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t8;
+    if ($[16] !== t1 || $[17] !== t7 || $[18] !== tour.tourId) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rounded-xl overflow-hidden shadow-md",
             children: [
                 t1,
-                t9
+                t7
             ]
         }, tour.tourId, true, {
             fileName: "[project]/components/Discover/Tour-card.jsx",
-            lineNumber: 92,
-            columnNumber: 11
+            lineNumber: 75,
+            columnNumber: 10
         }, this);
-        $[21] = t1;
-        $[22] = t9;
-        $[23] = tour.tourId;
-        $[24] = t10;
+        $[16] = t1;
+        $[17] = t7;
+        $[18] = tour.tourId;
+        $[19] = t8;
     } else {
-        t10 = $[24];
+        t8 = $[19];
     }
-    return t10;
+    return t8;
 }
 _c = TourCard;
 const __TURBOPACK__default__export__ = TourCard;

@@ -1,22 +1,25 @@
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { signIn } from "next-auth/react";
 import { toast } from "react-toastify";
 
 function LoginForm() {
       const [email, setEmail] = useState("");
       const [password, setPassword] = useState("");
-      const router = useRouter();
     
-      const handlelogin = (e) => {
+    async function handlelogin(e){
         e.preventDefault();
-        if (email === "amr@gmail.com" && password === "amr1234") {
-          toast.success("Login Successful!");
-          router.push("/");
-        } else {
-          toast.error("Invalid email or password.");
-        }
-      };
+        const response = await signIn('credentials', {
+          redirect: false,
+          email : email,
+          password: password,
+        })
+        if(!response.ok){
+          toast.error("Invalid email or password");
+      }else{
+        toast.success("Logged in successfully");
+      }
+    }
   return (
            <form onSubmit={handlelogin} className="space-y-6">
             <div>

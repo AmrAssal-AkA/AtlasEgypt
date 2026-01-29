@@ -1,8 +1,57 @@
 import Link from "next/link";
+import { useRef } from "react";
+import { toast } from "react-toastify";
+
+
 
 function RegisterForm() {
+  const nameInputRef = useRef();
+  const emailInputRef = useRef();
+  const passwordInputRef = useRef();
+  const confirmPasswordInputRef = useRef();
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    const enteredName = nameInputRef.current.value;
+    const enteredEmail = emailInputRef.current.value;
+    const enteredPassword = passwordInputRef.current.value;
+    const enteredConfirmPassword = confirmPasswordInputRef.current.value;
+
+    if (
+      !enteredName ||
+      !enteredEmail ||
+      !enteredEmail.includes("@") ||
+      !enteredPassword ||
+      enteredPassword.trim().length < 7 ||
+      enteredPassword !== enteredConfirmPassword
+    ) {
+      toast.error("Please enter valid data");
+      return;
+    }
+    const data = {
+      name: enteredName,
+      email: enteredEmail,
+      password: enteredPassword,
+    }
+      fetch("/api/auth/signup", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    }).then((res) => {
+      if(res.ok){
+        toast.success("User registered successfully");
+      } else {
+        return res.json().then((data) => {
+          toast.error(data.message || "Something went wrong!");
+        });
+      }
+    })
+    }
+
   return (
-    <form className="space-y-6">
+    <form className="space-y-6" onSubmit={handleSubmit}>
       <div>
         <label
           htmlFor="FullName"
@@ -16,6 +65,7 @@ function RegisterForm() {
           placeholder="Enter your Name here"
           required
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+          ref={nameInputRef}
         />
       </div>
 
@@ -32,6 +82,7 @@ function RegisterForm() {
           placeholder="Enter your email address"
           required
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+          ref={emailInputRef}
         />
       </div>
 
@@ -48,6 +99,7 @@ function RegisterForm() {
           placeholder="Enter your password"
           required
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+          ref={passwordInputRef}
         />
       </div>
 
@@ -64,6 +116,7 @@ function RegisterForm() {
           placeholder="Re-enter your password"
           required
           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+          ref={confirmPasswordInputRef}
         />
       </div>
       <p>

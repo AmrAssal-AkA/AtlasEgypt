@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React, { Fragment } from "react";
-import { Star, Bookmark , CircleDollarSign } from "lucide-react";
+import { Star, Bookmark  } from "lucide-react";
 
 import { getDestinationById, getAllDestination } from "@/helper/data-util";
 import Button from "@/components/ui/Button";
@@ -41,9 +41,7 @@ function TripDetailPage(props) {
                   <p> {destinationDetails.rating}</p>
                 </div>
                 <div className="absolute top-2 right-2 flex items-center my-10">
-
-                <CircleDollarSign className="mr-1 w-6 h-6 fill-amber-500 border-amber-500" />
-                  <p className="mr-5 text-2xl font-bold"> {destinationDetails.price}</p>
+                  <p className="mr-5 text-2xl font-bold "> {destinationDetails.price} <span className="text-amber-500">EGP</span></p>
                 <Button className="mt-4">Book Now</Button>
                 </div>
             </div>

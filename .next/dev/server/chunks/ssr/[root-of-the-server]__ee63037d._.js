@@ -5,12 +5,10 @@ module.exports = [
 __turbopack_context__.s([
     "getAllDestination",
     ()=>getAllDestination,
-    "getAllTours",
-    ()=>getAllTours,
     "getDestinationById",
     ()=>getDestinationById,
-    "getFeaturedTours",
-    ()=>getFeaturedTours
+    "getFeaturedDestination",
+    ()=>getFeaturedDestination
 ]);
 async function getAllDestination() {
     const response = await fetch("https://atlasegypt-5d673-default-rtdb.firebaseio.com/Destination.json");
@@ -24,25 +22,13 @@ async function getAllDestination() {
     }
     return destinations;
 }
-async function getAllTours() {
-    const response = await fetch("https://atlasegypt-5d673-default-rtdb.firebaseio.com/tours.json");
-    const data = await response.json();
-    const tours = [];
-    for(const key in data){
-        tours.push({
-            id: key,
-            ...data[key]
-        });
-    }
-    return tours;
-}
-async function getFeaturedTours() {
-    const allTours = await getAllTours();
-    return allTours.filter((tour)=>tour.isFeatured);
+async function getFeaturedDestination() {
+    const allDestination = await getAllDestination();
+    return allDestination.filter((destination)=>destination.isFeatured);
 }
 async function getDestinationById(Id) {
-    const allDetination = await getAllDestination();
-    return allDetination.find((destination)=>destination.id === Id);
+    const allDestination = await getAllDestination();
+    return allDestination.find((destination)=>destination.id === Id);
 }
 }),
 "[project]/pages/Discover/[Id].js [ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -62,7 +48,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [ssr] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bookmark$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bookmark$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/bookmark.js [ssr] (ecmascript) <export default as Bookmark>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$dollar$2d$sign$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CircleDollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-dollar-sign.js [ssr] (ecmascript) <export default as CircleDollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$helper$2f$data$2d$util$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/helper/data-util.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/Button.jsx [ssr] (ecmascript)");
 ;
@@ -193,22 +178,24 @@ function TripDetailPage(props) {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "absolute top-2 right-2 flex items-center my-10",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$dollar$2d$sign$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CircleDollarSign$3e$__["CircleDollarSign"], {
-                                                    className: "mr-1 w-6 h-6 fill-amber-500 border-amber-500"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/pages/Discover/[Id].js",
-                                                    lineNumber: 45,
-                                                    columnNumber: 17
-                                                }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                                    className: "mr-5 text-2xl font-bold",
+                                                    className: "mr-5 text-2xl font-bold ",
                                                     children: [
                                                         " ",
-                                                        destinationDetails.price
+                                                        destinationDetails.price,
+                                                        " ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                            className: "text-amber-500",
+                                                            children: "EGP"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/pages/Discover/[Id].js",
+                                                            lineNumber: 44,
+                                                            columnNumber: 87
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/pages/Discover/[Id].js",
-                                                    lineNumber: 46,
+                                                    lineNumber: 44,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -216,7 +203,7 @@ function TripDetailPage(props) {
                                                     children: "Book Now"
                                                 }, void 0, false, {
                                                     fileName: "[project]/pages/Discover/[Id].js",
-                                                    lineNumber: 47,
+                                                    lineNumber: 45,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
@@ -248,7 +235,7 @@ function TripDetailPage(props) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/pages/Discover/[Id].js",
-                                    lineNumber: 53,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -256,7 +243,7 @@ function TripDetailPage(props) {
                                     children: destinationDetails.description
                                 }, void 0, false, {
                                     fileName: "[project]/pages/Discover/[Id].js",
-                                    lineNumber: 54,
+                                    lineNumber: 52,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("table", {
@@ -270,7 +257,7 @@ function TripDetailPage(props) {
                                                         children: "Includes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 61,
+                                                        lineNumber: 59,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("td", {
@@ -278,13 +265,13 @@ function TripDetailPage(props) {
                                                         children: destinationDetails.Includes
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 62,
+                                                        lineNumber: 60,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/[Id].js",
-                                                lineNumber: 60,
+                                                lineNumber: 58,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("tr", {
@@ -295,7 +282,7 @@ function TripDetailPage(props) {
                                                         children: "Best Time to Visit"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 65,
+                                                        lineNumber: 63,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("td", {
@@ -303,13 +290,13 @@ function TripDetailPage(props) {
                                                         children: destinationDetails.BestTimeToVisit
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 66,
+                                                        lineNumber: 64,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/[Id].js",
-                                                lineNumber: 64,
+                                                lineNumber: 62,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("tr", {
@@ -319,7 +306,7 @@ function TripDetailPage(props) {
                                                         children: "Attractions"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 69,
+                                                        lineNumber: 67,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("td", {
@@ -327,13 +314,13 @@ function TripDetailPage(props) {
                                                         children: destinationDetails.Attractions
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 70,
+                                                        lineNumber: 68,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/[Id].js",
-                                                lineNumber: 68,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("tr", {
@@ -344,7 +331,7 @@ function TripDetailPage(props) {
                                                         children: "Activities"
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 73,
+                                                        lineNumber: 71,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("td", {
@@ -352,30 +339,30 @@ function TripDetailPage(props) {
                                                         children: destinationDetails.Activities
                                                     }, void 0, false, {
                                                         fileName: "[project]/pages/Discover/[Id].js",
-                                                        lineNumber: 74,
+                                                        lineNumber: 72,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/pages/Discover/[Id].js",
-                                                lineNumber: 72,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/pages/Discover/[Id].js",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/pages/Discover/[Id].js",
-                                    lineNumber: 58,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/Discover/[Id].js",
-                            lineNumber: 52,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]

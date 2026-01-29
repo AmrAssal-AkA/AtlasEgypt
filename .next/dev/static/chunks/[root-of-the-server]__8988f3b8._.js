@@ -539,14 +539,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2
 ;
 ;
 function DestinationCard(t0) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(26);
-    if ($[0] !== "0ec50f3a07e2f12f097a80b43db254eada831c5ec7b634fe78b30c87dd322542") {
-        for(let $i = 0; $i < 26; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(32);
+    if ($[0] !== "978a428ab3c24ad48adfb2c40c733cac78ea67f8387cd34b1daf02175884b0d4") {
+        for(let $i = 0; $i < 32; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0ec50f3a07e2f12f097a80b43db254eada831c5ec7b634fe78b30c87dd322542";
+        $[0] = "978a428ab3c24ad48adfb2c40c733cac78ea67f8387cd34b1daf02175884b0d4";
     }
-    const { destination } = t0;
+    const { destination, handleClick } = t0;
     let t1;
     if ($[1] !== destination.image || $[2] !== destination.name) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -558,12 +558,12 @@ function DestinationCard(t0) {
                 className: "object-cover"
             }, void 0, false, {
                 fileName: "[project]/components/Discover/Destination-card.jsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 48
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 10
         }, this);
         $[1] = destination.image;
@@ -579,7 +579,7 @@ function DestinationCard(t0) {
             children: destination.name
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 10
         }, this);
         $[4] = destination.name;
@@ -593,7 +593,7 @@ function DestinationCard(t0) {
             className: "inline-block mb-2 mr-2 text-orange-400"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 10
         }, this);
         $[6] = t3;
@@ -611,13 +611,13 @@ function DestinationCard(t0) {
                     children: destination.category
                 }, void 0, false, {
                     fileName: "[project]/components/Discover/Destination-card.jsx",
-                    lineNumber: 42,
+                    lineNumber: 43,
                     columnNumber: 54
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 42,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
         $[7] = destination.category;
@@ -631,7 +631,7 @@ function DestinationCard(t0) {
             className: "mr-1 fill-yellow-500 border-yellow-500"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 10
         }, this);
         $[9] = t5;
@@ -651,13 +651,13 @@ function DestinationCard(t0) {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Discover/Destination-card.jsx",
-                    lineNumber: 57,
+                    lineNumber: 58,
                     columnNumber: 72
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 57,
+            lineNumber: 58,
             columnNumber: 10
         }, this);
         $[10] = destination.rating;
@@ -666,22 +666,22 @@ function DestinationCard(t0) {
         t6 = $[11];
     }
     let t7;
-    if ($[12] !== destination.description) {
+    if ($[12] !== destination.shortDescription) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-700 mb-4",
-            children: destination.description
+            children: destination.shortDescription
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 65,
+            lineNumber: 66,
             columnNumber: 10
         }, this);
-        $[12] = destination.description;
+        $[12] = destination.shortDescription;
         $[13] = t7;
     } else {
         t7 = $[13];
     }
     let t8;
-    if ($[14] !== destination.id) {
+    if ($[14] !== destination.id || $[15] !== handleClick) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
             onClick: {
                 "DestinationCard[<Button>.onClick]": ()=>handleClick(destination.id)
@@ -689,60 +689,98 @@ function DestinationCard(t0) {
             children: "Learn More"
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 73,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[14] = destination.id;
-        $[15] = t8;
+        $[15] = handleClick;
+        $[16] = t8;
     } else {
-        t8 = $[15];
+        t8 = $[16];
     }
     let t9;
-    if ($[16] !== t2 || $[17] !== t4 || $[18] !== t6 || $[19] !== t7 || $[20] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    if ($[17] !== destination.price) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-amber-600 font-bold text-xl",
+            children: [
+                destination.price,
+                " EGP"
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Discover/Destination-card.jsx",
+            lineNumber: 85,
+            columnNumber: 10
+        }, this);
+        $[17] = destination.price;
+        $[18] = t9;
+    } else {
+        t9 = $[18];
+    }
+    let t10;
+    if ($[19] !== t8 || $[20] !== t9) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between mt-2",
+            children: [
+                t8,
+                t9
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Discover/Destination-card.jsx",
+            lineNumber: 93,
+            columnNumber: 11
+        }, this);
+        $[19] = t8;
+        $[20] = t9;
+        $[21] = t10;
+    } else {
+        t10 = $[21];
+    }
+    let t11;
+    if ($[22] !== t10 || $[23] !== t2 || $[24] !== t4 || $[25] !== t6 || $[26] !== t7) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative p-4",
             children: [
                 t2,
                 t4,
                 t6,
                 t7,
-                t8
+                t10
             ]
         }, void 0, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 83,
-            columnNumber: 10
+            lineNumber: 102,
+            columnNumber: 11
         }, this);
-        $[16] = t2;
-        $[17] = t4;
-        $[18] = t6;
-        $[19] = t7;
-        $[20] = t8;
-        $[21] = t9;
+        $[22] = t10;
+        $[23] = t2;
+        $[24] = t4;
+        $[25] = t6;
+        $[26] = t7;
+        $[27] = t11;
     } else {
-        t9 = $[21];
+        t11 = $[27];
     }
-    let t10;
-    if ($[22] !== destination.id || $[23] !== t1 || $[24] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t12;
+    if ($[28] !== destination.id || $[29] !== t1 || $[30] !== t11) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: " rounded-lg shadow-xl overflow-hidden",
             children: [
                 t1,
-                t9
+                t11
             ]
         }, destination.id, true, {
             fileName: "[project]/components/Discover/Destination-card.jsx",
-            lineNumber: 95,
+            lineNumber: 114,
             columnNumber: 11
         }, this);
-        $[22] = destination.id;
-        $[23] = t1;
-        $[24] = t9;
-        $[25] = t10;
+        $[28] = destination.id;
+        $[29] = t1;
+        $[30] = t11;
+        $[31] = t12;
     } else {
-        t10 = $[25];
+        t12 = $[31];
     }
-    return t10;
+    return t12;
 }
 _c = DestinationCard;
 const __TURBOPACK__default__export__ = DestinationCard;
@@ -766,49 +804,58 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$De
 ;
 ;
 function DestinationGrid(props) {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "69216ea7d19088c2f21b250a07250c0794524a0e047d821ddef9fbd33fe816c2") {
-        for(let $i = 0; $i < 5; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(8);
+    if ($[0] !== "7bff18e96cdc33bef52a839dbdba9353967c3fb0b5bf26fe64644e4f7034ccac") {
+        for(let $i = 0; $i < 8; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "69216ea7d19088c2f21b250a07250c0794524a0e047d821ddef9fbd33fe816c2";
+        $[0] = "7bff18e96cdc33bef52a839dbdba9353967c3fb0b5bf26fe64644e4f7034ccac";
     }
-    const { destinations } = props;
+    const { destinations, handleClick } = props;
     let t0;
-    if ($[1] !== destinations) {
-        t0 = destinations.map(_DestinationGridDestinationsMap);
+    if ($[1] !== destinations || $[2] !== handleClick) {
+        let t1;
+        if ($[4] !== handleClick) {
+            t1 = ({
+                "DestinationGrid[destinations.map()]": (destination)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$card$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                        destination: destination,
+                        handleClick: handleClick
+                    }, destination.id, false, {
+                        fileName: "[project]/components/Discover/Destination-grid.jsx",
+                        lineNumber: 20,
+                        columnNumber: 63
+                    }, this)
+            })["DestinationGrid[destinations.map()]"];
+            $[4] = handleClick;
+            $[5] = t1;
+        } else {
+            t1 = $[5];
+        }
+        t0 = destinations.map(t1);
         $[1] = destinations;
-        $[2] = t0;
+        $[2] = handleClick;
+        $[3] = t0;
     } else {
-        t0 = $[2];
+        t0 = $[3];
     }
     let t1;
-    if ($[3] !== t0) {
+    if ($[6] !== t0) {
         t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "grid grid-cols-1 md:grid-cols-3 gap-10 mt-10  px-5",
             children: t0
         }, void 0, false, {
             fileName: "[project]/components/Discover/Destination-grid.jsx",
-            lineNumber: 24,
+            lineNumber: 36,
             columnNumber: 10
         }, this);
-        $[3] = t0;
-        $[4] = t1;
+        $[6] = t0;
+        $[7] = t1;
     } else {
-        t1 = $[4];
+        t1 = $[7];
     }
     return t1;
 }
 _c = DestinationGrid;
-function _DestinationGridDestinationsMap(destination) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$card$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
-        destination: destination
-    }, destination.id, false, {
-        fileName: "[project]/components/Discover/Destination-grid.jsx",
-        lineNumber: 33,
-        columnNumber: 10
-    }, this);
-}
 const __TURBOPACK__default__export__ = DestinationGrid;
 var _c;
 __turbopack_context__.k.register(_c, "DestinationGrid");
@@ -816,11 +863,198 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/pages/Discover/index.js [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/pages/Discover/index.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
-const e = new Error("Could not parse module '[project]/pages/Discover/index.js'\n\nExpression expected");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+__turbopack_context__.s([
+    "__N_SSG",
+    ()=>__N_SSG,
+    "default",
+    ()=>DestinationPage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/head.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/router.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$Button$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/Button.jsx [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$grid$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Discover/Destination-grid.jsx [client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/components/Discover/Tour-grid'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
+var _s = __turbopack_context__.k.signature();
+;
+;
+;
+;
+;
+;
+;
+;
+var __N_SSG = true;
+function DestinationPage(props) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(9);
+    if ($[0] !== "f56ea61a19feb5657965727cd27ff38621fe257e1d330adda69d5ad12cdca6bf") {
+        for(let $i = 0; $i < 9; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "f56ea61a19feb5657965727cd27ff38621fe257e1d330adda69d5ad12cdca6bf";
+    }
+    const { destinations } = props;
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
+    let t0;
+    if ($[1] !== router) {
+        t0 = ({
+            "DestinationPage[handleClick]": (id)=>{
+                router.push(`/Discover/${id}`);
+            }
+        })["DestinationPage[handleClick]"];
+        $[1] = router;
+        $[2] = t0;
+    } else {
+        t0 = $[2];
+    }
+    const handleClick = t0;
+    let t1;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                    children: "AtlasEgypt - Discover Egypt"
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 37,
+                    columnNumber: 16
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "description",
+                    content: "Explore the wonders of Egypt with AtlasEgypt. Discover top destinations and ready tours."
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 37,
+                    columnNumber: 58
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                    name: "robots",
+                    content: "index, follow"
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 37,
+                    columnNumber: 184
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/Discover/index.js",
+            lineNumber: 37,
+            columnNumber: 10
+        }, this);
+        $[3] = t1;
+    } else {
+        t1 = $[3];
+    }
+    let t2;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-7xl mx-auto mb-20",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                    className: "text-4xl font-bold px-5 mb-5",
+                    children: "Explore Egypt wonder's"
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 44,
+                    columnNumber: 51
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-md md:text-2xl md:leading-8 px-5 md:px-0 text-gray-700",
+                    children: "Discover the magic of Egypt, from the ancient pyramids to the vibrant coral reefs. Our curated destinations offer a glimpse into the rich history and breathtaking landscapes of this extraordinary country."
+                }, void 0, false, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 44,
+                    columnNumber: 123
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/pages/Discover/index.js",
+            lineNumber: 44,
+            columnNumber: 10
+        }, this);
+        $[4] = t2;
+    } else {
+        t2 = $[4];
+    }
+    let t3;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+            className: "text-4xl font-semibold text-center",
+            children: "Feature Distinations"
+        }, void 0, false, {
+            fileName: "[project]/pages/Discover/index.js",
+            lineNumber: 51,
+            columnNumber: 10
+        }, this);
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    let t4;
+    if ($[6] !== destinations || $[7] !== handleClick) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
+            children: [
+                t1,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                    className: " mt-30 md:mt-50 px-5 md:px-0",
+                    children: [
+                        t2,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "max-w-7xl mx-auto mb-20",
+                            children: [
+                                t3,
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Discover$2f$Destination$2d$grid$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
+                                    destinations: destinations,
+                                    handleClick: handleClick
+                                }, void 0, false, {
+                                    fileName: "[project]/pages/Discover/index.js",
+                                    lineNumber: 58,
+                                    columnNumber: 112
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/pages/Discover/index.js",
+                            lineNumber: 58,
+                            columnNumber: 67
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/pages/Discover/index.js",
+                    lineNumber: 58,
+                    columnNumber: 16
+                }, this)
+            ]
+        }, void 0, true);
+        $[6] = destinations;
+        $[7] = handleClick;
+        $[8] = t4;
+    } else {
+        t4 = $[8];
+    }
+    return t4;
+}
+_s(DestinationPage, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
+_c = DestinationPage;
+var _c;
+__turbopack_context__.k.register(_c, "DestinationPage");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
 }),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/pages/Discover/index.js [client] (ecmascript)\" } [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 

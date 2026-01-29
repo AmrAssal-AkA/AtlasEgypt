@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/main-navigation/Header";
 import { ToastContainer } from "react-toastify";
 import "@/styles/globals.css";
+import { SessionProvider } from "next-auth/react";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -17,10 +18,12 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/Favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <SessionProvider session={pageProps.session}>
       <Header />
       <Component {...pageProps} />
       <ToastContainer position="bottom-right" />
       <Footer />
+      </SessionProvider>
     </>
   );
 }

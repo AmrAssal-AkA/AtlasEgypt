@@ -9,12 +9,19 @@ import MenuIcon from "../ui/icons/menuIcon";
 import CloseIcon from "../ui/icons/Xicon";
 import Model from "../Model";
 import UpperHeader from "./upper-header";
-
+import { useSession, signOut } from "next-auth/react";
+import Dropdown from "../ui/Dropdown";
 
 export default function Header() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
+  const { data: session, status } = useSession();
+  const loading = status === "loading";
+
+  function handleLogout() {
+    signOut();
+  }
 
   const navLinks = [
     { name: "Home", path: "/" },
@@ -76,11 +83,23 @@ export default function Header() {
               Book Now
             </Button>
           </li>
-          <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2">
-            <button onClick={() => setModalOpen(true)}>
-              <UserIcon className="w-8 h-8 cursor-pointer hover:fill-amber-500 transition-colors" />
+          {!session && !loading && (
+            <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2">
+              <button onClick={() => setModalOpen(true)}>
+                <UserIcon className="w-8 h-8 cursor-pointer hover:fill-amber-500 transition-colors" />
+              </button>
+            </li>
+          )}
+          {session && (
+            <button>
+              <Dropdown
+                pagelink="/profilePage"
+                pageName="Profile"
+                pagelink2={handleLogout}
+                pageName2="logout"
+              />
             </button>
-          </li>
+          )}
         </ul>
       </div>
       <Model isOpen={isModalOpen} onClose={() => setModalOpen(false)} />

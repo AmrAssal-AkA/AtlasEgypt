@@ -472,23 +472,63 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/compiler-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/link.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-toastify/dist/index.mjs [client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+;
 ;
 ;
 ;
 function RegisterForm() {
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(7);
-    if ($[0] !== "3bdf05de333d0d2b443907c551ba6042b103b0d0d9e9d6759cb6f3c7cdee3d1f") {
-        for(let $i = 0; $i < 7; $i += 1){
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(8);
+    if ($[0] !== "412dbd63e451fb28060d8dc99e7cafa19174a9f729acfc30db5f75c7d51b9386") {
+        for(let $i = 0; $i < 8; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3bdf05de333d0d2b443907c551ba6042b103b0d0d9e9d6759cb6f3c7cdee3d1f";
+        $[0] = "412dbd63e451fb28060d8dc99e7cafa19174a9f729acfc30db5f75c7d51b9386";
     }
+    const nameInputRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
+    const emailInputRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
+    const passwordInputRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
+    const confirmPasswordInputRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])();
     let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = async function handleSubmit(event) {
+            event.preventDefault();
+            const enteredName = nameInputRef.current.value;
+            const enteredEmail = emailInputRef.current.value;
+            const enteredPassword = passwordInputRef.current.value;
+            const enteredConfirmPassword = confirmPasswordInputRef.current.value;
+            if (!enteredName || !enteredEmail || !enteredEmail.includes("@") || !enteredPassword || enteredPassword.trim().length < 7 || enteredPassword !== enteredConfirmPassword) {
+                __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].error("Please enter valid data");
+                return;
+            }
+            const data = {
+                name: enteredName,
+                email: enteredEmail,
+                password: enteredPassword
+            };
+            fetch("/api/auth/signup", {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }).then(_RegisterFormHandleSubmitAnonymous);
+        };
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const handleSubmit = t0;
     let t1;
     let t2;
     let t3;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t4;
+    if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                     htmlFor: "FullName",
@@ -496,7 +536,7 @@ function RegisterForm() {
                     children: "Full Name"
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 16,
+                    lineNumber: 52,
                     columnNumber: 15
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -504,19 +544,20 @@ function RegisterForm() {
                     name: "FullName",
                     placeholder: "Enter your Name here",
                     required: true,
-                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500",
+                    ref: nameInputRef
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 16,
+                    lineNumber: 52,
                     columnNumber: 115
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 16,
+            lineNumber: 52,
             columnNumber: 10
         }, this);
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                     htmlFor: "email address",
@@ -524,7 +565,7 @@ function RegisterForm() {
                     children: "Email address"
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 17,
+                    lineNumber: 53,
                     columnNumber: 15
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -532,19 +573,20 @@ function RegisterForm() {
                     name: "email",
                     placeholder: "Enter your email address",
                     required: true,
-                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500",
+                    ref: emailInputRef
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 17,
+                    lineNumber: 53,
                     columnNumber: 124
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 17,
+            lineNumber: 53,
             columnNumber: 10
         }, this);
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                     htmlFor: "password",
@@ -552,7 +594,7 @@ function RegisterForm() {
                     children: "Password"
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 18,
+                    lineNumber: 54,
                     columnNumber: 15
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -560,19 +602,20 @@ function RegisterForm() {
                     name: "password",
                     placeholder: "Enter your password",
                     required: true,
-                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500",
+                    ref: passwordInputRef
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 18,
+                    lineNumber: 54,
                     columnNumber: 114
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 18,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                     htmlFor: "confirm password",
@@ -580,7 +623,7 @@ function RegisterForm() {
                     children: "Confirm Password"
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 19,
+                    lineNumber: 55,
                     columnNumber: 15
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -588,31 +631,32 @@ function RegisterForm() {
                     name: "confirm password",
                     placeholder: "Re-enter your password",
                     required: true,
-                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
+                    className: "w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500",
+                    ref: confirmPasswordInputRef
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 19,
+                    lineNumber: 55,
                     columnNumber: 130
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 19,
+            lineNumber: 55,
             columnNumber: 10
         }, this);
-        $[1] = t0;
         $[2] = t1;
         $[3] = t2;
         $[4] = t3;
+        $[5] = t4;
     } else {
-        t0 = $[1];
         t1 = $[2];
         t2 = $[3];
         t3 = $[4];
+        t4 = $[5];
     }
-    let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    let t5;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             children: [
                 "Already have an account?",
                 " ",
@@ -622,29 +666,30 @@ function RegisterForm() {
                     children: "Back to login page"
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 32,
+                    lineNumber: 68,
                     columnNumber: 42
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 32,
+            lineNumber: 68,
             columnNumber: 10
         }, this);
-        $[5] = t4;
+        $[6] = t5;
     } else {
-        t4 = $[5];
+        t5 = $[6];
     }
-    let t5;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
             className: "space-y-6",
+            onSubmit: handleSubmit,
             children: [
-                t0,
                 t1,
                 t2,
                 t3,
                 t4,
+                t5,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-right",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -653,27 +698,38 @@ function RegisterForm() {
                         children: "Register"
                     }, void 0, false, {
                         fileName: "[project]/components/Authentication/Register-form.jsx",
-                        lineNumber: 39,
-                        columnNumber: 86
+                        lineNumber: 75,
+                        columnNumber: 110
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Authentication/Register-form.jsx",
-                    lineNumber: 39,
-                    columnNumber: 58
+                    lineNumber: 75,
+                    columnNumber: 82
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Authentication/Register-form.jsx",
-            lineNumber: 39,
+            lineNumber: 75,
             columnNumber: 10
         }, this);
-        $[6] = t5;
+        $[7] = t6;
     } else {
-        t5 = $[6];
+        t6 = $[7];
     }
-    return t5;
+    return t6;
 }
+_s(RegisterForm, "JMz2O5B2neF0AyRA1OMmvVo5CEQ=");
 _c = RegisterForm;
+function _RegisterFormHandleSubmitAnonymous(res) {
+    if (res.ok) {
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].success("User registered successfully");
+    } else {
+        return res.json().then(_RegisterFormHandleSubmitAnonymousAnonymous);
+    }
+}
+function _RegisterFormHandleSubmitAnonymousAnonymous(data_0) {
+    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$toastify$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["toast"].error(data_0.message || "Something went wrong!");
+}
 const __TURBOPACK__default__export__ = RegisterForm;
 var _c;
 __turbopack_context__.k.register(_c, "RegisterForm");

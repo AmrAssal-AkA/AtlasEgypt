@@ -3,7 +3,7 @@ import { Bookmark, Star } from "lucide-react";
 
 import Button from "../../components/ui/Button";
 
-function DestinationCard({ destination , handleClick}) {
+function DestinationCard({ destination, handleClick }) {
   return (
     <div key={destination.id} className=" rounded-lg shadow-xl overflow-hidden">
       {/* Destination Card */}
@@ -28,7 +28,12 @@ function DestinationCard({ destination , handleClick}) {
           <p> {destination.rating}</p>
         </div>
         <p className="text-gray-700 mb-4">{destination.shortDescription}</p>
+        <div className="flex items-center justify-between mt-2">
         <Button onClick={() => handleClick(destination.id)}>Learn More</Button>
+        <span className="font-semibold text-xl">
+          {destination.price} <span className="text-amber-600 font-bold"> EGP</span>
+        </span>
+        </div>
       </div>
     </div>
   );

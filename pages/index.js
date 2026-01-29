@@ -1,14 +1,15 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Head from "next/head";
-import { MapPin, User, Compass, Clock } from "lucide-react";
+import { MapPin, User, Compass} from "lucide-react";
 
 import Button from "../components/ui/Button";
-import { getFeaturedTours } from "@/helper/data-util";
-import TourGrid from "@/components/Discover/Tour-grid";
+import { getFeaturedDestination} from "@/helper/data-util";
+
+import DestinationGrid from "@/components/Discover/Destination-grid";
 
 export default function Home(props) {
-  const { tours } = props;
+  const destinations = props.destinations;
   const router = useRouter();
 
   const handleClick = (Id) => {
@@ -180,8 +181,8 @@ export default function Home(props) {
         {/* Featured Trips Section */}
         <section className="py-10">
           <h3 className="text-4xl font-bold text-center">Featured Trips</h3>
-          <hr className="w-24 mx-auto my-4 border-amber-500" />
-          <TourGrid tours={tours} />
+          <hr className="w-24 mx-auto  my-4 border-amber-500" />
+          <DestinationGrid destinations={destinations} handleClick={handleClick} />
         </section>
         {/* About us Section */}
         <section className="py-10 text-center">
@@ -217,10 +218,10 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-  const featuredTours = await getFeaturedTours();
+  const featuredDestination = await getFeaturedDestination();
   return {
     props: {
-      tours: featuredTours,
+      destinations: featuredDestination,
     },
     revalidate: 1800,
   };
