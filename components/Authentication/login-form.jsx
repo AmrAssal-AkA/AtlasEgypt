@@ -71,7 +71,7 @@ function LoginForm() {
 
             <div className="text-center mt-6">
               <Link
-                href="/authentication/register"
+                href="//authentiaction/Register"
                 className="text-gray-700 hover:text-amber-500 underline"
               >
                 don't have an account

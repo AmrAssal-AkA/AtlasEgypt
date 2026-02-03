@@ -1,26 +1,104 @@
-[00:00:00.861] Server  LOG     ✓ Ready in 636ms
-[00:00:13.313] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:13.313] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.313] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.313] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.313] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.313] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:15.062] Server  ERROR   PageNotFoundError: Cannot find module for page: /login
-[00:00:15.224] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:16.864] Server  ERROR   PageNotFoundError: Cannot find module for page: /Register
-[00:00:17.036] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:18.735] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.640] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:00:00.755] Server  LOG     ✓ Ready in 534ms
+[00:00:04.504] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <App pageProps={{}} Component={function ErrorPage} err={undefined} router={{sdc:{},sbc:{}, ...}}>
+      <Head>
+      <SessionProvider session={undefined}>
+        <Header>
+        <ErrorPage>
+        <Lt>
+        <Footer>
+          <footer className="bg-amber-5...">
+            <div className="max-w-7xl ...">
+              <div>
+              <div className="grid grid-...">
+                <div className="text-cente...">
+                  <h3>
+                  <ul>
+                  <h3>
+                  <div className="flex gap-3...">
+                    <LinkComponent href="#" className="text-blue-..." title="Facebook">
+                      <a
+                        className="text-blue-600 hover:opacity-80"
+                        title="Facebook"
+                        ref={function}
+                        onClick={function onClick}
+                        onMouseEnter={function onMouseEnter}
+                        onTouchStart={function onTouchStart}
++                       href="/authentication/Register#"
+-                       href="/404#"
+                      >
+                    <LinkComponent href="#" className="text-blue-..." title="Twitter">
+                      <a
+                        className="text-blue-400 hover:opacity-80"
+                        title="Twitter"
+                        ref={function}
+                        onClick={function onClick}
+                        onMouseEnter={function onMouseEnter}
+                        onTouchStart={function onTouchStart}
++                       href="/authentication/Register#"
+-                       href="/404#"
+                      >
+                    <LinkComponent href="#" className="text-pink-..." title="Instagram">
+                      <a
+                        className="text-pink-600 hover:opacity-80"
+                        title="Instagram"
+                        ref={function}
+                        onClick={function onClick}
+                        onMouseEnter={function onMouseEnter}
+                        onTouchStart={function onTouchStart}
++                       href="/authentication/Register#"
+-                       href="/404#"
+                      >
+                    <LinkComponent href="#" className="text-yello..." title="Snapchat">
+                      <a
+                        className="text-yellow-300 hover:opacity-80"
+                        title="Snapchat"
+                        ref={function}
+                        onClick={function onClick}
+                        onMouseEnter={function onMouseEnter}
+                        onTouchStart={function onTouchStart}
++                       href="/authentication/Register#"
+-                       href="/404#"
+                      >
+                ...
+              ...
+    ...
+
+[00:00:04.504] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:07.147] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:07.147] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:07.147] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:08.341] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.725] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:09.726] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:11.411] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:11.411] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:13.404] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:13.404] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:13.596] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:13.596] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:14.599] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `BlogGrid`. 
-[00:00:19.641] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.641] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.641] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.641] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.641] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:19.641] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:14.599] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:15.105] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:15.105] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:17.359] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
+[00:00:17.359] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.

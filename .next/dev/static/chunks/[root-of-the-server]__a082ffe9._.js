@@ -1502,11 +1502,11 @@ var _s = __turbopack_context__.k.signature();
 function Model(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(26);
-    if ($[0] !== "cdd0e6d45adf40c46b11201f8fc158e35b3229f05b0449572e9f37f0d820eb93") {
+    if ($[0] !== "8499b7d66550e104011ab61cb7385279e69bb465f9805ddf4890481669c9b378") {
         for(let $i = 0; $i < 26; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "cdd0e6d45adf40c46b11201f8fc158e35b3229f05b0449572e9f37f0d820eb93";
+        $[0] = "8499b7d66550e104011ab61cb7385279e69bb465f9805ddf4890481669c9b378";
     }
     const { isOpen, onClose } = t0;
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -1517,7 +1517,7 @@ function Model(t0) {
     if ($[1] !== onClose || $[2] !== router) {
         t1 = ({
             "Model[handleLogin]": ()=>{
-                router.push("/login");
+                router.push("/authentiaction/login");
                 onClose();
             }
         })["Model[handleLogin]"];
@@ -1532,7 +1532,7 @@ function Model(t0) {
     if ($[4] !== onClose || $[5] !== router) {
         t2 = ({
             "Model[handleSignUp]": ()=>{
-                router.push("/Register");
+                router.push("/authentiaction/Register");
                 onClose();
             }
         })["Model[handleSignUp]"];
@@ -2176,11 +2176,11 @@ var _s = __turbopack_context__.k.signature();
 function Header() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(36);
-    if ($[0] !== "05ee56d14670d9c15a26c80b8bd712537581832f1f28136763e3c906ef75c3c0") {
+    if ($[0] !== "2f44c98a99da8bb75785b6e8141fe6e988c55f63a7fe9460cbdf19c447f25305") {
         for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "05ee56d14670d9c15a26c80b8bd712537581832f1f28136763e3c906ef75c3c0";
+        $[0] = "2f44c98a99da8bb75785b6e8141fe6e988c55f63a7fe9460cbdf19c447f25305";
     }
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -2417,7 +2417,7 @@ function Header() {
                 pagelink: "/profile",
                 pageName: "Profile",
                 pagelink2: {
-                    "Header[<Dropdown>.pagelink2]": ()=>router.push("/login/forget-password")
+                    "Header[<Dropdown>.pagelink2]": ()=>router.push("/authentiaction/forget-password")
                 }["Header[<Dropdown>.pagelink2]"],
                 pageName2: "Reset Password",
                 pagelink3: handleLogout,

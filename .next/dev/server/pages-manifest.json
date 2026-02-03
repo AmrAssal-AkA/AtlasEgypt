@@ -1,9 +1,11 @@
 {
-  "/": "pages/index.js",
+  "/404": "pages/404.js",
   "/Blog": "pages/Blog.js",
   "/Blog/AddBlog": "pages/Blog/AddBlog.js",
-  "/Discover": "pages/Discover.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/authentiaction/Register": "pages/authentiaction/Register.js",
+  "/authentiaction/login": "pages/authentiaction/login.js",
+  "/contactus": "pages/contactus.js"
 }

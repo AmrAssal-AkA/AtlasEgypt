@@ -121,7 +121,7 @@ function RegisterForm() {
       </div>
       <p>
         Already have an account?{" "}
-        <Link href={"/login"} className="underline hover:text-amber-500">
+        <Link href="/authentiaction/login" className="underline hover:text-amber-500">
           Back to login page
         </Link>
       </p>

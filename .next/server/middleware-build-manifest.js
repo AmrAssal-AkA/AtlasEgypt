@@ -58,12 +58,12 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/760002758792f20b.js",
       "static/chunks/2acadd233c425c75.js",
       "static/chunks/8371865b3f6c0088.js",
-      "static/chunks/b469100c164992f7.js",
+      "static/chunks/18f3710f54de27cb.js",
       "static/chunks/af4dbf0879e265ce.js",
       "static/chunks/a4880c2a69cb87d1.js",
       "static/chunks/28a9b71301d0e6e2.js",
       "static/chunks/42ff7a9f743a478d.css",
-      "static/chunks/turbopack-7184cf752810511c.js"
+      "static/chunks/turbopack-eb1d679ff07c0597.js"
     ],
     "/_error": [
       "static/chunks/0977b5bc91614c5b.js",
@@ -74,11 +74,11 @@ globalThis.__BUILD_MANIFEST = {
     ],
     "/authentiaction/Register": [
       "static/chunks/e1a34bf0ac2a626a.js",
-      "static/chunks/6282cc03bf10a81c.js",
+      "static/chunks/ef98b98e75ab7ec5.js",
       "static/chunks/af4dbf0879e265ce.js",
       "static/chunks/a4880c2a69cb87d1.js",
       "static/chunks/2acadd233c425c75.js",
-      "static/chunks/turbopack-41c01a9dfa80f783.js"
+      "static/chunks/turbopack-b27bde94d61394e3.js"
     ],
     "/authentiaction/forget-password": [
       "static/chunks/cc285478700cb865.js",
@@ -89,13 +89,13 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/turbopack-04bc379155b64664.js"
     ],
     "/authentiaction/login": [
-      "static/chunks/c70467b5ea5552df.js",
+      "static/chunks/906f94f3e23bb6f1.js",
       "static/chunks/2acadd233c425c75.js",
       "static/chunks/e1a34bf0ac2a626a.js",
       "static/chunks/a4880c2a69cb87d1.js",
       "static/chunks/28a9b71301d0e6e2.js",
       "static/chunks/af4dbf0879e265ce.js",
-      "static/chunks/turbopack-f3b1859f2558fc00.js"
+      "static/chunks/turbopack-83266dcbf78f2579.js"
     ],
     "/contactus": [
       "static/chunks/9e6895760fc9f92a.js",

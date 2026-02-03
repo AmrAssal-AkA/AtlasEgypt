@@ -736,11 +736,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects
 ;
 function AddBlog() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "0eb1e68ea98be05f5930be28b6be81e4134eb09afe930a2b2f2609a6b18fea88") {
+    if ($[0] !== "4e72ace80d15202b6a7c398496c8e00d96c827857fdb7bb098d7d068128a3af1") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0eb1e68ea98be05f5930be28b6be81e4134eb09afe930a2b2f2609a6b18fea88";
+        $[0] = "4e72ace80d15202b6a7c398496c8e00d96c827857fdb7bb098d7d068128a3af1";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {

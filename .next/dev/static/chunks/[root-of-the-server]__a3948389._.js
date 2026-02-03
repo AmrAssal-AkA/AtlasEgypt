@@ -701,13 +701,14 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "use strict";
 
 __turbopack_context__.s([
+    "__N_SSP",
+    ()=>__N_SSP,
     "default",
     ()=>ContactUsPage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/react/compiler-runtime.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/next/image.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/react/index.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/next/head.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$components$2f$contact$2f$contact$2d$form$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Git-Projects/AtlasEgypt/components/contact/contact-form.jsx [client] (ecmascript)");
 ;
@@ -715,14 +716,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects
 ;
 ;
 ;
-;
+var __N_SSP = true;
 function ContactUsPage() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(4);
-    if ($[0] !== "88011002a405e71770c67cee1ff318c556c2887408a4d08b26d25d769ee087fd") {
+    if ($[0] !== "0c5645a2f25fceb599b13670e8d453fddbdb775d7b6cba11c011aa5378796a34") {
         for(let $i = 0; $i < 4; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "88011002a405e71770c67cee1ff318c556c2887408a4d08b26d25d769ee087fd";
+        $[0] = "0c5645a2f25fceb599b13670e8d453fddbdb775d7b6cba11c011aa5378796a34";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -732,7 +733,7 @@ function ContactUsPage() {
                     children: "AtlasEgypt - Contact Us"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 16
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -740,7 +741,7 @@ function ContactUsPage() {
                     content: "Get in touch with AtlasEgypt for any inquiries or support. We're here to help you with your travel needs."
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 54
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -748,13 +749,13 @@ function ContactUsPage() {
                     content: "index, follow"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 197
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 10
         }, this);
         $[1] = t0;
@@ -772,12 +773,12 @@ function ContactUsPage() {
                 className: "object-cover"
             }, void 0, false, {
                 fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                lineNumber: 23,
+                lineNumber: 24,
                 columnNumber: 68
             }, this)
         }, void 0, false, {
             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 10
         }, this);
         $[2] = t1;
@@ -803,7 +804,7 @@ function ContactUsPage() {
                                         children: "Contact Us"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 284
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -811,29 +812,29 @@ function ContactUsPage() {
                                         children: "We're here to help! Reach out to us with any questions or inquiries you may have. Our team is dedicated to providing you with the best possible assistance and ensuring your experience with AtlasEgypt is seamless and enjoyable."
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 353
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$components$2f$contact$2f$contact$2d$form$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                         fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 633
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 226
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                        lineNumber: 30,
+                        lineNumber: 31,
                         columnNumber: 108
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/contactus.js",
-                    lineNumber: 30,
+                    lineNumber: 31,
                     columnNumber: 16
                 }, this)
             ]

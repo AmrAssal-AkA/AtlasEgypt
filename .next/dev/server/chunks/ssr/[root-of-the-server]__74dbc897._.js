@@ -798,11 +798,11 @@ function Model({ isOpen, onClose }) {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     if (!isOpen) return null;
     const handleLogin = ()=>{
-        router.push("/login");
+        router.push("/authentiaction/login");
         onClose();
     };
     const handleSignUp = ()=>{
-        router.push("/Register");
+        router.push("/authentiaction/Register");
         onClose();
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1383,7 +1383,7 @@ function Header() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$components$2f$ui$2f$Dropdown$2e$jsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     pagelink: "/profile",
                                     pageName: "Profile",
-                                    pagelink2: ()=>router.push("/login/forget-password"),
+                                    pagelink2: ()=>router.push("/authentiaction/forget-password"),
                                     pageName2: "Reset Password",
                                     pagelink3: handleLogout,
                                     pageName3: "Logout"

@@ -12,7 +12,7 @@ function Model({ isOpen, onClose }) {
   };
 
   const handleSignUp = () => {
-    router.push("/authentiaction/signup");
+    router.push("/authentiaction/Register");
     onClose();
   };
 
