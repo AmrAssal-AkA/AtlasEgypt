@@ -133,35 +133,35 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/index\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/index\\.json$"
     },
     {
       "page": "/authentiaction/forget-password",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/authentiaction/forget-password\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/authentiaction/forget-password\\.json$"
     },
     {
       "page": "/Blog/AddBlog",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/Blog/AddBlog\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/Blog/AddBlog\\.json$"
     },
     {
       "page": "/contactus",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/contactus\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/contactus\\.json$"
     },
     {
       "page": "/Discover",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/Discover\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/Discover\\.json$"
     },
     {
       "page": "/Discover/[Id]",
       "routeKeys": {
         "nxtPId": "nxtPId"
       },
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/Discover/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/Discover/(?<nxtPId>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/Discover/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/Discover/(?<nxtPId>[^/]+?)\\.json$"
     },
     {
       "page": "/profile",
-      "dataRouteRegex": "^/_next/data/ERlx1vl522vYhedYk3uKr/profile\\.json$"
+      "dataRouteRegex": "^/_next/data/ZO9KZWrxM_yQMK3Zxeyps/profile\\.json$"
     }
   ],
   "rsc": {
