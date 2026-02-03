@@ -93,10 +93,12 @@ export default function Header() {
           {session && (
             <button>
               <Dropdown
-                pagelink="/profilePage"
+                pagelink="/profile"
                 pageName="Profile"
-                pagelink2={handleLogout}
-                pageName2="logout"
+                pagelink2={() => router.push("/login/forget-password")}
+                pageName2="Reset Password"
+                pagelink3={handleLogout}
+                pageName3="Logout"
               />
             </button>
           )}

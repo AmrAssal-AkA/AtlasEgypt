@@ -1,11 +1,11 @@
 {
   "version": 4,
   "routes": {
-    "/Discover": {
+    "/": {
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": null,
-      "dataRoute": "/_next/data/0sXvYFl3apikYbWVNOuDi/Discover.json",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/index.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -15,11 +15,137 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
-      "initialRevalidateSeconds": 1800,
+    "/Discover": {
+      "initialRevalidateSeconds": 60,
       "initialExpireSeconds": 31536000,
       "srcRoute": null,
-      "dataRoute": "/_next/data/0sXvYFl3apikYbWVNOuDi/index.json",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d1": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d1.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d2": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d3": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d4": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d5": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d5.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d6": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d6.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d7": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d7.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d8": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d8.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/Discover/d9": {
+      "initialRevalidateSeconds": 1800,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/Discover/[Id]",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/d9.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -30,11 +156,26 @@
       ]
     }
   },
-  "dynamicRoutes": {},
+  "dynamicRoutes": {
+    "/Discover/[Id]": {
+      "routeRegex": "^/Discover/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/NKKwALXNutCzxhZXel9I7/Discover/[Id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/Discover/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "a6545d124856b7d8fe866374e3138ac0",
-    "previewModeSigningKey": "ff453a79288a95d8bd05ecf22f1d754d69dfde79329ef7ee43c8e2b2b125d79b",
-    "previewModeEncryptionKey": "908f07ecd820210fe70d50345da5159a111dc1cf213a55cb62ec29513ac65156"
+    "previewModeId": "2b8ebe9414c4b51e97441ed483f4f036",
+    "previewModeSigningKey": "8687cca54f69e3938e5db6fd003612149320e44c24fd833f031e771363dd598c",
+    "previewModeEncryptionKey": "9b48343c5658637f5c948bdc105d16ca8fa0761058b57ae6e417faac68221da9"
   }
 }

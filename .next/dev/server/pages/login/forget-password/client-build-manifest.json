@@ -1,0 +1,5 @@
+{
+  "/login/forget-password": [
+    "static/chunks/pages/login/forget-password.js"
+  ]
+}

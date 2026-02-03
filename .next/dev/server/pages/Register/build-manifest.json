@@ -6,16 +6,16 @@
   "rootMainFiles": [],
   "pages": {
     "/Register": [
-      "static/chunks/node_modules_next_dist_compiled_4501ac73._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_3e55e98b._.js",
-      "static/chunks/node_modules_next_dist_client_8dd97e7a._.js",
-      "static/chunks/node_modules_next_dist_75b597d7._.js",
-      "static/chunks/node_modules_next_13d6d45d._.js",
-      "static/chunks/node_modules_react-dom_4411d9bd._.js",
-      "static/chunks/node_modules_b69552a8._.js",
-      "static/chunks/[root-of-the-server]__dfda3549._.js",
-      "static/chunks/pages_Register_2da965e7._.js",
-      "static/chunks/turbopack-pages_Register_768f5c6d._.js"
+      "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
+      "static/chunks/e0f8f_next_dist_shared_lib_a16b598b._.js",
+      "static/chunks/e0f8f_next_dist_client_137c5e5e._.js",
+      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
+      "static/chunks/e0f8f_next_97e63349._.js",
+      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
+      "static/chunks/e0f8f_2818c392._.js",
+      "static/chunks/[root-of-the-server]__d886dd4f._.js",
+      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Register_2da965e7._.js",
+      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Register_bdb5a86e._.js"
     ]
   },
   "ampFirstPages": []

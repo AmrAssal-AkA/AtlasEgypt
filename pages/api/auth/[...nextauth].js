@@ -3,18 +3,19 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { connectDatabase } from "@/helper/db-util";
 import { verifyPassword } from "@/helper/hash-Password";
 
-export default NextAuth({
+export const authOptions = {
+  secret: process.env.NEXTAUTH_SECRET || "fallback-secret-for-development-only",
   session: {
     strategy: "jwt",
   },
   providers: [
     CredentialsProvider({
-      async authorize(Credentials) {
+      async authorize(credentials) {
         const client = await connectDatabase();
         const db = client.db();
 
         const userCollection = db.collection("users");
-        const user = await userCollection.findOne({ email: Credentials.email });
+        const user = await userCollection.findOne({ email: credentials.email });
 
         if (!user) {
           client.close();
@@ -24,7 +25,7 @@ export default NextAuth({
         // You can add password verification logic here
 
         const isValid = await verifyPassword(
-          Credentials.password,
+          credentials.password,
           user.password,
         );
         if (!isValid) {
@@ -36,4 +37,6 @@ export default NextAuth({
       },
     }),
   ],
-});
+};
+
+export default NextAuth(authOptions);

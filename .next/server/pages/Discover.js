@@ -1,8 +1,9 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/Discover.js")
-R.c("server/chunks/ssr/_54f30628._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__84687bd7._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__68d47023._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__25d2d3d1._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__85824f08._.js")
-R.m(2695)
-module.exports=R.m(2695).exports
+R.c("server/chunks/ssr/Documents_Git-Projects_AtlasEgypt_3cc9d172._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ee38553d._.js")
+R.c("server/chunks/ssr/[externals]_next_dist_compiled_@opentelemetry_api_2f2eda7e._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4a79d551._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__56ffa9f5._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a91fa53f._.js")
+R.m(23262)
+module.exports=R.m(23262).exports

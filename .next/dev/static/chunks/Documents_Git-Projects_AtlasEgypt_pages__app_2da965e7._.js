@@ -1,0 +1,17 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/[root-of-the-server]__a082ffe9._.js",
+  "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
+  "static/chunks/e0f8f_next_dist_shared_lib_0e4fbad5._.js",
+  "static/chunks/e0f8f_next_dist_client_137c5e5e._.js",
+  "static/chunks/e0f8f_next_dist_f5923b6f._.js",
+  "static/chunks/e0f8f_next_96a3f1a2._.js",
+  "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
+  "static/chunks/e0f8f_@fortawesome_fontawesome-svg-core_index_mjs_c7df4df7._.js",
+  "static/chunks/e0f8f_@fortawesome_free-brands-svg-icons_index_mjs_473f6f49._.js",
+  "static/chunks/e0f8f_d9d8508f._.js",
+  "static/chunks/Documents_Git-Projects_AtlasEgypt_styles_globals_deefda64.css"
+],
+    source: "entry"
+});

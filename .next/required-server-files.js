@@ -99,7 +99,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt",
+    "outputFileTracingRoot": "/Users/amrassal",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -293,12 +293,12 @@ self.__SERVER_FILES_MANIFEST={
     "configFileName": "next.config.mjs",
     "reactCompiler": true,
     "turbopack": {
-      "root": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt"
+      "root": "/Users/amrassal"
     },
     "distDirRoot": ".next"
   },
   "appDir": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt",
-  "relativeAppDir": "",
+  "relativeAppDir": "Documents/Git-Projects/AtlasEgypt",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

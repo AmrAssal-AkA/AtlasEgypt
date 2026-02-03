@@ -22,6 +22,14 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/api/auth/[...nextauth]",
+      "regex": "^/api/auth/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPnextauth": "nxtPnextauth"
+      },
+      "namedRegex": "^/api/auth/(?<nxtPnextauth>.+?)(?:/)?$"
+    },
+    {
       "page": "/Discover/[Id]",
       "regex": "^/Discover/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -44,10 +52,40 @@
       "namedRegex": "^/404(?:/)?$"
     },
     {
+      "page": "/api/auth/signup",
+      "regex": "^/api/auth/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/signup(?:/)?$"
+    },
+    {
+      "page": "/api/contactus",
+      "regex": "^/api/contactus(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/contactus(?:/)?$"
+    },
+    {
+      "page": "/api/newsletter",
+      "regex": "^/api/newsletter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/newsletter(?:/)?$"
+    },
+    {
+      "page": "/api/user/change-password",
+      "regex": "^/api/user/change\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/user/change\\-password(?:/)?$"
+    },
+    {
       "page": "/Blog",
       "regex": "^/Blog(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/Blog(?:/)?$"
+    },
+    {
+      "page": "/Blog/AddBlog",
+      "regex": "^/Blog/AddBlog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/Blog/AddBlog(?:/)?$"
     },
     {
       "page": "/Book",
@@ -56,10 +94,10 @@
       "namedRegex": "^/Book(?:/)?$"
     },
     {
-      "page": "/Contactus",
-      "regex": "^/Contactus(?:/)?$",
+      "page": "/contactus",
+      "regex": "^/contactus(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/Contactus(?:/)?$"
+      "namedRegex": "^/contactus(?:/)?$"
     },
     {
       "page": "/Discover",
@@ -74,6 +112,18 @@
       "namedRegex": "^/login(?:/)?$"
     },
     {
+      "page": "/login/forget-password",
+      "regex": "^/login/forget\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login/forget\\-password(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
       "page": "/Register",
       "regex": "^/Register(?:/)?$",
       "routeKeys": {},
@@ -83,11 +133,31 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/0sXvYFl3apikYbWVNOuDi/index\\.json$"
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/index\\.json$"
+    },
+    {
+      "page": "/Blog/AddBlog",
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/Blog/AddBlog\\.json$"
     },
     {
       "page": "/Discover",
-      "dataRouteRegex": "^/_next/data/0sXvYFl3apikYbWVNOuDi/Discover\\.json$"
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/Discover\\.json$"
+    },
+    {
+      "page": "/Discover/[Id]",
+      "routeKeys": {
+        "nxtPId": "nxtPId"
+      },
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/Discover/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/Discover/(?<nxtPId>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/login/forget-password",
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/login/forget-password\\.json$"
+    },
+    {
+      "page": "/profile",
+      "dataRouteRegex": "^/_next/data/NKKwALXNutCzxhZXel9I7/profile\\.json$"
     }
   ],
   "rsc": {

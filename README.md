@@ -3,8 +3,8 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.4-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0.0-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com)
+[![NextAuth.js](https://img.shields.io/badge/NextAuth.js-4.24.13-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://next-auth.js.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 A modern, responsive travel and discovery platform built with Next.js 16, designed to showcase Egypt's rich cultural heritage, breathtaking destinations, and unforgettable experiences. Features secure user authentication, newsletter subscription, interactive destination discovery, comprehensive blog functionality, and seamless booking experience. Explore ancient wonders, plan your perfect trip, and discover the magic of the Land of the Pharaohs.
@@ -35,14 +35,16 @@ A modern, responsive travel and discovery platform built with Next.js 16, design
 - **Individual Blog Posts**: Detailed blog post pages with full content
 - **Travel Insights**: Articles and stories about Egyptian culture, history, and travel tips
 
-### 🔐 User Authentication
+### 🔐 User Authentication & Security
 
 - **Secure Login System**: User authentication with NextAuth.js and credential validation
 - **User Registration**: New user signup with password hashing and form validation
+- **Password Management**: Change password functionality with old password verification
 - **Login/Register Pages**: Dedicated pages for authentication flows
 - **Authentication Modal**: Quick access authentication modal for seamless user experience
 - **Session Management**: JWT-based session management and user account handling
 - **Password Security**: bcryptjs hashing for secure password storage and verification
+- **Protected Routes**: Server-side authentication checks for sensitive pages
 
 ### 📧 Newsletter Subscription
 
@@ -59,12 +61,14 @@ A modern, responsive travel and discovery platform built with Next.js 16, design
 - **Dynamic Tour Selection**: Integration with destination and tour data for booking
 - **Booking Management**: Complete booking interface for customers
 
-### � User Profile
+### 👤 User Profile & Account Management
 
-- **Profile Page**: User account management and preferences
+- **Profile Page**: User account management and preferences (`/profile`)
+- **Change Password**: Secure password update functionality with authentication
 - **Account Settings**: User profile customization and management
+- **Session Protection**: Protected routes requiring active authentication
 
-### �📞 Contact Management
+### 📞 Contact Management
 
 - **Contact Form Page**: Professional contact form with multiple input fields
 - **Form Validation**: Comprehensive client and server-side validation
@@ -90,7 +94,8 @@ atlas-egypt/
 │   ├── Model.jsx               # Authentication modal component
 │   ├── Authentication/         # Auth-related components
 │   │   ├── login-form.jsx      # Login form component
-│   │   └── Register-form.jsx   # Registration form component
+│   │   ├── Register-form.jsx   # Registration form component
+│   │   └── forget-password-form.jsx # Change password form component
 │   ├── blog/                   # Blog-related components
 │   │   ├── blog-grid.jsx       # Blog posts grid display
 │   │   └── blog-post.jsx       # Individual blog post display
@@ -114,26 +119,30 @@ atlas-egypt/
 │   ├── _app.js                 # Custom App component (global setup)
 │   ├── _document.js            # Custom Document for HTML structure
 │   ├── index.js                # Home page
-│   ├── login.js                # User login page
 │   ├── Register.js             # User registration page
 │   ├── contactus.js            # Contact page
 │   ├── 404.js                  # Custom 404 error page
-│   ├── profilePage/            # User profile section
+│   ├── profile/                # User profile section
 │   │   └── index.js            # User profile page
 │   ├── api/                    # Next.js API routes (backend)
 │   │   ├── contactus.js        # Contact form API handler
 │   │   ├── newsletter.js       # Newsletter subscription API
-│   │   └── auth/               # Authentication API routes
-│   │       ├── [...nextauth].js # NextAuth.js configuration
-│   │       └── signup.js       # User registration API handler
+│   │   ├── auth/               # Authentication API routes
+│   │   │   ├── [...nextauth].js # NextAuth.js configuration
+│   │   │   └── signup.js       # User registration API handler
+│   │   └── user/               # User management API routes
+│   │       └── change-password.js # Password change API handler
 │   ├── Blog/                   # Blog section
 │   │   ├── index.js            # Blog listing page
 │   │   └── AddBlog.js          # Blog creation/admin page
 │   ├── Book/                   # Booking section
 │   │   └── index.js            # Booking interface
-│   └── Discover/               # Destination discovery
-│       ├── index.js            # All destinations page
-│       └── [Id].js             # Dynamic individual destination page
+│   ├── Discover/               # Destination discovery
+│   │   ├── index.js            # All destinations page
+│   │   └── [Id].js             # Dynamic individual destination page
+│   └── login/                  # Authentication pages
+│       ├── index.js            # Login page
+│       └── forget-password.js  # Change password page (protected)
 │
 ├── helper/                     # Utility functions and helpers
 │   ├── db-util.js              # Database operations and queries
@@ -150,11 +159,12 @@ atlas-egypt/
 ├── public/                     # Static assets
 │   ├── blogs/                  # Blog article images
 │   ├── trips/                  # Destination and trip images
-│   ├── AtlasEgypt.png          # Logo asset
+│   ├── AtlasEgypt.jpg          # Logo asset
 │   ├── HeroPhoto.png           # Hero banner image
 │   └── Favicon.ico             # Site favicon
 │
 ├── Configuration Files
+│   ├── .env.local              # Environment variables (NextAuth, MongoDB)
 │   ├── package.json            # Dependencies and npm scripts
 │   ├── next.config.mjs         # Next.js configuration (React Compiler enabled)
 │   ├── postcss.config.mjs      # PostCSS configuration for Tailwind
@@ -181,11 +191,15 @@ atlas-egypt/
 
 ### Backend & Database
 
-- **[Firebase Realtime Database](https://firebase.google.com/products/realtime-database)** - Real-time NoSQL database for dynamic destinations, tours, and live content
 - **[MongoDB 7.0.0](https://www.mongodb.com)** - NoSQL database for data persistence (newsletter, contacts, blog posts, users)
-- **[NextAuth.js](https://next-auth.js.org)** - Complete open source authentication solution for Next.js
+- **[NextAuth.js 4.24.13](https://next-auth.js.org)** - Complete open source authentication solution for Next.js
 - **[bcryptjs](https://www.npmjs.com/package/bcryptjs)** - Password hashing library for secure authentication
 - **Next.js API Routes** - Serverless API endpoints for backend functionality
+
+### Rich Text Editor
+
+- **[TipTap React](https://tiptap.dev)** - Headless rich text editor for blog content creation
+- **[TipTap Starter Kit](https://tiptap.dev)** - Essential extensions for rich text editing
 
 ### Notifications & Toast
 
@@ -232,35 +246,22 @@ atlas-egypt/
    Create a `.env.local` file in the root directory with:
 
    ```env
-   # Firebase Realtime Database
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=your_firebase_database_url
+   # NextAuth Configuration
+   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_SECRET=your-super-secret-key-change-this-in-production
 
    # MongoDB Connection
    MONGODB_URI=your_mongodb_connection_string
-
-   # NextAuth Configuration
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your_nextauth_secret_key
    ```
 
-4. **Firebase Setup**
-   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
-   - Enable Realtime Database
-   - Set up database structure for:
-     - `destinations` - Destination location data with real-time updates
-     - `tours` - Travel package information
-
-5. **MongoDB Setup**
+4. **MongoDB Setup**
    - Set up MongoDB locally or create a MongoDB Atlas cluster
    - Create database collections for:
      - `newsletter` - Newsletter subscriptions
      - `contacts` - Contact form submissions
      - `users` - User accounts for authentication
 
-6. **Run Development Server**
+5. **Run Development Server**
 
    ```bash
    npm run dev
@@ -268,7 +269,7 @@ atlas-egypt/
 
    Opens on [http://localhost:3000](http://localhost:3000)
 
-7. **Build for Production**
+6. **Build for Production**
 
    ```bash
    npm run build
@@ -286,13 +287,7 @@ npm run lint     # Run ESLint code quality checks
 
 ## 📊 Database Management
 
-The application uses both Firebase Realtime Database and MongoDB for comprehensive data management:
-
-### Firebase Realtime Database
-
-- **Destinations**: Location metadata with real-time updates (name, description, images, ratings, coordinates)
-- **Tours**: Travel packages with dynamic availability and pricing
-- **Live Content**: Real-time data updates for the Discover page
+The application uses MongoDB for comprehensive data management:
 
 ### MongoDB Collections & Models
 
@@ -303,10 +298,9 @@ The application uses both Firebase Realtime Database and MongoDB for comprehensi
 
 ### Data Access
 
-- **Firebase Integration**: Direct real-time database access for destinations and tours
 - **MongoDB Operations**: Utility functions in `helper/` directory handle database operations
 - **API Routes**: Next.js API routes in `pages/api/` provide RESTful endpoints
-- **Client-side Fetching**: Components fetch data via Firebase SDK or API routes as needed
+- **Client-side Fetching**: Components fetch data via API routes as needed
 
 ## 👨‍💻 Development Guidelines
 
@@ -355,13 +349,16 @@ For questions, suggestions, bug reports, or collaboration opportunities:
 
 ## 📈 Future Enhancements
 
-- User profile and preference management
 - Advanced search and filtering for destinations
 - Review and rating system for tours
 - Payment integration for bookings
 - Real-time notifications
 - Mobile app development
 - Multi-language support
+- Email-based password reset functionality
+- User profile customization with avatars
+- Social media integration
+- Advanced analytics and reporting
 
 ---
 

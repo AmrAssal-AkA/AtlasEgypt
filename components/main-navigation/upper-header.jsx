@@ -25,7 +25,7 @@ export default function UpperHeader(props) {
       <div className="flex justify-end p-2 mr-10">
         <div className="flex items-center gap-6">
           <span className="text-white text-sm md:text-base">
-            Call us: +20 104 456 6595
+            Call us: +20 123005640
           </span>
           <div className="border-l border-white h-6"></div>
         </div>

@@ -1,0 +1,8 @@
+__turbopack_load_page_chunks__("/Blog", [
+  "static/chunks/822dd49ae0a0592d.js",
+  "static/chunks/b60c138ff7b312d7.js",
+  "static/chunks/a4880c2a69cb87d1.js",
+  "static/chunks/af4dbf0879e265ce.js",
+  "static/chunks/2acadd233c425c75.js",
+  "static/chunks/turbopack-4339594ff19fc69c.js"
+])

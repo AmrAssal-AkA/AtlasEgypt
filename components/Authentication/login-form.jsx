@@ -2,10 +2,13 @@ import { useState } from "react";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 import { toast } from "react-toastify";
+import {  useRouter } from "next/router";
+
 
 function LoginForm() {
       const [email, setEmail] = useState("");
       const [password, setPassword] = useState("");
+      const router =useRouter();
     
     async function handlelogin(e){
         e.preventDefault();
@@ -18,8 +21,9 @@ function LoginForm() {
           toast.error("Invalid email or password");
       }else{
         toast.success("Logged in successfully");
-      }
+        router.push("/");
     }
+  }
   return (
            <form onSubmit={handlelogin} className="space-y-6">
             <div>
@@ -58,15 +62,6 @@ function LoginForm() {
               />
             </div>
 
-            <div className="text-right">
-              <Link
-                href="/forgot-password"
-                className="text-sm text-amber-500 hover:text-amber-600"
-              >
-                Forgot Password?
-              </Link>
-            </div>
-
             <button
               type="submit"
               className="w-full bg-amber-500 text-white py-3 rounded-lg font-semibold hover:bg-amber-600 transition-colors cursor-pointer"
@@ -85,5 +80,6 @@ function LoginForm() {
           </form>
   )
 }
+
 
 export default LoginForm

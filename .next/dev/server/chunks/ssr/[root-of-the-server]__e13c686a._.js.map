@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/amrassal/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js"],"sourcesContent":["import { getSession } from 'next-auth/react'\nimport React from 'react'\n\nfunction ProfilePage() {\n  return (\n    <div>ProfilePage</div>\n  )\n}\n\n\nexport async function getServerSideProps(context){\n  const session = await getSession({req: context.req});\n\n  if(!session){\n    return{\n      redirect: {\n        destination: '/login',\n        permanent: false,\n      }\n    }\n  }\n  return {props: {session}};\n}\n\nexport default ProfilePage"],"names":[],"mappings":";;;;;;;AAAA;AACA;;;;AAEA,SAAS;IACP,qBACE,qKAAC;kBAAI;;;;;;AAET;AAGO,eAAe,mBAAmB,OAAO;IAC9C,MAAM,UAAU,MAAM,IAAA,kPAAU,EAAC;QAAC,KAAK,QAAQ,GAAG;IAAA;IAElD,IAAG,CAAC,SAAQ;QACV,OAAM;YACJ,UAAU;gBACR,aAAa;gBACb,WAAW;YACb;QACF;IACF;IACA,OAAO;QAAC,OAAO;YAAC;QAAO;IAAC;AAC1B;uCAEe"}}]
+}

@@ -1,5 +1,9 @@
 import Image from "next/image";
 import Head from "next/head";
+import { getSession } from "next-auth/react";
+
+import AddPostBlog from "@/components/blog/Post-blog";
+
 
 function AddBlog() {
   return (
@@ -24,18 +28,39 @@ function AddBlog() {
           <div className="absolute inset-0 bg-black/40" />
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-white px-4 text-center ">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Welcome to Our Blog
+              Adding a New Blog Post
             </h1>
             <p className="text-lg md:text-xl max-w-4xl mb-5">
-              Discover the latest news, tips, and insights about our services
-              and the travel industry. Stay updated with our expert articles and
-              guides to make the most of your travel experiences.
+              Share your insights, experiences, and updates with the AtlasEgypt
+              community by adding a new blog post. Whether it's a travel story,
+              a cultural insight, or an update about our services, your
+              contribution helps us connect and inspire others. Use the form
+              below to create your blog post and share it with the world!
             </p>
           </div>
         </section>
+        <AddPostBlog />
       </main>
     </>
   );
 }
+
+export async function getServerSideProps(context) {
+  const session = await getSession({ req: context.req });
+  
+  if (!session) {
+    return {
+      redirect: {
+        destination: "/login",
+        permanent: false,
+      },
+    };
+  }
+
+  return {
+    props: {session},
+  };
+}
+
 
 export default AddBlog;

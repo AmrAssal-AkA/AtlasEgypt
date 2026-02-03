@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 w-full">
         <div className="p-2 flex flex-col sm:flex-row justify-between items-center mb-6 border-b border-amber-200 gap-4">
           <Link href="/">
-            <Image src="/logo.png" alt="Kemet Logo" width={100} height={80} />
+            <Image src="/AtlasEgypt.png" alt="AtlasEgypt Logo" width={100} height={80} />
           </Link>
           <Link
             href="/"

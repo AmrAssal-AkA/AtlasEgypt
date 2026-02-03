@@ -90,7 +90,7 @@ export async function getStaticProps(context) {
     props: {
       DestinationDetails: destination,
     },
-    revalidate: 3600,
+    revalidate: 1800,
   };
 }
 
@@ -102,7 +102,7 @@ export async function getStaticPaths() {
   }));
   return {
     paths: paths,
-    fallback: true,
+    fallback: false,
   };
 }
 

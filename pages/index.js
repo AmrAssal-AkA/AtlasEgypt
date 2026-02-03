@@ -5,7 +5,6 @@ import { MapPin, User, Compass} from "lucide-react";
 
 import Button from "../components/ui/Button";
 import { getFeaturedDestination} from "@/helper/data-util";
-
 import DestinationGrid from "@/components/Discover/Destination-grid";
 
 export default function Home(props) {

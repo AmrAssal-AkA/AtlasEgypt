@@ -1,1745 +1,742 @@
-[00:00:02.535] Server  LOG     ✓ Ready in 2.3s
-[00:00:31.760] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.760] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.760] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.760] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.760] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:31.760] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:31.771] Server  WARN    [next-auth][warn][NEXTAUTH_URL] "\nhttps://next-auth.js.org/warnings#nextauth_url"
-[00:00:31.771] Server  WARN    [next-auth][warn][NO_SECRET] "\nhttps://next-auth.js.org/warnings#no_secret"
-[00:01:15.310] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:15.683] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logo.png" "received" null
-[00:01:15.709] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:02:02.363] Server  LOG     ✓ Compiled in 505ms
-[00:02:05.873] Server  LOG     ✓ Compiled in 115ms
-[00:02:11.778] Server  LOG     ✓ Compiled in 139ms
-[00:02:14.441] Server  LOG     ✓ Compiled in 107ms
-[00:02:15.961] Server  LOG     ✓ Compiled in 99ms
-[00:02:20.758] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:20.758] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:20.758] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:20.758] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:20.758] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:20.758] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:21.173] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:28.903] Server  LOG     ✓ Compiled in 133ms
-[00:02:31.572] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:31.572] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:31.572] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:31.572] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:31.572] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:31.572] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:32.689] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:37.182] Server  LOG     ✓ Compiled in 114ms
-[00:02:42.286] Server  LOG     ✓ Compiled in 68ms
-[00:02:45.012] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:45.012] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.012] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.012] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.012] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:45.012] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:46.240] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:20.172] Server  LOG     ✓ Compiled in 69ms
-[00:06:55.765] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:55.765] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:55.765] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:55.765] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:55.765] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:06:55.765] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:07:08.914] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
-[00:07:17.481] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:31.480] Server  LOG     ✓ Compiled in 176ms
-[00:08:38.342] Server  LOG     ✓ Compiled in 79ms
-[00:08:44.405] Server  LOG     ✓ Compiled in 40ms
-[00:08:47.311] Server  LOG     ✓ Compiled in 84ms
-[00:08:49.947] Server  LOG     ✓ Compiled in 40ms
-[00:08:58.397] Server  LOG     ✓ Compiled in 104ms
-[00:09:01.382] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:01.382] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:01.382] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:01.382] Browser WARN    Image with src "/AtlasEgypt.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:01.667] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:01.667] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:01.667] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:09:01.667] Browser WARN    Image with src "/AtlasEgypt.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:09:08.354] Server  LOG     ✓ Compiled in 82ms
-[00:09:14.740] Server  LOG     ✓ Compiled in 90ms
-[00:09:15.773] Server  LOG     ✓ Compiled in 46ms
-[00:09:18.471] Server  LOG     ✓ Compiled in 36ms
-[00:14:24.480] Server  LOG     ✓ Compiled in 73ms
-[00:14:50.348] Server  LOG     ✓ Compiled in 50ms
-[00:15:35.215] Server  LOG     ✓ Compiled in 54ms
-[00:19:16.817] Server  LOG     ✓ Compiled in 32ms
-[00:19:45.706] Server  LOG     ✓ Compiled in 40ms
-[00:20:33.139] Server  LOG     ✓ Compiled in 36ms
-[00:24:22.505] Server  LOG     ✓ Compiled in 109ms
-[00:24:24.466] Server  LOG     ✓ Compiled in 200ms
-[00:24:24.578] Browser ERROR   ./components/main-navigation/Header.jsx:94:13
-Parsing ecmascript source code failed
-  92 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  93 |               <D
-> 94 |             </button>
-     |             ^
-  95 |           )}
-  96 |         </ul>
-  97 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:24.579] Browser ERROR   ./components/main-navigation/Header.jsx:94:14
-Parsing ecmascript source code failed
-  92 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  93 |               <D
-> 94 |             </button>
-     |              ^^^^^^^^
-  95 |           )}
-  96 |         </ul>
-  97 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:24.579] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:26.182] Browser ERROR   ./components/main-navigation/Header.jsx:94:13
-Parsing ecmascript source code failed
-  92 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  93 |               <Drop
-> 94 |             </button>
-     |             ^
-  95 |           )}
-  96 |         </ul>
-  97 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:26.182] Browser ERROR   ./components/main-navigation/Header.jsx:94:14
-Parsing ecmascript source code failed
-  92 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  93 |               <Drop
-> 94 |             </button>
-     |              ^^^^^^^^
-  95 |           )}
-  96 |         </ul>
-  97 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:26.182] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:28.144] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown 
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:28.145] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown 
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:28.145] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:31.831] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown page
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:31.831] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown page
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:31.831] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:37.262] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/"
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:37.262] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/"
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:37.262] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:47.757] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/pro"
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:47.757] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/pro"
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:24:47.757] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:00.240] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Prof"
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:00.241] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Prof"
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:00.241] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:03.965] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" page
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:03.966] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" page
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:03.966] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:06.574] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:06.574] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:06.574] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:08.926] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:08.926] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:08.926] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:09.965] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2=
-> 95 |             </button>
-     |              ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:09.965] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:11.633] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2=""
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:11.633] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2=""
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:11.633] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:13.680] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" 
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:13.680] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" 
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:13.680] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:23.126] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" pageName2="lo"
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:23.126] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" pageName2="lo"
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:23.126] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:27.691] Browser ERROR   ./components/main-navigation/Header.jsx:95:13
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" pageName2="logout"
-> 95 |             </button>
-     |             ^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:27.691] Browser ERROR   ./components/main-navigation/Header.jsx:95:14
-Parsing ecmascript source code failed
-  93 |               <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-  94 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" pageName2="logout"
-> 95 |             </button>
-     |              ^^^^^^^^
-  96 |           )}
-  97 |         </ul>
-  98 |       </div>
-
-Unterminated regexp literal
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:27.691] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:31.158] Server  LOG     ✓ Compiled in 219ms
-[00:25:39.985] Server  LOG     ✓ Compiled in 62ms
-[00:25:47.030] Server  LOG     ✓ Compiled in 130ms
-[00:25:54.482] Server  LOG     ✓ Compiled in 54ms
-[00:25:55.846] Server  LOG     ✓ Compiled in 42ms
-[00:25:55.950] Browser ERROR   ./components/ui/Dropdown.jsx:18:9
-Parsing ecmascript source code failed
-  16 |       <div className="relative inline-block">
-  17 |         <
-> 18 |         {isOpen && (
-     |         ^
-  19 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  20 |             <ul
-  21 |               role="menu"
-
-Expected '</', got '{'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:25:59.533] Server  LOG     ✓ Compiled in 26ms
-[00:25:59.644] Browser ERROR   ./components/ui/Dropdown.jsx:18:10
-Parsing ecmascript source code failed
-  16 |       <div className="relative inline-block">
-  17 |         <button 
-> 18 |         {isOpen && (
-     |          ^^^^^^
-  19 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  20 |             <ul
-  21 |               role="menu"
-
-Expected '</', got 'isOpen'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:05.151] Browser ERROR   ./components/ui/Dropdown.jsx:18:10
-Parsing ecmascript source code failed
-  16 |       <div className="relative inline-block">
-  17 |         <button type=""
-> 18 |         {isOpen && (
-     |          ^^^^^^
-  19 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  20 |             <ul
-  21 |               role="menu"
-
-Expected '</', got 'isOpen'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:14.573] Browser ERROR   ./components/ui/Dropdown.jsx:18:10
-Parsing ecmascript source code failed
-  16 |       <div className="relative inline-block">
-  17 |         <button type="button" 
-> 18 |         {isOpen && (
-     |          ^^^^^^
-  19 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  20 |             <ul
-  21 |               role="menu"
-
-Expected '</', got 'isOpen'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:20.479] Server  LOG     ✓ Compiled in 55ms
-[00:26:20.582] Browser ERROR   ./components/ui/Dropdown.jsx:49:13
-Parsing ecmascript source code failed
-  47 |           </div>
-  48 |         )}
-> 49 |       </div>
-     |             ^
-> 50 |     </div>
-     | ^^^^^
-  51 |   );
-  52 | }
-  53 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:21.649] Browser ERROR   ./components/ui/Dropdown.jsx:50:13
-Parsing ecmascript source code failed
-  48 |           </div>
-  49 |         )}
-> 50 |       </div>
-     |             ^
-> 51 |     </div>
-     | ^^^^^
-  52 |   );
-  53 | }
-  54 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:22.731] Browser ERROR   ./components/ui/Dropdown.jsx:50:13
-Parsing ecmascript source code failed
-  48 |           </div>
-  49 |         )}
-> 50 |       </div>
-     |             ^
-> 51 |     </div>
-     | ^^^^^
-  52 |   );
-  53 | }
-  54 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:24.537] Browser ERROR   ./components/ui/Dropdown.jsx:50:13
-Parsing ecmascript source code failed
-  48 |           </div>
-  49 |         )}
-> 50 |       </div>
-     |             ^
-> 51 |     </div>
-     | ^^^^^
-  52 |   );
-  53 | }
-  54 |
-
-Expected '</', got 'jsx text (
-    )'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:27.479] Server  LOG     ✓ Compiled in 25ms
-[00:26:27.583] Browser ERROR   ./components/ui/Dropdown.jsx:20:9
-Parsing ecmascript source code failed
-  18 |             
-  19 |             <
-> 20 |         {isOpen && (
-     |         ^
-  21 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  22 |             <ul
-  23 |               role="menu"
-
-Expected '</', got '{'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:30.746] Server  LOG     ✓ Compiled in 60ms
-[00:26:30.848] Browser ERROR   ./components/ui/Dropdown.jsx:20:10
-Parsing ecmascript source code failed
-  18 |             
-  19 |             <button
-> 20 |         {isOpen && (
-     |          ^^^^^^
-  21 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  22 |             <ul
-  23 |               role="menu"
-
-Expected '</', got 'isOpen'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:34.455] Server  LOG     ✓ Compiled in 23ms
-[00:26:34.559] Browser ERROR   ./components/ui/Dropdown.jsx:20:9
-Parsing ecmascript source code failed
-  18 |             
-  19 |             </button
-> 20 |         {isOpen && (
-     |         ^
-  21 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-  22 |             <ul
-  23 |               role="menu"
-
-Expected '</', got '{'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:26:36.836] Server  LOG     ✓ Compiled in 55ms
-[00:26:36.916] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
-      <App pageProps={{}} Component={function loginPage} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2="" pageName2="logout">
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm p..."
->                         >
-                    ...
-              ...
-          ...
-      ...
-
-[00:26:36.916] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:26:41.978] Server  LOG     ✓ Compiled in 57ms
-[00:26:47.894] Server  LOG     ✓ Compiled in 69ms
-[00:26:50.424] Server  LOG     ✓ Compiled in 31ms
-[00:26:50.509] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Dropdown> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:26:51.705] Server  LOG     ✓ Compiled in 67ms
-[00:26:51.803] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Dropdown> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:27:03.898] Server  LOG     ✓ Compiled in 87ms
-[00:27:04.080] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Dropdown> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:27:06.686] Server  LOG     ✓ Compiled in 21ms
-[00:27:06.767] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <Dropdown> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:27:08.543] Server  LOG     ✓ Compiled in 138ms
-[00:27:31.428] Server  LOG     ✓ Compiled in 46ms
-[00:27:36.398] Server  LOG     ✓ Compiled in 37ms
-[00:27:37.740] Server  LOG     ✓ Compiled in 23ms
-[00:27:50.770] Server  LOG     ✓ Compiled in 52ms
-[00:28:06.103] Server  LOG     ✓ Compiled in 49ms
-[00:28:06.211] Browser ERROR   ./components/ui/Dropdown.jsx:24:102
-Parsing ecmascript source code failed
-  22 |           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700
-  23 |         >
-> 24 |           <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer fill-amber-500  transition-colors" />
-     |                                                                                                      ^^^^
-  25 |         </button>
-  26 |         {isOpen && (
-  27 |           <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-
-Unterminated string constant
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:28:09.178] Server  LOG     ✓ Compiled in 87ms
-[00:28:19.579] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:00:00.783] Server  LOG     ✓ Ready in 549ms
+[00:00:05.248] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.248] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.248] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.415] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.415] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.415] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `BlogGrid`. 
-[00:28:19.579] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:19.579] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:19.579] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:19.579] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:19.579] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:19.579] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.878] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.878] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:20.879] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:28:32.777] Server  LOG     ✓ Compiled in 97ms
-[00:28:34.655] Server  LOG     ✓ Compiled in 64ms
-[00:28:35.842] Server  LOG     ✓ Compiled in 54ms
-[00:28:39.564] Server  LOG     ✓ Compiled in 84ms
-[00:28:44.068] Server  LOG     ✓ Compiled in 42ms
-[00:28:44.177] Browser ERROR   ./components/main-navigation/Header.jsx:26:3
+[00:00:07.922] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:07.922] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.937] Server  LOG     ✓ Compiled in 76ms
+[00:00:24.773] Server  LOG     ✓ Compiled in 36ms
+[00:00:26.962] Server  LOG     ✓ Compiled in 36ms
+[00:02:38.034] Server  LOG     ✓ Compiled in 149ms
+[00:02:39.714] Server  LOG     ✓ Compiled in 41ms
+[00:02:42.448] Server  LOG     ✓ Compiled in 105ms
+[00:02:47.290] Server  LOG     ✓ Compiled in 66ms
+[00:02:52.210] Server  LOG     ✓ Compiled in 27ms
+[00:02:55.703] Server  LOG     ✓ Compiled in 38ms
+[00:02:56.945] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:57.188] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:07.384] Server  LOG     ✓ Compiled in 57ms
+[00:03:19.605] Server  LOG     ✓ Compiled in 43ms
+[00:06:25.231] Server  LOG     ✓ Compiled in 57ms
+[00:06:27.198] Server  LOG     ✓ Compiled in 27ms
+[00:06:28.207] Server  LOG     ✓ Compiled in 27ms
+[00:06:33.720] Server  LOG     ✓ Compiled in 47ms
+[00:06:46.058] Server  LOG     ✓ Compiled in 43ms
+[00:06:47.066] Server  LOG     ✓ Compiled in 31ms
+[00:06:50.921] Server  LOG     ✓ Compiled in 51ms
+[00:06:50.998] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true r r true r
+[00:06:56.040] Server  LOG     ✓ Compiled in 50ms
+[00:18:40.571] Server  LOG     ✓ Compiled in 116ms
+[00:18:41.973] Server  LOG     ✓ Compiled in 29ms
+[00:18:47.104] Server  LOG     ✓ Compiled in 24ms
+[00:18:49.231] Server  LOG     ✓ Compiled in 34ms
+[00:19:10.181] Server  LOG     ✓ Compiled in 70ms
+[00:19:13.053] Server  LOG     ✓ Compiled in 23ms
+[00:19:27.144] Server  LOG     ✓ Compiled in 36ms
+[00:19:37.676] Server  LOG     ✓ Compiled in 31ms
+[00:19:41.703] Server  LOG     ✓ Compiled in 28ms
+[00:19:46.216] Server  LOG     ✓ Compiled in 35ms
+[00:19:46.951] Server  LOG     ✓ Compiled in 32ms
+[00:19:50.792] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:20:05.907] Server  LOG     ✓ Compiled in 26ms
+[00:20:09.787] Server  LOG     ✓ Compiled in 78ms
+[00:20:14.763] Server  LOG     ✓ Compiled in 96ms
+[00:21:40.864] Server  LOG     ✓ Compiled in 103ms
+[00:21:40.972] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:35:11
 Parsing ecmascript source code failed
-  24 |   function 
-  25 |
-> 26 |   const navLinks = [
-     |   ^^^^^
-  27 |     { name: "Home", path: "/" },
-  28 |     { name: "Discover", path: "/Discover" },
-  29 |     { name: "Blog", path: "/Blog" },
+  33 |           </div>
+  34 |           <input tr
+> 35 |           <div className="text-center">
+     |           ^
+  36 |             <Button type="submit" className="mx-auto block">
+  37 |               Add Blog Post
+  38 |             </Button>
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:21:47.023] Server  LOG     ✓ Compiled in 70ms
+[00:21:53.473] Server  LOG     ✓ Compiled in 41ms
+[00:22:05.213] Server  LOG     ✓ Compiled in 39ms
+[00:22:05.322] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:35:11
+Parsing ecmascript source code failed
+  33 |           </div>
+  34 |           <button
+> 35 |           <input type="file" id="image" name="image" accept="image/*" />
+     |           ^
+  36 |           <div className="text-center">
+  37 |             <Button type="submit" className="mx-auto block">
+  38 |               Add Blog Post
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:07.300] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:35:11
+Parsing ecmascript source code failed
+  33 |           </div>
+  34 |           <bu
+> 35 |           <input type="file" id="image" name="image" accept="image/*" />
+     |           ^
+  36 |           <div className="text-center">
+  37 |             <Button type="submit" className="mx-auto block">
+  38 |               Add Blog Post
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:08.548] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:35:11
+Parsing ecmascript source code failed
+  33 |           </div>
+  34 |           <button
+> 35 |           <input type="file" id="image" name="image" accept="image/*" />
+     |           ^
+  36 |           <div className="text-center">
+  37 |             <Button type="submit" className="mx-auto block">
+  38 |               Add Blog Post
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:09.448] Server  LOG     ✓ Compiled in 13ms
+[00:22:09.551] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:41:16
+Parsing ecmascript source code failed
+  39 |             </Button>
+  40 |           </div>
+> 41 |         </form>
+     |                ^
+> 42 |       </div>
+     | ^^^^^^^
+  43 |     </section>
+  44 |   );
+  45 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:13.417] Server  LOG     ✓ Compiled in 34ms
+[00:22:20.027] Server  LOG     ✓ Compiled in 26ms
+[00:22:25.019] Server  LOG     ✓ Compiled in 43ms
+[00:22:25.123] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:34:17
+Parsing ecmascript source code failed
+  32 |             ></textarea>
+  33 |           </div>
+> 34 |           < type="button" className="text-2xl font-bold mb-4">
+     |                 ^
+  35 |           <input type="file" id="image" name="image" accept="image/*" 
+  36 |           <div className="text-center">
+  37 |             <Button type="submit" className="mx-auto block">
+
+Expected '</', got '='
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:26.423] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:34:17
+Parsing ecmascript source code failed
+  32 |             ></textarea>
+  33 |           </div>
+> 34 |           < type="button" className="text-2xl font-bold mb-4">
+     |                 ^
+  35 |           <input type="file" id="image" name="image" accept="image/*" />
+  36 |           <div className="text-center">
+  37 |             <Button type="submit" className="mx-auto block">
+
+Expected '</', got '='
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:33.509] Server  LOG     ✓ Compiled in 76ms
+[00:22:36.740] Server  LOG     ✓ Compiled in 19ms
+[00:22:36.843] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:41:16
+Parsing ecmascript source code failed
+  39 |             </Button>
+  40 |           </div>
+> 41 |         </form>
+     |                ^
+> 42 |       </div>
+     | ^^^^^^^
+  43 |     </section>
+  44 |   );
+  45 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:38.064] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:42:16
+Parsing ecmascript source code failed
+  40 |             </Button>
+  41 |           </div>
+> 42 |         </form>
+     |                ^
+> 43 |       </div>
+     | ^^^^^^^
+  44 |     </section>
+  45 |   );
+  46 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:41.260] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:43:16
+Parsing ecmascript source code failed
+  41 |             </Button>
+  42 |           </div>
+> 43 |         </form>
+     |                ^
+> 44 |       </div>
+     | ^^^^^^^
+  45 |     </section>
+  46 |   );
+  47 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:43.530] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:42:16
+Parsing ecmascript source code failed
+  40 |             </Button>
+  41 |           </div>
+> 42 |         </form>
+     |                ^
+> 43 |       </div>
+     | ^^^^^^^
+  44 |     </section>
+  45 |   );
+  46 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:44.560] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:43:16
+Parsing ecmascript source code failed
+  41 |             </Button>
+  42 |           </div>
+> 43 |         </form>
+     |                ^
+> 44 |       </div>
+     | ^^^^^^^
+  45 |     </section>
+  46 |   );
+  47 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:22:51.357] Server  LOG     ✓ Compiled in 120ms
+[00:22:59.689] Server  LOG     ✓ Compiled in 16ms
+[00:22:59.799] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:42:16
+Parsing ecmascript source code failed
+  40 |             </Button>
+  41 |           </div>
+> 42 |         </form>
+     |                ^
+> 43 |       </div>
+     | ^^^^^^^
+  44 |     </section>
+  45 |   );
+  46 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:23:01.766] Server  LOG     ✓ Compiled in 45ms
+[00:23:03.656] Server  LOG     ✓ Compiled in 39ms
+[00:23:13.371] Server  LOG     ✓ Compiled in 44ms
+[00:24:20.282] Server  LOG     ✓ Compiled in 37ms
+[00:24:20.386] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:41:16
+Parsing ecmascript source code failed
+  39 |             </Button>
+  40 |           </div>
+> 41 |         </form>
+     |                ^
+> 42 |       </div>
+     | ^^^^^^^
+  43 |     </section>
+  44 |   );
+  45 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:24:25.129] Server  LOG     ✓ Compiled in 41ms
+[00:24:37.056] Server  LOG     ✓ Compiled in 64ms
+[00:24:39.703] Server  LOG     ✓ Compiled in 88ms
+[00:24:45.311] Server  LOG     ✓ Compiled in 45ms
+[00:24:45.423] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:44:16
+Parsing ecmascript source code failed
+  42 |             </Button>
+  43 |           </div>
+> 44 |         </form>
+     |                ^
+> 45 |       </div>
+     | ^^^^^^^
+  46 |     </section>
+  47 |   );
+  48 | }
+
+Expected '</', got 'jsx text (
+      )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:24:48.711] Server  LOG     ✓ Compiled in 33ms
+[00:24:54.497] Server  LOG     ✓ Compiled in 23ms
+[00:24:57.061] Server  LOG     ✓ Compiled in 37ms
+[00:25:02.816] Server  LOG     ✓ Compiled in 35ms
+[00:25:07.031] Server  LOG     ✓ Compiled in 30ms
+[00:25:08.062] Server  LOG     ✓ Compiled in 23ms
+[00:25:10.619] Server  LOG     ✓ Compiled in 28ms
+[00:25:33.282] Server  LOG     ✓ Compiled in 59ms
+[00:25:34.871] Server  LOG     ✓ Compiled in 27ms
+[00:25:34.946] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. buut
+[00:25:37.265] Server  LOG     ✓ Compiled in 34ms
+[00:25:40.403] Server  LOG     ✓ Compiled in 35ms
+[00:25:41.556] Server  LOG     ✓ Compiled in 25ms
+[00:25:51.813] Server  LOG     ✓ Compiled in 22ms
+[00:26:45.605] Server  LOG     ✓ Compiled in 47ms
+[00:26:45.710] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:38:46
+Parsing ecmascript source code failed
+  36 |             Upload Image
+  37 |           </label>
+> 38 |           <input type="file" id=" name="image" accept="image/*" />
+     |                                              ^^^^^^^^^^
+  39 |         </div>
+  40 |           <div className="text-center">
+  41 |             <Button type="submit" className="mx-auto block">
+
+Expected '</', got 'string literal (" accept=", " accept=")'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:26:46.857] Server  LOG     ✓ Compiled in 66ms
+[00:26:52.086] Server  LOG     ✓ Compiled in 56ms
+[00:26:55.738] Server  LOG     ✓ Compiled in 52ms
+[00:27:05.490] Server  LOG     ✓ Compiled in 80ms
+[00:27:11.797] Server  LOG     ✓ Compiled in 33ms
+[00:27:11.902] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:39:11
+Parsing ecmascript source code failed
+  37 |           </label>
+  38 |           <
+> 39 |           <input type="file" id="image" name="image" accept="image/*" />
+     |           ^
+  40 |         </div>
+  41 |           <div className="text-center">
+  42 |             <Button type="submit" className="mx-auto block">
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:27:16.769] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:39:11
+Parsing ecmascript source code failed
+  37 |           </label>
+  38 |           <button
+> 39 |           <input type="file" id="image" name="image" accept="image/*" />
+     |           ^
+  40 |         </div>
+  41 |           <div className="text-center">
+  42 |             <Button type="submit" className="mx-auto block">
+
+Expression expected
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:27:18.146] Server  LOG     ✓ Compiled in 87ms
+[00:27:21.760] Server  LOG     ✓ Compiled in 27ms
+[00:27:21.862] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:40:15
+Parsing ecmascript source code failed
+  38 |           <button>
+  39 |           <input type="file" id="image" name="image" accept="image/*" />
+> 40 |         </div>
+     |               ^
+> 41 |           <div className="text-center">
+     | ^^^^^^^^^^^
+  42 |             <Button type="submit" className="mx-auto block">
+  43 |               Add Blog Post
+  44 |             </Button>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:27:23.889] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx:41:15
+Parsing ecmascript source code failed
+  39 |           <input type="file" id="image" name="image" accept="image/*" />
+  40 |           
+> 41 |         </div>
+     |               ^
+> 42 |           <div className="text-center">
+     | ^^^^^^^^^^^
+  43 |             <Button type="submit" className="mx-auto block">
+  44 |               Add Blog Post
+  45 |             </Button>
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Browser:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+
+  SSR:
+    ./Documents/Git-Projects/AtlasEgypt/components/blog/Post-blog.jsx
+    ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js
+[00:27:27.153] Server  LOG     ✓ Compiled in 57ms
+[00:27:33.614] Server  LOG     ✓ Compiled in 48ms
+[00:27:35.268] Server  LOG     ✓ Compiled in 55ms
+[00:27:43.044] Server  LOG     ✓ Compiled in 62ms
+[00:27:45.111] Server  LOG     ✓ Compiled in 29ms
+[00:27:47.939] Server  LOG     ✓ Compiled in 62ms
+[00:27:51.306] Server  LOG     ✓ Compiled in 39ms
+[00:27:53.393] Server  LOG     ✓ Compiled in 24ms
+[00:27:57.483] Server  LOG     ✓ Compiled in 54ms
+[00:28:01.811] Server  LOG     ✓ Compiled in 38ms
+[00:28:24.663] Server  LOG     ✓ Compiled in 72ms
+[00:28:27.777] Server  LOG     ✓ Compiled in 60ms
+[00:28:29.620] Server  LOG     ✓ Compiled in 37ms
+[00:28:33.656] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:45.454] Server  LOG     ✓ Compiled in 50ms
+[00:28:47.173] Server  LOG     ✓ Compiled in 23ms
+[00:28:56.568] Server  LOG     ✓ Compiled in 29ms
+[00:29:03.857] Server  LOG     ✓ Compiled in 24ms
+[00:29:17.431] Server  LOG     ✓ Compiled in 41ms
+[00:29:19.189] Server  LOG     ✓ Compiled in 35ms
+[00:29:21.673] Server  LOG     ✓ Compiled in 35ms
+[00:29:24.422] Server  LOG     ✓ Compiled in 26ms
+[00:29:26.232] Server  LOG     ✓ Compiled in 21ms
+[00:29:29.117] Server  LOG     ✓ Compiled in 35ms
+[00:29:32.096] Server  LOG     ✓ Compiled in 32ms
+[00:29:34.031] Server  LOG     ✓ Compiled in 21ms
+[00:29:36.005] Server  LOG     ✓ Compiled in 20ms
+[00:30:49.094] Server  LOG     ✓ Compiled in 67ms
+[00:31:04.120] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:04.121] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:04.121] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:04.121] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:04.121] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:29.959] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:40.378] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+[00:31:45.001] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `BlogGrid`. 
+[00:31:45.001] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:45.001] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:45.001] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:45.001] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:45.001] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:45.001] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:31:46.201] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:33.131] Server  LOG     ✓ Compiled in 53ms
+[00:32:33.556] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:1
+Parsing ecmascript source code failed
+  46 |
+  47 |
+> 48 | export default AddBlog;
+     | ^^^^^^
+  49 |
 
 Expected ident
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:28:44.177] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:28:47.998] Server  LOG     ✓ Compiled in 29ms
-[00:28:48.103] Browser ERROR   ./components/main-navigation/Header.jsx:26:3
+[00:32:35.560] Server  LOG     ✓ Compiled in 18ms
+[00:32:36.556] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:1
 Parsing ecmascript source code failed
-  24 |   function handleL
-  25 |
-> 26 |   const navLinks = [
-     |   ^^^^^
-  27 |     { name: "Home", path: "/" },
-  28 |     { name: "Discover", path: "/Discover" },
-  29 |     { name: "Blog", path: "/Blog" },
+  46 |
+  47 |
+> 48 | export default AddBlog;
+     | ^^^^^^
+  49 |
 
-Expected '(', got 'const'
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:28:48.103] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:28:56.375] Server  LOG     ✓ Compiled in 76ms
-[00:29:02.481] Server  LOG     ✓ Compiled in 77ms
-[00:29:10.716] Server  LOG     ✓ Compiled in 45ms
-[00:29:10.823] Browser ERROR   ./components/main-navigation/Header.jsx:97:81
+Expected ',', got 'export'
+[00:32:38.556] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:1
 Parsing ecmascript source code failed
-   95 |           {session && (
-   96 |             <button>
->  97 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={} pageName2="logout" />
-      |                                                                                 ^^^^^^^^^
-   98 |             </button>
-   99 |           )}
-  100 |         </ul>
+  46 |
+  47 |
+> 48 | export default AddBlog;
+     | ^^^^^^
+  49 |
 
-Expected '</', got 'pageName2'
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:10.824] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:15.118] Browser ERROR   ./components/main-navigation/Header.jsx:97:81
+Expected ',', got 'export'
+[00:32:41.829] Server  LOG     ✓ Compiled in 18ms
+[00:32:42.556] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:49:1
 Parsing ecmascript source code failed
-   95 |           {session && (
-   96 |             <button>
->  97 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={} pageName2="logout"  />
-      |                                                                                 ^^^^^^^^^
-   98 |             </button>
-   99 |           )}
-  100 |         </ul>
+  47 |
+  48 |
+> 49 | export default AddBlog;
+     | ^^^^^^
+  50 |
 
-Expected '</', got 'pageName2'
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:15.118] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:16.129] Browser ERROR   ./components/main-navigation/Header.jsx:97:81
-Parsing ecmascript source code failed
-   95 |           {session && (
-   96 |             <button>
->  97 |               <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={} pageName2="logout" />
-      |                                                                                 ^^^^^^^^^
-   98 |             </button>
-   99 |           )}
-  100 |         </ul>
-
-Expected '</', got 'pageName2'
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:16.129] Browser ERROR   ./components/main-navigation/Header.jsx
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-
-Import trace:
-  SSR:
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:19.948] Server  LOG     ✓ Compiled in 73ms
-[00:29:21.906] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:29:24.885] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:24.885] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function DestinationPage} err={undefined} ...>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
-
-[00:29:24.885] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:29:24.885] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:29:24.885] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:26.969] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:29:43.550] Server  LOG     ✓ Compiled in 59ms
-[00:29:49.451] Server  LOG     ✓ Compiled in 40ms
-[00:29:49.556] Browser ERROR   ./components/ui/Dropdown.jsx:47:19
-Parsing ecmascript source code failed
-  45 |                 <Link
-  46 |                   onClick={}
-> 47 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-     |                   ^^^^^^^^^
-  48 |                   role="menuitem"
-  49 |                 >
-  50 |                   {props.pageName2}
-
-Expected '</', got 'className'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:50.570] Server  LOG     ✓ Compiled in 36ms
-[00:29:50.673] Browser ERROR   ./components/ui/Dropdown.jsx:46:30
-Parsing ecmascript source code failed
-  44 |               <li>
-  45 |                 <Link
-> 46 |                   onClick={()}
-     |                              ^
-  47 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-  48 |                   role="menuitem"
-  49 |                 >
-
-Expected '</', got '}'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:52.372] Server  LOG     ✓ Compiled in 23ms
-[00:29:52.474] Browser ERROR   ./components/ui/Dropdown.jsx:46:31
-Parsing ecmascript source code failed
-  44 |               <li>
-  45 |                 <Link
-> 46 |                   onClick={() +}
-     |                               ^
-  47 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-  48 |                   role="menuitem"
-  49 |                 >
-
-Expression expected
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:54.314] Server  LOG     ✓ Compiled in 25ms
-[00:29:54.418] Browser ERROR   ./components/ui/Dropdown.jsx:46:34
-Parsing ecmascript source code failed
-  44 |               <li>
-  45 |                 <Link
-> 46 |                   onClick={() => }
-     |                                  ^
-  47 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-  48 |                   role="menuitem"
-  49 |                 >
-
-Expected '</', got '}'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:29:56.037] Server  LOG     ✓ Compiled in 55ms
-[00:30:04.663] Server  LOG     ✓ Compiled in 57ms
-[00:30:06.633] Server  LOG     ✓ Compiled in 24ms
-[00:30:11.596] Server  LOG     ✓ Compiled in 27ms
-[00:30:11.699] Browser ERROR   ./components/ui/Dropdown.jsx:47:19
-Parsing ecmascript source code failed
-  45 |                 <Link
-  46 |                     href={}
-> 47 |                   onClick={() => {closeDropdown(); props.pagelink2();}}
-     |                   ^^^^^^^
-  48 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-  49 |                   role="menuitem"
-  50 |                 >
-
-Expected '</', got 'onClick'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:30:14.332] Browser ERROR   ./components/ui/Dropdown.jsx:47:19
-Parsing ecmascript source code failed
-  45 |                 <Link
-  46 |                     href={}
-> 47 |                   onClick={() => {closeDropdown(); props.pagelink2();}}
-     |                   ^^^^^^^
-  48 |                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-  49 |                   role="menuitem"
-  50 |                 >
-
-Expected '</', got 'onClick'
-
-Import trace:
-  SSR:
-    ./components/ui/Dropdown.jsx
-    ./components/main-navigation/Header.jsx
-    ./pages/_app.js
-[00:30:18.795] Server  LOG     ✓ Compiled in 71ms
-[00:30:27.209] Server  LOG     ✓ Compiled in 45ms
-[00:30:33.684] Server  LOG     ✓ Compiled in 49ms
-[00:30:39.833] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:39.834] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function DestinationPage} err={undefined} ...>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
-
-[00:30:39.834] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:30:39.834] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:30:39.834] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:30:41.576] Browser ERROR   %o
-
-%s
-
-%s
- {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
-[00:31:58.061] Server  LOG     ✓ Compiled in 90ms
-[00:32:02.886] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:02.886] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function DestinationPage} err={undefined} ...>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
-
-[00:32:02.886] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:32:02.886] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:02.886] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:10.867] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:10.867] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:10.867] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:32:18.580] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:32:33.743] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{}} Component={function loginPage} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
-
-[00:32:33.743] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:33:28.822] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:33:28.822] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:33:48.139] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
-[00:33:54.422] Server  ERROR   React expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 2 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
-[00:35:19.198] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/logo.png" "received" null
-[00:35:19.211] Server  ERROR   Error: The requested resource isn't a valid image.
-[00:35:19.247] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:19.247] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:19.247] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:35:19.247] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:35:24.955] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:36:47.169] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:36:47.169] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:36:47.169] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:36:47.169] Browser WARN    Image with src "/BlogPageBanner.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:37:22.454] Server  ERROR   ⨯ TypeError: client.close is not a function
-[00:38:08.363] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:33.802] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
-      <App pageProps={{}} Component={function loginPage} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
-
-[00:38:33.802] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:38:42.043] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:42.043] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:42.043] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:42.043] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:42.043] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+'import', and 'export' cannot be used outside of module code
+[00:32:43.205] Server  LOG     ✓ Compiled in 43ms
+[00:32:55.448] Server  LOG     ✓ Compiled in 39ms
+[00:32:59.452] Server  LOG     ✓ Compiled in 40ms
+[00:33:10.773] Server  LOG     ✓ Compiled in 28ms
+[00:33:40.570] Server  LOG     ✓ Compiled in 48ms
+[00:33:45.414] Server  LOG     ✓ Compiled in 41ms
+[00:33:48.659] Server  LOG     ✓ Compiled in 48ms
+[00:33:48.717] Browser LOG     Refreshing page data due to server-side change
+[00:33:54.498] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:33:54.529] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:33:54.783] Browser ERROR   uncaughtError: Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:33:57.082] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `BlogGrid`. 
-[00:38:49.760] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:49.760] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.581] Server  ERROR   Each child in a list should have a unique "key" prop.
-
-Check the render method of `BlogGrid`. See https://react.dev/link/warning-keys for more information.
-[00:38:50.856] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:33:57.082] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:33:57.082] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:57.082] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:57.082] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:57.082] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:57.082] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:57.082] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:03.082] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:03.082] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:03.082] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:03.082] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:03.082] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.620] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:04.620] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.620] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.620] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.620] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:04.620] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `BlogGrid`. 
-[00:38:50.856] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:38:50.856] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:38:50.856] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:39:36.952] Server  LOG     ✓ Compiled in 61ms
-[00:42:26.758] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:42.109] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
+[00:34:06.037] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.037] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:06.975] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:34:07.014] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:34:07.063] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:34:07.091] Server  ERROR   ⨯ Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:34:07.179] Browser ERROR   uncaughtError: Error: Error serializing `.session` returned from `getServerSideProps` in "/Blog/AddBlog".
+Reason: `object` ("[object Promise]") cannot be serialized as JSON. Please only return JSON serializable data types.
+[00:34:18.900] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:34:18.909] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:34:19.078] Browser ERROR   uncaughtError: Error: ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:11
+Parsing ecmascript source code failed
+  46 | }
+  47 |
+> 48 | export as function getServerSideProps(context) {
+     |           ^^^^^^^^
+  49 |   const session = getSession({ req: context.req });
+  50 |   
+  51 |   if (!session) {
 
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
-      <App pageProps={{}} Component={function loginPage} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profilePage" pageName="Profile" pagelink2={function handleLogout} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
->                         <button
->                           type="button"
->                           onClick={function toggleDropdown}
->                           className="inline-flex justify-center w-full bg-white text-sm font-medium text-gray-700"
->                         >
-              ...
-          ...
-      ...
+Expected ',', got 'function'
 
-[00:42:42.109] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:43:02.261] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:43:02.261] Browser WARN    Image with src "/AtlasEgypt.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+
+[00:34:19.555] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:11
+Parsing ecmascript source code failed
+  46 | }
+  47 |
+> 48 | export as function getServerSideProps(context) {
+     |           ^^^^^^^^
+  49 |   const session = getSession({ req: context.req });
+  50 |   
+  51 |   if (!session) {
+
+Expected ',', got 'function'
+[00:34:19.555] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:11
+Parsing ecmascript source code failed
+  46 | }
+  47 |
+> 48 | export as function getServerSideProps(context) {
+     |           ^^^^^^^^
+  49 |   const session = getSession({ req: context.req });
+  50 |   
+  51 |   if (!session) {
+
+Expected ',', got 'function'
+[00:34:20.557] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js:48:11
+Parsing ecmascript source code failed
+  46 | }
+  47 |
+> 48 | export as function getServerSideProps(context) {
+     |           ^^^^^^^^
+  49 |   const session = getSession({ req: context.req });
+  50 |   
+  51 |   if (!session) {
+
+Expected ',', got 'function'
+[00:34:22.765] Server  LOG     ✓ Compiled in 32ms
+[00:34:27.413] Server  LOG     ✓ Compiled in 35ms
+[00:34:30.203] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:30.203] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:30.203] Browser WARN    Image with src "/AtlasEgypt.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:43:02.261] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:43:02.261] Browser WARN    Image with src "/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:32.098] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `BlogGrid`. 
+[00:34:32.098] Browser WARN    Image with src "/blogs/best-time.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:32.098] Browser WARN    Image with src "/blogs/tips.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:32.098] Browser WARN    Image with src "/blogs/cuisine.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:32.098] Browser WARN    Image with src "/blogs/beaches.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:32.098] Browser WARN    Image with src "/blogs/etiquette.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:32.098] Browser WARN    Image with src "/blogs/historical-sites.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:35.174] Browser WARN    Image with src "/BlogPageBanner.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:36.589] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:36.589] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:36.589] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:36.589] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:36.589] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
