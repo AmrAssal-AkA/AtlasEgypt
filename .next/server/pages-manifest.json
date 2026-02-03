@@ -6,7 +6,6 @@
   "/Book": "pages/Book.html",
   "/Discover": "pages/Discover.js",
   "/Discover/[Id]": "pages/Discover/[Id].js",
-  "/Register": "pages/Register.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
@@ -15,8 +14,9 @@
   "/api/contactus": "pages/api/contactus.js",
   "/api/newsletter": "pages/api/newsletter.js",
   "/api/user/change-password": "pages/api/user/change-password.js",
-  "/contactus": "pages/contactus.html",
-  "/login": "pages/login.html",
-  "/login/forget-password": "pages/login/forget-password.js",
+  "/authentiaction/Register": "pages/authentiaction/Register.html",
+  "/authentiaction/forget-password": "pages/authentiaction/forget-password.js",
+  "/authentiaction/login": "pages/authentiaction/login.html",
+  "/contactus": "pages/contactus.js",
   "/profile": "pages/profile.js"
 }

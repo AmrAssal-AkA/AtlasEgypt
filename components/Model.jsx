@@ -7,12 +7,12 @@ function Model({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   const handleLogin = () => {
-    router.push("/login");
+    router.push("/authentiaction/login");
     onClose();
   };
 
   const handleSignUp = () => {
-    router.push("/Register");
+    router.push("/authentiaction/signup");
     onClose();
   };
 
