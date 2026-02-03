@@ -89,13 +89,13 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/turbopack-04bc379155b64664.js"
     ],
     "/authentiaction/login": [
-      "static/chunks/a3cbdba31564bd97.js",
+      "static/chunks/c70467b5ea5552df.js",
       "static/chunks/2acadd233c425c75.js",
       "static/chunks/e1a34bf0ac2a626a.js",
       "static/chunks/a4880c2a69cb87d1.js",
       "static/chunks/28a9b71301d0e6e2.js",
       "static/chunks/af4dbf0879e265ce.js",
-      "static/chunks/turbopack-f378cba851dcc6f7.js"
+      "static/chunks/turbopack-f3b1859f2558fc00.js"
     ],
     "/contactus": [
       "static/chunks/9e6895760fc9f92a.js",

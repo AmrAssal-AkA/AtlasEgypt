@@ -133,35 +133,35 @@
   "dataRoutes": [
     {
       "page": "/",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/index\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/index\\.json$"
     },
     {
       "page": "/authentiaction/forget-password",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/authentiaction/forget-password\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/authentiaction/forget-password\\.json$"
     },
     {
       "page": "/Blog/AddBlog",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/Blog/AddBlog\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/Blog/AddBlog\\.json$"
     },
     {
       "page": "/contactus",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/contactus\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/contactus\\.json$"
     },
     {
       "page": "/Discover",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/Discover\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/Discover\\.json$"
     },
     {
       "page": "/Discover/[Id]",
       "routeKeys": {
         "nxtPId": "nxtPId"
       },
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/Discover/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/Discover/(?<nxtPId>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/Discover/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/Discover/(?<nxtPId>[^/]+?)\\.json$"
     },
     {
       "page": "/profile",
-      "dataRouteRegex": "^/_next/data/CwNaxht_1jmTDrVdb\\-5lI/profile\\.json$"
+      "dataRouteRegex": "^/_next/data/bVf027jq\\-hnHD8l69Im2L/profile\\.json$"
     }
   ],
   "rsc": {
