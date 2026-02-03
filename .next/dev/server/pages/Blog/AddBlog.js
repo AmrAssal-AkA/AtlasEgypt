@@ -1,6 +1,6 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/pages/Blog/AddBlog.js")
-R.c("server/chunks/ssr/e0f8f_next_dist_6e7d9a50._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__e8a2a447._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6703690c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3a576fd3._.js")
 R.c("server/chunks/ssr/e0f8f_e5a8129e._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__328fa2a8._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__74dbc897._.js")

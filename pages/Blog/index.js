@@ -21,7 +21,7 @@ export default function BlogPage() {
       <meta name="robots" content="index, nofollow" />
     </Head>
     <main className="mt-20 md:mt-24">
-      <section className="relative w-full h-[40vh] md:h-[60vh]">
+      <section className="relative w-full h-[50vh] md:h-[60vh]">
         <Image
           src="/BlogPageBanner.jpg"
           alt="Blog Page Banner"

@@ -2565,11 +2565,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects
 ;
 function App(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "d681d0cef0ec075f3758bc7c94a33d357082971b17e3be2a5bccfcc03c3b631f") {
+    if ($[0] !== "053918b59e381065ebe6f36ea231a44800831f8f9afec3828bd0451f94e83847") {
         for(let $i = 0; $i < 11; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d681d0cef0ec075f3758bc7c94a33d357082971b17e3be2a5bccfcc03c3b631f";
+        $[0] = "053918b59e381065ebe6f36ea231a44800831f8f9afec3828bd0451f94e83847";
     }
     const { Component, pageProps } = t0;
     let t1;
@@ -2593,7 +2593,7 @@ function App(t0) {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
                     rel: "icon",
-                    href: "/Favicon.ico"
+                    href: "/favicon.ico"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/_app.js",
                     lineNumber: 22,

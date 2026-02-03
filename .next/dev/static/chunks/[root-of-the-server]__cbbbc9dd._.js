@@ -736,11 +736,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects
 ;
 function AddBlog() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "e49b5fa5e7b5820c27c95a677389500ff8d628a45c7abe99ea0c9ab04dcad538") {
+    if ($[0] !== "0eb1e68ea98be05f5930be28b6be81e4134eb09afe930a2b2f2609a6b18fea88") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e49b5fa5e7b5820c27c95a677389500ff8d628a45c7abe99ea0c9ab04dcad538";
+        $[0] = "0eb1e68ea98be05f5930be28b6be81e4134eb09afe930a2b2f2609a6b18fea88";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -750,7 +750,7 @@ function AddBlog() {
                     children: "AtlasEgypt - Add Blog"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 16
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -758,7 +758,7 @@ function AddBlog() {
                     content: "Add a new blog post to share your insights and updates with the AtlasEgypt community."
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 52
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -766,13 +766,13 @@ function AddBlog() {
                     content: "noindex, nofollow"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 175
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-            lineNumber: 16,
+            lineNumber: 17,
             columnNumber: 10
         }, this);
         $[1] = t0;
@@ -790,14 +790,14 @@ function AddBlog() {
             priority: true
         }, void 0, false, {
             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-            lineNumber: 24,
+            lineNumber: 25,
             columnNumber: 10
         }, this);
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "absolute inset-0 bg-black/40"
         }, void 0, false, {
             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 10
         }, this);
         $[2] = t1;
@@ -827,7 +827,7 @@ function AddBlog() {
                                             children: "Adding a New Blog Post"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                                            lineNumber: 34,
+                                            lineNumber: 35,
                                             columnNumber: 231
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -835,30 +835,30 @@ function AddBlog() {
                                             children: "Share your insights, experiences, and updates with the AtlasEgypt community by adding a new blog post. Whether it's a travel story, a cultural insight, or an update about our services, your contribution helps us connect and inspire others. Use the form below to create your blog post and share it with the world!"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                                            lineNumber: 34,
+                                            lineNumber: 35,
                                             columnNumber: 310
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                                    lineNumber: 34,
+                                    lineNumber: 35,
                                     columnNumber: 122
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                            lineNumber: 34,
+                            lineNumber: 35,
                             columnNumber: 56
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$components$2f$blog$2f$Post$2d$blog$2e$jsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                            lineNumber: 34,
+                            lineNumber: 35,
                             columnNumber: 691
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/Git-Projects/AtlasEgypt/pages/Blog/AddBlog.js",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 16
                 }, this)
             ]

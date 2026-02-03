@@ -707,8 +707,8 @@
     height: 30vh;
   }
 
-  .h-\[40vh\] {
-    height: 40vh;
+  .h-\[50vh\] {
+    height: 50vh;
   }
 
   .h-auto {
@@ -1011,10 +1011,6 @@
     background-color: var(--color-gray-100);
   }
 
-  .bg-gray-200 {
-    background-color: var(--color-gray-200);
-  }
-
   .bg-gray-500 {
     background-color: var(--color-gray-500);
   }
@@ -1079,14 +1075,6 @@
     padding: calc(var(--spacing) * 10);
   }
 
-  .px-1\.5 {
-    padding-inline: calc(var(--spacing) * 1.5);
-  }
-
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
-  }
-
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -1105,10 +1093,6 @@
 
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
-  }
-
-  .py-1\.5 {
-    padding-block: calc(var(--spacing) * 1.5);
   }
 
   .py-2 {

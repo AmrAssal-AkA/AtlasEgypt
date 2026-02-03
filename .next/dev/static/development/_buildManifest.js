@@ -8,26 +8,8 @@ self.__BUILD_MANIFEST = {
   "/Blog/AddBlog": [
     "static/chunks/pages/Blog/AddBlog.js"
   ],
-  "/Book": [
-    "static/chunks/pages/Book.js"
-  ],
   "/Discover": [
     "static/chunks/pages/Discover.js"
-  ],
-  "/Discover/[Id]": [
-    "static/chunks/pages/Discover/[Id].js"
-  ],
-  "/Register": [
-    "static/chunks/pages/Register.js"
-  ],
-  "/_error": [
-    "static/chunks/pages/_error.js"
-  ],
-  "/contactus": [
-    "static/chunks/pages/contactus.js"
-  ],
-  "/login": [
-    "static/chunks/pages/login.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -42,7 +24,6 @@ self.__BUILD_MANIFEST = {
     "/Book",
     "/Discover",
     "/Discover/[Id]",
-    "/Register",
     "/_app",
     "/_error",
     "/api/auth/signup",
@@ -50,9 +31,10 @@ self.__BUILD_MANIFEST = {
     "/api/contactus",
     "/api/newsletter",
     "/api/user/change-password",
+    "/authentiaction/Register",
+    "/authentiaction/forget-password",
+    "/authentiaction/login",
     "/contactus",
-    "/login",
-    "/login/forget-password",
     "/profile"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

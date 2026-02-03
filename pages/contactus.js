@@ -1,8 +1,9 @@
 import Image from "next/image";
-import React, { useState } from "react";
 import Head from "next/head";
 
 import ContactForm from "@/components/contact/contact-form";
+import { getServerSession } from "next-auth";
+import { authOptions } from "./api/auth/[...nextauth]";
 
 export default function ContactUsPage() {
   return (
@@ -37,4 +38,18 @@ export default function ContactUsPage() {
     </main>
     </>
   );
+}
+
+
+export async function getServerSideProps(context){
+  const session = await getServerSession(context.req, context.res, authOptions);
+
+  if(!session){
+    return {
+      redirect: {
+        destination: '/authentiaction/login',
+        permanent: false,
+      },
+    };
+  }
 }

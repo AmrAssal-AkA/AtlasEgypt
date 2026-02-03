@@ -876,11 +876,11 @@ var _s = __turbopack_context__.k.signature();
 function BlogPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$compiler$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "6045c5a90534790656991c30c8ddf65048738d4724acedf4601948972fbf2451") {
+    if ($[0] !== "acc8cce808a6b78efd94716bab7d570881d0b7664d569659e9cb2093c34798e0") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6045c5a90534790656991c30c8ddf65048738d4724acedf4601948972fbf2451";
+        $[0] = "acc8cce808a6b78efd94716bab7d570881d0b7664d569659e9cb2093c34798e0";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -996,7 +996,7 @@ function BlogPage() {
     let t7;
     if ($[9] !== handleAddBlog) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Git$2d$Projects$2f$AtlasEgypt$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "relative w-full h-[40vh] md:h-[60vh]",
+            className: "relative w-full h-[50vh] md:h-[60vh]",
             children: [
                 t3,
                 t4,

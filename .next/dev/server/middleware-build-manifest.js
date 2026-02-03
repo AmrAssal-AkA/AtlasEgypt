@@ -36,17 +36,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Blog_AddBlog_2da965e7.js",
       "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Blog_AddBlog_f350d554.js"
     ],
-    "/Book": [
-      "static/chunks/e0f8f_next_dist_compiled_a7c01e5e._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_51c7f073._.js",
-      "static/chunks/e0f8f_next_dist_client_ae14ad90._.js",
-      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_7bfaa35d._.js",
-      "static/chunks/[root-of-the-server]__24a7f60e._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Book_index_2da965e7.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Book_index_2fae8153.js"
-    ],
     "/Discover": [
       "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
       "static/chunks/e0f8f_next_dist_shared_lib_fb4fba1e._.js",
@@ -58,30 +47,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/[root-of-the-server]__3e2ac327._.js",
       "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Discover_index_2da965e7.js",
       "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Discover_index_10b12022.js"
-    ],
-    "/Discover/[Id]": [
-      "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_fb4fba1e._.js",
-      "static/chunks/e0f8f_next_dist_client_6cee945c._.js",
-      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
-      "static/chunks/e0f8f_next_854d0156._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_f8f570ab._.js",
-      "static/chunks/[root-of-the-server]__d0d9d442._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Discover_[Id]_2da965e7.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Discover_[Id]_dd4b6557.js"
-    ],
-    "/Register": [
-      "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_a16b598b._.js",
-      "static/chunks/e0f8f_next_dist_client_137c5e5e._.js",
-      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
-      "static/chunks/e0f8f_next_97e63349._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_2818c392._.js",
-      "static/chunks/[root-of-the-server]__d886dd4f._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_Register_2da965e7._.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_Register_bdb5a86e._.js"
     ],
     "/_app": [
       "static/chunks/[root-of-the-server]__a082ffe9._.js",
@@ -97,43 +62,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/Documents_Git-Projects_AtlasEgypt_styles_globals_deefda64.css",
       "static/chunks/Documents_Git-Projects_AtlasEgypt_pages__app_2da965e7._.js",
       "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages__app_eb39dda0._.js"
-    ],
-    "/_error": [
-      "static/chunks/e0f8f_next_dist_compiled_a7c01e5e._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_18a8ad3f._.js",
-      "static/chunks/e0f8f_next_dist_client_ae14ad90._.js",
-      "static/chunks/e0f8f_next_dist_4720806d._.js",
-      "static/chunks/e0f8f_next_error_3051e268.js",
-      "static/chunks/[next]_entry_page-loader_ts_de4cec29._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_3da67236._.js",
-      "static/chunks/[root-of-the-server]__3d457698._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages__error_debc1b75._.js"
-    ],
-    "/contactus": [
-      "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_8086aa66._.js",
-      "static/chunks/e0f8f_next_dist_client_6cee945c._.js",
-      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
-      "static/chunks/e0f8f_next_eddd43df._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_2818c392._.js",
-      "static/chunks/[root-of-the-server]__a3948389._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_contactus_2da965e7._.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_contactus_5356937e._.js"
-    ],
-    "/login": [
-      "static/chunks/e0f8f_next_dist_compiled_d1b1c2f7._.js",
-      "static/chunks/e0f8f_next_dist_shared_lib_a16b598b._.js",
-      "static/chunks/e0f8f_next_dist_client_137c5e5e._.js",
-      "static/chunks/e0f8f_next_dist_f5923b6f._.js",
-      "static/chunks/e0f8f_next_25ddfd6c._.js",
-      "static/chunks/e0f8f_react-dom_b3d1a3bb._.js",
-      "static/chunks/e0f8f_984bb54e._.js",
-      "static/chunks/[root-of-the-server]__ab85ae73._.js",
-      "static/chunks/Documents_Git-Projects_AtlasEgypt_pages_login_index_2da965e7.js",
-      "static/chunks/turbopack-Documents_Git-Projects_AtlasEgypt_pages_login_index_61d5d4c8.js"
     ]
   },
   "devFiles": [],
