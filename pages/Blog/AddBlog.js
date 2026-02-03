@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Head from "next/head";
-import { getSession } from "next-auth/react";
+import { getServerSession } from 'next-auth/next';
+import { authOptions } from '../api/auth/[...nextauth]';
 
 import AddPostBlog from "@/components/blog/Post-blog";
-
 
 function AddBlog() {
   return (
@@ -46,8 +46,8 @@ function AddBlog() {
 }
 
 export async function getServerSideProps(context) {
-  const session = await getSession({ req: context.req });
-  
+  const session = await getServerSession(context.req, context.res, authOptions);
+
   if (!session) {
     return {
       redirect: {
@@ -58,9 +58,8 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: {session},
+    props: { session },
   };
 }
-
 
 export default AddBlog;

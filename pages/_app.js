@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
           name="description"
           content="Explore The wonders of egypt and the hidden gems with AtlasEgypt"
         />
-        <link rel="icon" href="/Favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <SessionProvider session={pageProps.session}>
