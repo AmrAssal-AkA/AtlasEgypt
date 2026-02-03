@@ -1,7 +1,8 @@
 import ForgetPasswordForm from "@/components/Authentication/forget-password-form";
 import Head from "next/head";
 import Image from "next/image";
-import { getSession } from "next-auth/react";
+import { getServerSession } from "next-auth";
+import { authOptions } from "../api/auth/[...nextauth]";
 
 export default function ForgetPassword() {
   return (
@@ -38,7 +39,7 @@ export default function ForgetPassword() {
 }
 
 export async function getServerSideProps(context) {
-  const session = await getSession({ req: context.req });
+  const session = await getServerSession(context.req, context.res, authOptions);
 
   if (!session) {
     return {
