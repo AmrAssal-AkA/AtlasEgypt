@@ -95,7 +95,7 @@ export default function Header() {
               <Dropdown
                 pagelink="/profile"
                 pageName="Profile"
-                pagelink2={() => router.push("/login/forget-password")}
+                pagelink2={() => router.push("/authentiaction/forget-password")}
                 pageName2="Reset Password"
                 pagelink3={handleLogout}
                 pageName3="Logout"
