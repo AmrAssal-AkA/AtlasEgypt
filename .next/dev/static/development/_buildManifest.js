@@ -1,21 +1,18 @@
 self.__BUILD_MANIFEST = {
-  "/404": [
-    "static/chunks/pages/404.js"
+  "/": [
+    "static/chunks/pages/index.js"
   ],
-  "/Blog": [
-    "static/chunks/pages/Blog.js"
+  "/Discover": [
+    "static/chunks/pages/Discover.js"
   ],
-  "/Blog/AddBlog": [
-    "static/chunks/pages/Blog/AddBlog.js"
-  ],
-  "/authentiaction/Register": [
-    "static/chunks/pages/authentiaction/Register.js"
+  "/_error": [
+    "static/chunks/pages/_error.js"
   ],
   "/authentiaction/login": [
     "static/chunks/pages/authentiaction/login.js"
   ],
-  "/contactus": [
-    "static/chunks/pages/contactus.js"
+  "/profile": [
+    "static/chunks/pages/profile.js"
   ],
   "__rewrites": {
     "afterFiles": [],

@@ -14,7 +14,7 @@ export default function Dropdown(props) {
     setIsOpen(false);
   }
   return (
-    <div className="w-full py-6 pb-8">
+    <div className="w-full py-6 pb-8 md:ml-0 flex md:justify-end">
       <div className="relative inline-block text-left">
         <div
           role="button"
@@ -26,12 +26,12 @@ export default function Dropdown(props) {
           <UserSquare className="w-10 h-10 mb-2 ml-2 cursor-pointer text-amber-500 transition-colors" />
         </div>
         {isOpen && (
-          <div className="origin-top-right absolute right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+          <div className=" md:origin-top-right absolute top-0  md:right-0 mt-2 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
             <ul
               role="menu"
               aria-orientation="vertical"
               aria-labelledby="options-menu"
-              className="py-1 cursor-pointer"
+              className="py-1 cursor-pointer "
             >
               <li>
                 <Link

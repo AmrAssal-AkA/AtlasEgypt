@@ -457,8 +457,28 @@
     right: calc(var(--spacing) * 8);
   }
 
+  .right-10 {
+    right: calc(var(--spacing) * 10);
+  }
+
+  .right-30 {
+    right: calc(var(--spacing) * 30);
+  }
+
+  .right-50 {
+    right: calc(var(--spacing) * 50);
+  }
+
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
+  }
+
+  .bottom-4 {
+    bottom: calc(var(--spacing) * 4);
+  }
+
+  .bottom-14 {
+    bottom: calc(var(--spacing) * 14);
   }
 
   .left-0 {
@@ -545,6 +565,10 @@
 
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
+  }
+
+  .mt-0 {
+    margin-top: calc(var(--spacing) * 0);
   }
 
   .mt-1 {
@@ -637,6 +661,14 @@
 
   .ml-6 {
     margin-left: calc(var(--spacing) * 6);
+  }
+
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
+
+  .ml-25 {
+    margin-left: calc(var(--spacing) * 25);
   }
 
   .block {
@@ -821,6 +853,10 @@
 
   .items-center {
     align-items: center;
+  }
+
+  .items-end {
+    align-items: flex-end;
   }
 
   .justify-between {
@@ -1637,8 +1673,38 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:absolute {
+      position: absolute;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:relative {
+      position: relative;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:static {
       position: static;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:top-auto {
+      top: auto;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:right-0 {
+      right: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:bottom-auto {
+      bottom: auto;
     }
   }
 
@@ -1651,6 +1717,12 @@
   @media (min-width: 48rem) {
     .md\:mt-0 {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:mt-2 {
+      margin-top: calc(var(--spacing) * 2);
     }
   }
 
@@ -1687,6 +1759,12 @@
   @media (min-width: 48rem) {
     .md\:mb-12 {
       margin-bottom: calc(var(--spacing) * 12);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:ml-0 {
+      margin-left: calc(var(--spacing) * 0);
     }
   }
 
@@ -1769,6 +1847,12 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:origin-top-right {
+      transform-origin: 100% 0;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -1789,6 +1873,12 @@
   @media (min-width: 48rem) {
     .md\:items-center {
       align-items: center;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:justify-end {
+      justify-content: flex-end;
     }
   }
 
