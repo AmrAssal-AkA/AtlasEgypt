@@ -1,834 +1,244 @@
-[00:00:00.777] Server  LOG     ✓ Ready in 565ms
-[00:00:38.756] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:38.756] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:38.756] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:38.756] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:38.756] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:38.756] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:46.461] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
-[00:00:46.461] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
-[00:01:05.579] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className="origin-top...">
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:01:05.579] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:01:18.054] Server  LOG     ✓ Compiled in 110ms
-[00:01:20.847] Server  LOG     ✓ Compiled in 64ms
-[00:01:27.982] Server  LOG     ✓ Compiled in 83ms
-[00:01:29.506] Server  LOG     ✓ Compiled in 56ms
-[00:01:48.549] Server  LOG     ✓ Compiled in 100ms
-[00:01:52.143] Server  LOG     ✓ Compiled in 47ms
-[00:01:55.406] Server  LOG     ✓ Compiled in 72ms
-[00:02:03.712] Server  LOG     ✓ Compiled in 58ms
-[00:02:08.283] Server  LOG     ✓ Compiled in 48ms
-[00:02:15.524] Server  LOG     ✓ Compiled in 53ms
-[00:02:18.900] Server  LOG     ✓ Compiled in 50ms
-[00:02:22.392] Server  LOG     ✓ Compiled in 56ms
-[00:02:30.397] Server  LOG     ✓ Compiled in 59ms
-[00:02:35.762] Server  LOG     ✓ Compiled in 40ms
-[00:03:14.425] Server  LOG     ✓ Compiled in 71ms
-[00:03:15.857] Server  LOG     ✓ Compiled in 44ms
-[00:03:18.280] Server  LOG     ✓ Compiled in 86ms
-[00:05:19.251] Server  LOG     ✓ Compiled in 87ms
-[00:05:24.153] Server  LOG     ✓ Compiled in 48ms
-[00:07:26.782] Server  LOG     ✓ Compiled in 96ms
-[00:08:06.626] Server  LOG     ✓ Compiled in 44ms
-[00:08:11.472] Server  LOG     ✓ Compiled in 65ms
-[00:08:20.763] Server  LOG     ✓ Compiled in 54ms
-[00:08:27.023] Server  LOG     ✓ Compiled in 55ms
-[00:08:34.294] Server  LOG     ✓ Compiled in 52ms
-[00:08:38.502] Server  LOG     ✓ Compiled in 63ms
-[00:08:40.093] Server  LOG     ✓ Compiled in 44ms
-[00:08:45.606] Server  LOG     ✓ Compiled in 62ms
-[00:08:49.315] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:49.315] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:49.315] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:12:24.837] Server  LOG     ✓ Compiled in 132ms
-[00:12:27.337] Server  LOG     ✓ Compiled in 40ms
-[00:12:30.811] Server  LOG     ✓ Compiled in 51ms
-[00:12:46.344] Server  LOG     ✓ Compiled in 26ms
-[00:12:58.142] Server  LOG     ✓ Compiled in 66ms
-[00:13:00.352] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className={"w-full p..."}>
-                        <div className="relative i...">
-                          <div>
-                          <div className="origin-top...">
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:13:00.352] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:13:05.685] Server  LOG     ✓ Compiled in 59ms
-[00:15:05.317] Server  LOG     ✓ Compiled in 115ms
-[00:15:11.152] Server  LOG     ✓ Compiled in 114ms
-[00:15:20.495] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:20.495] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:20.495] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:15:28.411] Server  LOG     ✓ Compiled in 109ms
-[00:15:29.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/components/ui/Dropdown.jsx:31:17
+[00:00:00.641] Server  LOG     ✓ Ready in 448ms
+[00:00:05.285] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.285] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.285] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.285] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.285] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:05.285] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.294] Server  LOG     ✓ Compiled in 128ms
+[00:00:22.418] Server  LOG     ✓ Compiled in 65ms
+[00:00:22.535] Browser ERROR   ./components/main-navigation/Header.jsx:83:185
 Parsing ecmascript source code failed
-  29 |           <div className="origin-top-right absolute right-0 bottom-14 w-44 rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 md:relative md:bottom-auto md:mt-2 md:absolute">
-  30 |             <ul
-> 31 |                 <Link
-     |                 ^
-  32 |                   href={props.pagelink}
-  33 |                   onClick={closeDropdown}
-  34 |                   className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+  81 |           
+  82 |         </ul>
+> 83 |           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${>
+     |                                                                                                                                                                                         ^
+  84 |             <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2 mt-10">
+  85 |             <Button className="px-4 py-2" onClick={() => router.push("/Book")}>
+  86 |               Book Now
 
 Expression expected
 
 Import trace:
   SSR:
-    ./Documents/Git-Projects/AtlasEgypt/components/ui/Dropdown.jsx
-    ./Documents/Git-Projects/AtlasEgypt/components/main-navigation/Header.jsx
-    ./Documents/Git-Projects/AtlasEgypt/pages/_app.js
-[00:15:44.293] Server  LOG     ✓ Compiled in 49ms
-[00:15:46.909] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className="origin-top...">
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:15:46.909] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:15:58.848] Server  LOG     ✓ Compiled in 66ms
-[00:16:08.526] Server  LOG     ✓ Compiled in 68ms
-[00:16:11.380] Server  LOG     ✓ Compiled in 56ms
-[00:16:12.676] Server  LOG     ✓ Compiled in 49ms
-[00:16:14.647] Server  LOG     ✓ Compiled in 33ms
-[00:16:20.054] Server  LOG     ✓ Compiled in 75ms
-[00:16:27.145] Server  LOG     ✓ Compiled in 67ms
-[00:16:40.112] Server  LOG     ✓ Compiled in 57ms
-[00:16:41.815] Server  LOG     ✓ Compiled in 56ms
-[00:16:44.561] Server  LOG     ✓ Compiled in 40ms
-[00:16:48.641] Server  LOG     ✓ Compiled in 52ms
-[00:16:53.516] Server  LOG     ✓ Compiled in 109ms
-[00:16:57.571] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:57.622] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:57.897] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:57.932] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:58.251] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:59.699] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:16:59.833] Server  LOG     ✓ Compiled in 104ms
-[00:16:59.833] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:16:59.874] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:59.903] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:16:59.978] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:00.009] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:00.157] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:04.087] Server  LOG     ✓ Compiled in 58ms
-[00:17:07.293] Server  LOG     ✓ Compiled in 34ms
-[00:17:13.925] Server  LOG     ✓ Compiled in 41ms
-[00:17:18.591] Server  LOG     ✓ Compiled in 65ms
-[00:17:21.871] Server  LOG     ✓ Compiled in 63ms
-[00:17:25.213] Server  LOG     ✓ Compiled in 53ms
-[00:17:29.073] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:29.187] Server  LOG     ✓ Compiled in 82ms
-[00:17:29.190] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:29.264] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:29.299] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:29.358] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:29.389] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:29.619] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:39.743] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:39.787] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:40.060] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:40.366] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:40.448] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:40.649] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:17:42.563] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:42.563] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:17:42.563] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:17:44.882] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className={" md:orig..."}>
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:17:44.882] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:17:49.942] Server  LOG     ✓ Compiled in 84ms
-[00:17:52.147] Server  LOG     ✓ Compiled in 66ms
-[00:17:59.148] Server  LOG     ✓ Compiled in 69ms
-[00:18:05.145] Server  LOG     ✓ Compiled in 66ms
-[00:18:07.316] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:07.347] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:07.432] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:07.465] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:07.683] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:26.899] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:26.899] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:26.899] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:29.296] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className={" md:orig..."}>
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:18:29.296] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:18:30.776] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:30.776] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:30.776] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:35.218] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
-[00:18:35.218] Browser ERROR   Invalid href '//authentiaction/Register' passed to next/router in page: '/authentiaction/login'. Repeated forward-slashes (//) or backslashes \ are not valid in the href.
-[00:18:35.416] Browser WARN    Image with src "/AtlasEgypt.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:45.730] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:45.730] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:45.730] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:18:46.293] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className={" md:orig..."}>
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:18:46.293] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:18:47.176] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:47.213] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:47.262] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:47.292] Server  ERROR   ⨯ Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:18:47.409] Browser ERROR   uncaughtError: Error: Error serializing `.session.user.name` returned from `getServerSideProps` in "/profile".
-Reason: `undefined` cannot be serialized as JSON. Please use `null` or omit this value.
-[00:19:42.172] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:19:42.172] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:19:42.587] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:42.587] Browser WARN    Image with src "/AtlasEgypt.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:19:45.064] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/siwa-oasis.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/nile-cruise.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/Dahab-city-trip.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/Alexandria-city.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/Abu-Simbel.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:45.064] Browser WARN    Image with src "/trips/Luxor-temple.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:19:52.378] Server  LOG     ✓ Compiled in 87ms
-[00:19:53.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:5:10
-Parsing ecmascript source code failed
-   3 |
-   4 | function ProfilePage() {
->  5 |   return (
-     |          ^
->  6 |     
-     | ^^^^
->  7 |   )
-     | ^^^^
-   8 | }
-   9 |
-  10 |
-
-Parenthesized expression cannot be empty
-[00:19:53.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:22.535] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:19:54.276] Server  LOG     ✓ Compiled in 13ms
-[00:19:55.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:6:5
-Parsing ecmascript source code failed
-  4 | function ProfilePage() {
-  5 |   return (
-> 6 |     ,
-    |     ^
-  7 |   )
-  8 | }
-  9 |
 
-Expression expected
-[00:19:55.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:24.512] Server  LOG     ✓ Compiled in 94ms
+[00:00:48.845] Server  LOG     ✓ Compiled in 49ms
+[00:00:49.054] Browser ERROR   ./components/main-navigation/Header.jsx:112:1
+Parsing ecmascript source code failed
+  110 |   );
+  111 | }
+> 112 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:49.054] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:19:56.456] Server  LOG     ✓ Compiled in 28ms
-[00:19:57.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:5:10
-Parsing ecmascript source code failed
-   3 |
-   4 | function ProfilePage() {
->  5 |   return (
-     |          ^
->  6 |     
-     | ^^^^
->  7 |   )
-     | ^^^^
-   8 | }
-   9 |
-  10 |
 
-Parenthesized expression cannot be empty
-[00:19:57.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:50.565] Browser ERROR   ./components/main-navigation/Header.jsx:112:1
+Parsing ecmascript source code failed
+  110 |   );
+  111 | }
+> 112 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:50.565] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:19:57.610] Server  LOG     ✓ Compiled in 9ms
-[00:19:58.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:6:5
-Parsing ecmascript source code failed
-  4 | function ProfilePage() {
-  5 |   return (
-> 6 |     ,
-    |     ^
-  7 |   )
-  8 | }
-  9 |
 
-Expression expected
-[00:19:58.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:52.778] Browser ERROR   ./components/main-navigation/Header.jsx:112:1
+Parsing ecmascript source code failed
+  110 |   );
+  111 | }
+> 112 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:52.778] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:19:59.767] Server  LOG     ✓ Compiled in 9ms
-[00:20:00.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:5:10
-Parsing ecmascript source code failed
-   3 |
-   4 | function ProfilePage() {
->  5 |   return (
-     |          ^
->  6 |     
-     | ^^^^
->  7 |   )
-     | ^^^^
-   8 | }
-   9 |
-  10 |
 
-Parenthesized expression cannot be empty
-[00:20:00.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:54.364] Browser ERROR   ./components/main-navigation/Header.jsx:112:1
+Parsing ecmascript source code failed
+  110 |   );
+  111 | }
+> 112 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:54.364] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:20:05.357] Server  LOG     ✓ Compiled in 31ms
-[00:20:08.015] Server  LOG     ✓ Compiled in 18ms
-[00:20:10.387] Server  LOG     ✓ Compiled in 19ms
-[00:20:13.597] Server  LOG     ✓ Compiled in 12ms
-[00:20:17.305] Server  LOG     ✓ Compiled in 18ms
-[00:20:18.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:11
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <>
->  9 |         </div>
-     |           ^^^
-  10 |     </main>
-  11 |   )
-  12 | }
 
-Expected '</', got 'div'
-[00:20:18.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:56.232] Browser ERROR   ./components/main-navigation/Header.jsx:112:1
+Parsing ecmascript source code failed
+  110 |   );
+  111 | }
+> 112 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:00:56.233] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:20:18.888] Server  LOG     ✓ Compiled in 18ms
-[00:20:19.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:15
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1>
->  9 |         </div>
-     |               ^
-> 10 |     </main>
-     | ^^^^^
-  11 |   )
-  12 | }
-  13 |
 
-Expected '</', got 'jsx text (
-    )'
-[00:20:19.024] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:01:03.786] Server  LOG     ✓ Compiled in 40ms
+[00:01:03.923] Browser ERROR   ./components/main-navigation/Header.jsx:83:25
+Parsing ecmascript source code failed
+  81 |           
+  82 |         </ul>
+> 83 |           <ul className=md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ">
+     |                         ^^
+  84 |             <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2 mt-10">
+  85 |             <Button className="px-4 py-2" onClick={() => router.push("/Book")}>
+  86 |               Book Now
+
+Expected '</', got 'md'
+
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:01:03.923] Browser ERROR   ./components/main-navigation/Header.jsx
 Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 
 Caused by:
 - CJS module can't be async.
 
 Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
+- An error occurred while generating the chunk item [project]/components/main-navigation/Header.jsx [ssr] (ecmascript)
 - Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
 - Execution of EcmascriptChunkItemContent::new failed
 - CJS module can't be async.
-[00:20:20.836] Server  LOG     ✓ Compiled in 34ms
-[00:20:21.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:9
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1><
->  9 |         </div>
-     |         ^
-  10 |     </main>
-  11 |   )
-  12 | }
 
-Expression expected
-[00:20:21.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:10
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1><
->  9 |         </div>
-     |          ^^^^^
-  10 |     </main>
-  11 |   )
-  12 | }
-
-Unterminated regexp literal
-[00:20:21.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:20:23.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:9
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1><h1
->  9 |         </div>
-     |         ^
-  10 |     </main>
-  11 |   )
-  12 | }
-
-Expression expected
-[00:20:23.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:10
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1><h1
->  9 |         </div>
-     |          ^^^^^
-  10 |     </main>
-  11 |   )
-  12 | }
-
-Unterminated regexp literal
-[00:20:23.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:20:25.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:9
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1></h1
->  9 |         </div>
-     |         ^
-  10 |     </main>
-  11 |   )
-  12 | }
-
-Expression expected
-[00:20:25.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js:9:10
-Parsing ecmascript source code failed
-   7 |       <div>
-   8 |         <h1></h1
->  9 |         </div>
-     |          ^^^^^
-  10 |     </main>
-  11 |   )
-  12 | }
-
-Unterminated regexp literal
-[00:20:25.023] Browser ERROR   ./Documents/Git-Projects/AtlasEgypt/pages/profile/index.js
-Code generation for chunk item errored
-An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-
-Caused by:
-- CJS module can't be async.
-
-Debug info:
-- An error occurred while generating the chunk item [project]/Documents/Git-Projects/AtlasEgypt/pages/profile/index.js [ssr] (ecmascript)
-- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
-- Execution of EcmascriptChunkItemContent::new failed
-- CJS module can't be async.
-[00:20:26.549] Server  LOG     ✓ Compiled in 69ms
-[00:20:29.710] Server  LOG     ✓ Compiled in 21ms
-[00:20:33.371] Server  LOG     ✓ Compiled in 19ms
-[00:20:43.054] Server  LOG     ✓ Compiled in 25ms
-[00:20:45.024] Server  LOG     ✓ Compiled in 33ms
-[00:20:46.071] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function DestinationPage} err={undefined} ...>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className={" md:orig..."}>
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:20:46.072] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
-[00:20:57.173] Server  LOG     ✓ Compiled in 32ms
-[00:21:00.922] Server  LOG     ✓ Compiled in 24ms
-[00:21:03.692] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:03.692] Browser WARN    Image with src "/AtlasEgypt.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:21:08.033] Server  LOG     ✓ Compiled in 30ms
-[00:21:13.359] Server  LOG     ✓ Compiled in 13ms
-[00:21:15.071] Server  LOG     ✓ Compiled in 12ms
-[00:21:16.365] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:21:20.987] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:20.987] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:20.987] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:20.987] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:20.987] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:21:22.366] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <button> button 
-
-  ...
-    <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={false}>
-      <App pageProps={{...}} __N_SSG={true} Component={function Home} err={undefined} router={{sdc:{},sbc:{}, ...}}>
-        <Head>
-        <SessionProvider session={undefined}>
-          <Header>
-            <nav className="fixed top-...">
-              <div>
-              <div className="container ...">
-                <div>
-                <button>
-                <ul className="md:flex md...">
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
-                  <li>
->                 <button>
-                    <Dropdown pagelink="/profile" pageName="Profile" pagelink2={function Header[<Dropdown>.pagelink2]} ...>
-                      <div className="w-full py-...">
-                        <div className="relative i...">
-                          <div>
-                          <div className={" md:orig..."}>
-                            <ul role="menu" aria-orientation="vertical" aria-labelledby="options-menu" ...>
-                              <li>
-                              <li>
->                               <button
->                                 onClick={function Dropdown[<button>.onClick]}
->                                 className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 hover:te..."
->                                 role="menuitem"
->                               >
-                              ...
-              ...
-          ...
-      ...
-
-[00:21:22.366] Browser ERROR   <%s> cannot contain a nested %s.
-See this log for the ancestor stack trace. button <button>
+Import trace:
+  SSR:
+    ./components/main-navigation/Header.jsx
+    ./pages/_app.js
+[00:01:04.873] Server  LOG     ✓ Compiled in 92ms
+[00:01:47.643] Server  LOG     ✓ Compiled in 131ms
+[00:01:49.202] Server  LOG     ✓ Compiled in 68ms
+[00:01:52.544] Server  LOG     ✓ Compiled in 69ms
+[00:01:55.978] Server  LOG     ✓ Compiled in 80ms
+[00:01:59.470] Browser WARN    Image with src "/AtlasEgypt.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:59.470] Browser WARN    Image with src "/trips/giza-pyramids.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:59.470] Browser WARN    Image with src "/section3(2).jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:59.470] Browser WARN    Image with src "/trips/karnak-temple.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:59.470] Browser WARN    Image with src "/section3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:59.470] Browser WARN    Image with src "/trips/sharm-el-sheikh.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:24.237] Server  LOG     ✓ Compiled in 122ms
+[00:05:15.693] Server  LOG     ✓ Compiled in 83ms
+[00:05:23.612] Server  LOG     ✓ Compiled in 74ms
+[00:06:21.351] Server  LOG     ✓ Compiled in 119ms
+[00:06:37.029] Server  LOG     ✓ Compiled in 69ms

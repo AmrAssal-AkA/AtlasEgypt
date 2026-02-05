@@ -6,11 +6,11 @@
   "rootMainFiles": [],
   "pages": {
     "/_error": [
-      "static/chunks/0977b5bc91614c5b.js",
-      "static/chunks/2acadd233c425c75.js",
-      "static/chunks/a4880c2a69cb87d1.js",
-      "static/chunks/af4dbf0879e265ce.js",
-      "static/chunks/turbopack-5e90a4b97befe488.js"
+      "static/chunks/b240c6b3c439d925.js",
+      "static/chunks/caf5e2e0155783b8.js",
+      "static/chunks/0daf0721ddf2780f.js",
+      "static/chunks/e9db28aefc5e7d71.js",
+      "static/chunks/turbopack-dfe6798cdbaa22f7.js"
     ]
   },
   "ampFirstPages": []

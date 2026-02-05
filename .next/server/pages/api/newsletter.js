@@ -1,5 +1,5 @@
 var R=require("../../chunks/[turbopack]_runtime.js")("server/pages/api/newsletter.js")
-R.c("server/chunks/[root-of-the-server]__bbbfd9d2._.js")
-R.c("server/chunks/[root-of-the-server]__75079b00._.js")
-R.m(6105)
-module.exports=R.m(6105).exports
+R.c("server/chunks/[root-of-the-server]__5575ceae._.js")
+R.c("server/chunks/[root-of-the-server]__10ef7574._.js")
+R.m(58970)
+module.exports=R.m(58970).exports

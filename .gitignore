@@ -1,5 +1,5 @@
 node_modules/
-.DS_Store
+/.DS_Store\
 /.next/
 out/
 .env.local
@@ -10,4 +10,4 @@ out/
 .idea/
 coverage/
 npm-debug.log*
-.DS_Store
+

@@ -99,7 +99,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/amrassal",
+    "outputFileTracingRoot": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -293,12 +293,12 @@
     "configFileName": "next.config.mjs",
     "reactCompiler": true,
     "turbopack": {
-      "root": "/Users/amrassal"
+      "root": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt"
     },
     "distDirRoot": ".next"
   },
   "appDir": "/Users/amrassal/Documents/Git-Projects/AtlasEgypt",
-  "relativeAppDir": "Documents/Git-Projects/AtlasEgypt",
+  "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",

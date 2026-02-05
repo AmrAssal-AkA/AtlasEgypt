@@ -6,12 +6,12 @@
   "rootMainFiles": [],
   "pages": {
     "/Blog/AddBlog": [
-      "static/chunks/7ae16f4cacb22eb5.js",
-      "static/chunks/b60c138ff7b312d7.js",
-      "static/chunks/af4dbf0879e265ce.js",
-      "static/chunks/a4880c2a69cb87d1.js",
-      "static/chunks/2acadd233c425c75.js",
-      "static/chunks/turbopack-559dedc86ff900d9.js"
+      "static/chunks/1402c7f450c45b81.js",
+      "static/chunks/efbf62be620e05ed.js",
+      "static/chunks/e9db28aefc5e7d71.js",
+      "static/chunks/0daf0721ddf2780f.js",
+      "static/chunks/caf5e2e0155783b8.js",
+      "static/chunks/turbopack-9d138139c42daac3.js"
     ]
   },
   "ampFirstPages": []

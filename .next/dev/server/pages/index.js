@@ -1,9 +1,9 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/index.js")
-R.c("server/chunks/ssr/e0f8f_6a74e810._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__8f96ea4c._.js")
-R.c("server/chunks/ssr/e0f8f_e5a8129e._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__328fa2a8._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__74dbc897._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__36feea68._.js")
-R.m("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/index.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)")
-module.exports=R.m("[project]/Documents/Git-Projects/AtlasEgypt/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/index.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/Documents/Git-Projects/AtlasEgypt/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports
+R.c("server/chunks/ssr/node_modules_febacf29._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ee17bb58._.js")
+R.c("server/chunks/ssr/node_modules_186c80ea._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3c8416e4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__76708690._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__792267ac._.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/index.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/index.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

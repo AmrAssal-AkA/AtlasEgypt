@@ -5,7 +5,7 @@
       "initialRevalidateSeconds": 60,
       "initialExpireSeconds": 31536000,
       "srcRoute": null,
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -19,7 +19,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": null,
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/index.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/index.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -33,7 +33,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d1.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d1.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -47,7 +47,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d2.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d2.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -61,7 +61,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d3.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d3.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -75,7 +75,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d4.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d4.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -89,7 +89,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d5.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d5.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -103,7 +103,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d6.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d6.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -117,7 +117,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d7.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d7.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -131,7 +131,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d8.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d8.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -145,7 +145,7 @@
       "initialRevalidateSeconds": 1800,
       "initialExpireSeconds": 31536000,
       "srcRoute": "/Discover/[Id]",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/d9.json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/d9.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -159,9 +159,9 @@
   "dynamicRoutes": {
     "/Discover/[Id]": {
       "routeRegex": "^/Discover/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/[Id].json",
+      "dataRoute": "/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/[Id].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/ZgZr_XhtXD9GosIl8rXs_/Discover/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/lW_oolBmcjoZzLmSA3kjo/Discover/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",

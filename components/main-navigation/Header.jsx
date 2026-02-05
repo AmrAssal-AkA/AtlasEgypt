@@ -47,16 +47,34 @@ export default function Header() {
           </Link>
         </div>
 
-        <button
-          onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden focus:outline-none"
-        >
-          {open ? (
-            <CloseIcon className="w-10 h-10 m-5" />
-          ) : (
-            <MenuIcon className="w-10 h-10 m-5" />
+        <div className="flex items-center gap-2 md:hidden">
+          {!session && !loading && (
+            <button onClick={() => setModalOpen(true)}>
+              <UserIcon className="w-8 h-8 cursor-pointer hover:fill-amber-500 transition-colors" />
+            </button>
           )}
-        </button>
+          {session && (
+            <Dropdown
+              pagelink="/profile"
+              pageName="Profile"
+              pagelink2={() => router.push("/authentiaction/forget-password")}
+              pageName2="Reset Password"
+              pagelink3={handleLogout}
+              pageName3="Logout"
+            />
+          )}
+
+          <button
+            onClick={() => setOpen(!open)}
+            className="cursor-pointer md:hidden focus:outline-none"
+          >
+            {open ? (
+              <CloseIcon className="w-10 h-10 m-5" />
+            ) : (
+              <MenuIcon className="w-10 h-10 m-5" />
+            )}
+          </button>
+        </div>
 
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
@@ -84,14 +102,14 @@ export default function Header() {
             </Button>
           </li>
           {!session && !loading && (
-            <li className="md:ml-8 text-xl md:mt-5 my-7 md:p-2">
+            <li className="hidden md:block md:ml-8 text-xl md:mt-5 my-7 md:p-2">
               <button onClick={() => setModalOpen(true)}>
                 <UserIcon className="w-8 h-8 cursor-pointer hover:fill-amber-500 transition-colors" />
               </button>
             </li>
           )}
           {session && (
-            <button>
+            <li className="hidden md:block md:ml-8 md:mt-5 md:p-2">
               <Dropdown
                 pagelink="/profile"
                 pageName="Profile"
@@ -100,7 +118,7 @@ export default function Header() {
                 pagelink3={handleLogout}
                 pageName3="Logout"
               />
-            </button>
+            </li>
           )}
         </ul>
       </div>

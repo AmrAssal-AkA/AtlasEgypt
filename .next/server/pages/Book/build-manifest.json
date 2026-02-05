@@ -6,11 +6,11 @@
   "rootMainFiles": [],
   "pages": {
     "/Book": [
-      "static/chunks/ffa1b585b681d302.js",
-      "static/chunks/2acadd233c425c75.js",
-      "static/chunks/a4880c2a69cb87d1.js",
-      "static/chunks/af4dbf0879e265ce.js",
-      "static/chunks/turbopack-ffdcf05eb549b352.js"
+      "static/chunks/ceee14d17c72387d.js",
+      "static/chunks/caf5e2e0155783b8.js",
+      "static/chunks/0daf0721ddf2780f.js",
+      "static/chunks/e9db28aefc5e7d71.js",
+      "static/chunks/turbopack-471811e0f71b7a12.js"
     ]
   },
   "ampFirstPages": []
