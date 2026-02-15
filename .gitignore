@@ -1,6 +1,6 @@
 node_modules/
-/.DS_Store\
-/.next/
+.DS_Store
+.next/
 out/
 .env.local
 .env.development.local
@@ -10,4 +10,3 @@ out/
 .idea/
 coverage/
 npm-debug.log*
-

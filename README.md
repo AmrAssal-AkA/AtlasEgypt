@@ -7,6 +7,8 @@
 [![NextAuth.js](https://img.shields.io/badge/NextAuth.js-4.24.13-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://next-auth.js.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-View-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://altas-egypt.vercel.app/)
+
 A modern, responsive travel and discovery platform built with Next.js 16, designed to showcase Egypt's rich cultural heritage, breathtaking destinations, and unforgettable experiences. Features secure user authentication, newsletter subscription, interactive destination discovery, comprehensive blog functionality, and seamless booking experience. Explore ancient wonders, plan your perfect trip, and discover the magic of the Land of the Pharaohs.
 
 ## ✨ Features

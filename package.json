@@ -1,12 +1,13 @@
 {
   "name": "atlas-egypt",
-  "version": "0.1.0",
+  "version": "1.2.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "license": "MIT License"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
