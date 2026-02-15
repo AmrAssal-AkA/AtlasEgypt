@@ -9,7 +9,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-View-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://atlas-egypt.vercel.app/)
 
-[![Preview](public/HeroPhoto.png)](https://atlas-egypt.vercel.app/)
+[![Preview](/preview.jpg)](https://atlas-egypt.vercel.app/)
 
 A modern, responsive travel and discovery platform built with Next.js 16, designed to showcase Egypt's rich cultural heritage, breathtaking destinations, and unforgettable experiences. Features secure user authentication, newsletter subscription, interactive destination discovery, comprehensive blog functionality, and seamless booking experience. Explore ancient wonders, plan your perfect trip, and discover the magic of the Land of the Pharaohs.
 
